@@ -1,0 +1,1467 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" xml:lang="en-us" width="1900" height="1500" viewBox="0 0 1900 1500">
+<title>The Cognitive Bias Codex</title>
+
+<style type="text/css">
+	text { font-family: "DejaVu Sans", sans-serif; }
+	text a:hover { fill:   blue; text-decoration: underline; }
+	text, circle { stroke: none; }
+	path         { fill:   none; }
+	a ~ circle, a ~ text { transition: fill 0.5s; }
+	
+	a { cursor: pointer; }
+	a:visited { all: unset; } /* workaround for weirdness in Chrome */
+	a:hover path  , a:hover ~ path { stroke: black; stroke-width: 2px; }
+	a:hover circle, a:hover ~ circle,
+ 	a:hover text  , a:hover ~ text { fill: black; }
+	a:hover text { text-decoration: underline; }
+</style>
+
+<rect id="background" width="100%" height="100%" fill="#fff"/>
+
+<g id="biases" transform="translate(950,785)"><circle r="630.0" style="stroke:#CCCCCC;" fill="none"/>
+<switch style="font-size:32.0px; font-weight:bold; text-anchor:middle;"><text style="font-size:32.0px; font-weight:bold; text-anchor:middle;" y="-720.0" id="trsvg248-pt" systemLanguage="pt"><tspan id="trsvg1-pt">CÓDICE   DE   VIÉS   COGNITIVO</tspan></text><text style="font-size:32.0px; font-weight:bold; text-anchor:middle;" y="-720.0" id="trsvg248-eu" systemLanguage="eu"><tspan id="trsvg1-eu">I S U R I  K O G N I T I B O E N   K O D E X A</tspan></text><text style="font-size:32.0px; font-weight:bold; text-anchor:middle;" y="-720.0" id="trsvg248-ca" systemLanguage="ca"><tspan id="trsvg1-ca">EL CÒDEX DE BIAIX COGNITIU</tspan></text><text style="font-size:32.0px; font-weight:bold; text-anchor:middle;" y="-720.0" id="trsvg248"><tspan id="trsvg1">T H E C O G N I T I V E B I A S C O D E X</tspan></text></switch><g style="font-size:32.0px;">
+<switch style="text-anchor:middle; font-weight:bold; fill:#098"><text style="text-anchor:middle; font-weight:bold; fill:#098" transform="translate(770.0,-580.0)" id="trsvg249-pt" systemLanguage="pt"><tspan x="0" y="-8.0" id="trsvg2-pt">Demasiada</tspan><tspan x="0" dy="48.0" id="trsvg3-pt">Informação</tspan></text><text style="text-anchor:middle; font-weight:bold; fill:#098" transform="translate(770.0,-580.0)" id="trsvg249-eu" systemLanguage="eu"><tspan x="0" y="-8.0" id="trsvg2-eu">Gehiegizko</tspan><tspan x="0" dy="48.0" id="trsvg3-eu">informazioa</tspan></text><text style="text-anchor:middle; font-weight:bold; fill:#098" transform="translate(770.0,-580.0)" id="trsvg249-ca" systemLanguage="ca"><tspan x="0" y="-8.0" id="trsvg2-ca">Massa</tspan><tspan x="0" dy="48.0" id="trsvg3-ca">Informació</tspan></text><text style="text-anchor:middle; font-weight:bold; fill:#098" transform="translate(770.0,-580.0)" id="trsvg249"><tspan x="0" y="-8.0" id="trsvg2">Too Much </tspan><tspan x="0" dy="48.0" id="trsvg3">Information</tspan></text></switch>
+<switch style="text-anchor:middle; font-weight:bold; fill:#07A"><text style="text-anchor:middle; font-weight:bold; fill:#07A" transform="translate(770.0,580.0)" id="trsvg250-pt" systemLanguage="pt"><tspan x="0" y="-8.0" id="trsvg4-pt">Sem Significado</tspan><tspan x="0" dy="48.0" id="trsvg5-pt">Suficiente</tspan></text><text style="text-anchor:middle; font-weight:bold; fill:#07A" transform="translate(770.0,580.0)" id="trsvg250-eu" systemLanguage="eu"><tspan x="0" y="-8.0" id="trsvg4-eu">Zentzu</tspan><tspan x="0" dy="48.0" id="trsvg5-eu">gutxiegi</tspan></text><text style="text-anchor:middle; font-weight:bold; fill:#07A" transform="translate(770.0,580.0)" id="trsvg250-ca" systemLanguage="ca"><tspan x="0" y="-8.0" id="trsvg4-ca">Insuficient</tspan><tspan x="0" dy="48.0" id="trsvg5-ca">Significat</tspan></text><text style="text-anchor:middle; font-weight:bold; fill:#07A" transform="translate(770.0,580.0)" id="trsvg250"><tspan x="0" y="-8.0" id="trsvg4">Not Enough </tspan><tspan x="0" dy="48.0" id="trsvg5">Meaning</tspan></text></switch>
+<switch style="text-anchor:middle; font-weight:bold; fill:#490"><text style="text-anchor:middle; font-weight:bold; fill:#490" transform="translate(-770.0,580.0)" id="trsvg251-pt" systemLanguage="pt"><tspan x="0" y="-8.0" id="trsvg6-pt">Precisa De </tspan><tspan x="0" dy="48.0" id="trsvg7-pt">Agir Rapidamente</tspan></text><text style="text-anchor:middle; font-weight:bold; fill:#490" transform="translate(-770.0,580.0)" id="trsvg251-eu" systemLanguage="eu"><tspan x="0" y="-8.0" id="trsvg6-eu">Ekintza azkarrak</tspan><tspan x="0" dy="48.0" id="trsvg7-eu">beharrezko</tspan></text><text style="text-anchor:middle; font-weight:bold; fill:#490" transform="translate(-770.0,580.0)" id="trsvg251-ca" systemLanguage="ca"><tspan x="0" y="-8.0" id="trsvg6-ca">Necessitat</tspan><tspan x="0" dy="48.0" id="trsvg7-ca">d'Actuar Ràpid</tspan></text><text style="text-anchor:middle; font-weight:bold; fill:#490" transform="translate(-770.0,580.0)" id="trsvg251"><tspan x="0" y="-8.0" id="trsvg6">Need To </tspan><tspan x="0" dy="48.0" id="trsvg7">Act Fast</tspan></text></switch>
+<switch style="text-anchor:middle; font-weight:bold; fill:#888"><text style="text-anchor:middle; font-weight:bold; fill:#888" transform="translate(-770.0,-580.0)" id="trsvg252-pt" systemLanguage="pt"><tspan x="0" y="-8.0" id="trsvg8-pt">Do Que Nos</tspan><tspan x="0" dy="48.0" id="trsvg9-pt">Devemos Lembrar?</tspan></text><text style="text-anchor:middle; font-weight:bold; fill:#888" transform="translate(-770.0,-580.0)" id="trsvg252-eu" systemLanguage="eu"><tspan x="0" y="-8.0" id="trsvg8-eu">Zer oroitu</tspan><tspan x="0" dy="48.0" id="trsvg9-eu">behar genuke?</tspan></text><text style="text-anchor:middle; font-weight:bold; fill:#888" transform="translate(-770.0,-580.0)" id="trsvg252-ca" systemLanguage="ca"><tspan x="0" y="-8.0" id="trsvg8-ca">Què és el que</tspan><tspan x="0" dy="48.0" id="trsvg9-ca">hauríem de recordar?</tspan></text><text style="text-anchor:middle; font-weight:bold; fill:#888" transform="translate(-770.0,-580.0)" id="trsvg252"><tspan x="0" y="-8.0" id="trsvg8">What Should We </tspan><tspan x="0" dy="48.0" id="trsvg9">Remember?</tspan></text></switch>
+</g><g style="font-size:11.0px;">
+<g style="fill:#098; stroke:#098;">
+<g>
+<a xlink:href="https://en.wikipedia.org/wiki/Availability_heuristic">
+<g transform="rotate(-88.3) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" id="trsvg253-pt" systemLanguage="pt"><tspan id="trsvg10-pt">Heurística de disponibilidade</tspan></text><text x="12" y="4" id="trsvg253-eu" systemLanguage="eu"><tspan id="trsvg10-eu">Eskuragarritasunaren heuristika</tspan></text><text x="12" y="4" id="trsvg253-ca" systemLanguage="ca"><tspan id="trsvg10-ca">Heurística de disponibilitat</tspan></text><text x="12" y="4" id="trsvg253"><tspan id="trsvg10">Availability heuristic</tspan></text></switch>
+</g>
+<path d="M55.4 -278.5 C 69.5 -349.2, 10.8 -355.8, 12.9 -427.8"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Attentional_bias">
+<g transform="rotate(-86.5) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" id="trsvg254-pt" systemLanguage="pt"><tspan id="trsvg11-pt">Viés atencional</tspan></text><text x="12" y="4" id="trsvg254-eu" systemLanguage="eu"><tspan id="trsvg11-eu">Atentzio isuria</tspan></text><text x="12" y="4" id="trsvg254-ca" systemLanguage="ca"><tspan id="trsvg11-ca">Biaix d'atenció</tspan></text><text x="12" y="4" id="trsvg254"><tspan id="trsvg11">Attentional bias</tspan></text></switch>
+</g>
+<path d="M55.4 -278.5 C 69.5 -349.2, 21.5 -355.4, 25.8 -427.2"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Illusory_truth_effect">
+<g transform="rotate(-84.8) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" id="trsvg255-pt" systemLanguage="pt"><tspan id="trsvg12-pt">Efeito de verdade ilusória</tspan></text><text x="12" y="4" id="trsvg255-eu" systemLanguage="eu"><tspan id="trsvg12-eu">Ilusiozko egiaren efektua</tspan></text><text x="12" y="4" id="trsvg255-ca" systemLanguage="ca"><tspan id="trsvg12-ca">Efecte de veritat il·lusòria</tspan></text><text x="12" y="4" id="trsvg255"><tspan id="trsvg12">Illusory truth effect</tspan></text></switch>
+</g>
+<path d="M55.4 -278.5 C 69.5 -349.2, 32.2 -354.5, 38.7 -426.2"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Mere-exposure_effect">
+<g transform="rotate(-83.1) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" id="trsvg256-pt" systemLanguage="pt"><tspan id="trsvg13-pt">Efeito de mera exposição</tspan></text><text x="12" y="4" id="trsvg256-eu" systemLanguage="eu"><tspan id="trsvg13-eu">Esposizio-hutsaren efektua</tspan></text><text x="12" y="4" id="trsvg256-ca" systemLanguage="ca"><tspan id="trsvg13-ca">Efecte de mera exposició</tspan></text><text x="12" y="4" id="trsvg256"><tspan id="trsvg13">Mere–exposure effect</tspan></text></switch>
+</g>
+<path d="M55.4 -278.5 C 69.5 -349.2, 42.9 -353.4, 51.6 -424.9"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Context_effect">
+<g transform="rotate(-81.3) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" id="trsvg257-pt" systemLanguage="pt"><tspan id="trsvg14-pt">Efeito contextual</tspan></text><text x="12" y="4" id="trsvg257-eu" systemLanguage="eu"><tspan id="trsvg14-eu">Testuinguruaren efektua</tspan></text><text x="12" y="4" id="trsvg257-ca" systemLanguage="ca"><tspan id="trsvg14-ca">Efecte context</tspan></text><text x="12" y="4" id="trsvg257"><tspan id="trsvg14">Context effect</tspan></text></switch>
+</g>
+<path d="M55.4 -278.5 C 69.5 -349.2, 53.6 -351.9, 64.4 -423.1"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Cue-dependent_forgetting">
+<g transform="rotate(-79.6) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" id="trsvg258-pt" systemLanguage="pt"><tspan id="trsvg15-pt">Esquecimento dependente </tspan></text><text x="12" y="4" id="trsvg258-eu" systemLanguage="eu"><tspan id="trsvg15-eu">Keinu-dependentzia ahaztea</tspan></text><text x="12" y="4" id="trsvg258-ca" systemLanguage="ca"><tspan id="trsvg15-ca">Oblit depenent del senyal</tspan></text><text x="12" y="4" id="trsvg258"><tspan id="trsvg15">Cue–dependent forgetting</tspan></text></switch>
+</g>
+<path d="M55.4 -278.5 C 69.5 -349.2, 64.2 -350.2, 77.1 -421.0"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Mood_congruence">
+<g transform="rotate(-77.9) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" id="trsvg259-pt" systemLanguage="pt"><tspan id="trsvg16-pt">Memória dependente de estado</tspan></text><text x="12" y="4" id="trsvg259-eu" systemLanguage="eu"><tspan id="trsvg16-eu">Aldarte-kongruentzia memoria</tspan></text><text x="12" y="4" id="trsvg259-ca" systemLanguage="ca"><tspan id="trsvg16-ca">Biaix de memòria congruent amb l'estat d'ànim</tspan></text><text x="12" y="4" id="trsvg259"><tspan id="trsvg16">Mood–congruent memory bias</tspan></text></switch>
+</g>
+<path d="M55.4 -278.5 C 69.5 -349.2, 74.7 -348.1, 89.8 -418.5"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Frequency_illusion">
+<g transform="rotate(-76.2) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" id="trsvg260-pt" systemLanguage="pt"><tspan id="trsvg17-pt">Ilusão de frequência</tspan></text><text x="12" y="4" id="trsvg260-eu" systemLanguage="eu"><tspan id="trsvg17-eu">Maiztasun ilusioa</tspan></text><text x="12" y="4" id="trsvg260-ca" systemLanguage="ca"><tspan id="trsvg17-ca">Il·lusió de freqüència</tspan></text><text x="12" y="4" id="trsvg260"><tspan id="trsvg17">Frequency illusion</tspan></text></switch>
+</g>
+<path d="M55.4 -278.5 C 69.5 -349.2, 85.2 -345.7, 102.4 -415.6"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Frequency_illusion">
+<g transform="rotate(-74.4) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" id="trsvg261-pt" systemLanguage="pt"><tspan id="trsvg18-pt">Fenómeno Baader-Meinhof</tspan></text><text x="12" y="4" id="trsvg261-eu" systemLanguage="eu"><tspan id="trsvg18-eu">Baader-Meinhof fenomenoa</tspan></text><text x="12" y="4" id="trsvg261-ca" systemLanguage="ca"><tspan id="trsvg18-ca">Fenomen Baader-Meinhof</tspan></text><text x="12" y="4" id="trsvg261"><tspan id="trsvg18">Baader–Meinhof Phenomenon</tspan></text></switch>
+</g>
+<path d="M55.4 -278.5 C 69.5 -349.2, 95.6 -342.9, 114.9 -412.3"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Empathy_gap">
+<g transform="rotate(-72.7) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" id="trsvg262-pt" systemLanguage="pt"><tspan id="trsvg19-pt">Lacuna de empatia</tspan></text><text x="12" y="4" id="trsvg262-eu" systemLanguage="eu"><tspan id="trsvg19-eu">Enpatia arrakala</tspan></text><text x="12" y="4" id="trsvg262-ca" systemLanguage="ca"><tspan id="trsvg19-ca">Bretxa d'empatia</tspan></text><text x="12" y="4" id="trsvg262"><tspan id="trsvg19">Empathy gap</tspan></text></switch>
+</g>
+<path d="M55.4 -278.5 C 69.5 -349.2, 105.9 -339.9, 127.3 -408.6"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Omission_bias">
+<g transform="rotate(-71.0) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" id="trsvg263-pt" systemLanguage="pt"><tspan id="trsvg20-pt">Viés de omissão</tspan></text><text x="12" y="4" id="trsvg263-eu" systemLanguage="eu"><tspan id="trsvg20-eu">Ahazte isuria</tspan></text><text x="12" y="4" id="trsvg263-ca" systemLanguage="ca"><tspan id="trsvg20-ca">Biaix d'omissió</tspan></text><text x="12" y="4" id="trsvg263"><tspan id="trsvg20">Omission bias</tspan></text></switch>
+</g>
+<path d="M55.4 -278.5 C 69.5 -349.2, 116.1 -336.5, 139.6 -404.6"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Base_rate_fallacy">
+<g transform="rotate(-69.2) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" id="trsvg264-pt" systemLanguage="pt"><tspan id="trsvg21-pt">Falácia da frequência base</tspan></text><text x="12" y="4" id="trsvg264-eu" systemLanguage="eu"><tspan id="trsvg21-eu">Oinarrizko frekuentziaren falazia</tspan></text><text x="12" y="4" id="trsvg264-ca" systemLanguage="ca"><tspan id="trsvg21-ca">Fal·làcia de la taxa base</tspan></text><text x="12" y="4" id="trsvg264"><tspan id="trsvg21">Base rate fallacy</tspan></text></switch>
+</g>
+<path d="M55.4 -278.5 C 69.5 -349.2, 126.2 -332.9, 151.8 -400.2"/>
+</a>
+<path d="M99.6 -101.2 C 149.5 -151.7, 41.6 -208.9, 55.4 -278.5"/>
+<circle cx="122.9" cy="-617.9" r="10.0"/>
+<switch style="font-size:15.0px;"><text style="font-size:15.0px;" transform="translate(146.9,-617.9)" id="trsvg265-pt" systemLanguage="pt"><tspan x="0" y="-22.1" id="trsvg22-pt">Reparamos em coisas já registadas na</tspan><tspan x="0" dy="22.5" id="trsvg23-pt">memória ou repetidas muitas vezes</tspan></text><text style="font-size:15.0px;" transform="translate(146.9,-617.9)" id="trsvg265-eu" systemLanguage="eu"><tspan x="0" y="-22.1" id="trsvg22-eu">Gure memorian dauden edo maiz errepikatzen</tspan><tspan x="0" dy="22.5" id="trsvg23-eu"> diren gauzetaz ohartzen gara.</tspan></text><text style="font-size:15.0px;" transform="translate(146.9,-617.9)" id="trsvg265-ca" systemLanguage="ca"><tspan x="0" y="-22.1" id="trsvg22-ca">Ens adonem de coses que ja estan preparades en</tspan><tspan x="0" dy="22.5" id="trsvg23-ca">memòria o repetides sovint</tspan></text><text style="font-size:15.0px;" transform="translate(146.9,-617.9)" id="trsvg265"><tspan x="0" y="-22.1" id="trsvg22">We notice things already primed in </tspan><tspan x="0" dy="22.5" id="trsvg23">memory or repeated often</tspan></text></switch>
+</g>
+<g>
+<a xlink:href="https://en.wikipedia.org/wiki/Bizarreness_effect">
+<g transform="rotate(-65.8) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" id="trsvg266-pt" systemLanguage="pt"><tspan id="trsvg24-pt">Efeito do bizarro</tspan></text><text x="12" y="4" id="trsvg266-eu" systemLanguage="eu"><tspan id="trsvg24-eu">Arrarotasun efektua</tspan></text><text x="12" y="4" id="trsvg266-ca" systemLanguage="ca"><tspan id="trsvg24-ca">Efecte d'estranyesa</tspan></text><text x="12" y="4" id="trsvg266"><tspan id="trsvg24">Bizarreness effect</tspan></text></switch>
+</g>
+<path d="M135.8 -249.4 C 170.2 -312.7, 146.1 -324.6, 175.7 -390.3"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/List_of_cognitive_biases#Humor_effect">
+<g transform="rotate(-64.0) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" id="trsvg267-pt" systemLanguage="pt"><tspan id="trsvg25-pt">Efeito do humor</tspan></text><text x="12" y="4" id="trsvg267-eu" systemLanguage="eu"><tspan id="trsvg25-eu">Umore-efektua</tspan></text><text x="12" y="4" id="trsvg267-ca" systemLanguage="ca"><tspan id="trsvg25-ca">Efecte d'humor</tspan></text><text x="12" y="4" id="trsvg267"><tspan id="trsvg25">Humor effect</tspan></text></switch>
+</g>
+<path d="M135.8 -249.4 C 170.2 -312.7, 155.8 -320.1, 187.4 -384.8"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Von_Restorff_effect">
+<g transform="rotate(-62.3) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" id="trsvg268-pt" systemLanguage="pt"><tspan id="trsvg26-pt">Efeito Von Restordd</tspan></text><text x="12" y="4" id="trsvg268-eu" systemLanguage="eu"><tspan id="trsvg26-eu">Von Restorff efektua</tspan></text><text x="12" y="4" id="trsvg268-ca" systemLanguage="ca"><tspan id="trsvg26-ca">Efecte Von Restorff</tspan></text><text x="12" y="4" id="trsvg268"><tspan id="trsvg26">Von Restorff effect</tspan></text></switch>
+</g>
+<path d="M135.8 -249.4 C 170.2 -312.7, 165.4 -315.2, 198.9 -379.0"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Picture_superiority_effect">
+<g transform="rotate(-60.6) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" id="trsvg269-pt" systemLanguage="pt"><tspan id="trsvg27-pt">Efeito da superioridade da imagem</tspan></text><text x="12" y="4" id="trsvg269-eu" systemLanguage="eu"><tspan id="trsvg27-eu">Irudiaren gailentze efektua</tspan></text><text x="12" y="4" id="trsvg269-ca" systemLanguage="ca"><tspan id="trsvg27-ca">Efecte de superioritat de la imatge</tspan></text><text x="12" y="4" id="trsvg269"><tspan id="trsvg27">Picture superiority effect</tspan></text></switch>
+</g>
+<path d="M135.8 -249.4 C 170.2 -312.7, 174.9 -310.1, 210.3 -372.8"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Self-reference_effect">
+<g transform="rotate(-58.8) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" id="trsvg270-pt" systemLanguage="pt"><tspan id="trsvg28-pt">Efeito da auto-relevância</tspan></text><text x="12" y="4" id="trsvg270-eu" systemLanguage="eu"><tspan id="trsvg28-eu">Norbere-garrantziaren efektua</tspan></text><text x="12" y="4" id="trsvg270-ca" systemLanguage="ca"><tspan id="trsvg28-ca">Efecte d'auto-rellevància</tspan></text><text x="12" y="4" id="trsvg270"><tspan id="trsvg28">Self–relevance effect</tspan></text></switch>
+</g>
+<path d="M135.8 -249.4 C 170.2 -312.7, 184.2 -304.7, 221.4 -366.3"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Negativity_bias">
+<g transform="rotate(-57.1) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" id="trsvg271-pt" systemLanguage="pt"><tspan id="trsvg29-pt">Viés da negatividade</tspan></text><text x="12" y="4" id="trsvg271-eu" systemLanguage="eu"><tspan id="trsvg29-eu">Negatibotasun isuria</tspan></text><text x="12" y="4" id="trsvg271-ca" systemLanguage="ca"><tspan id="trsvg29-ca">Biaix de negativitat</tspan></text><text x="12" y="4" id="trsvg271"><tspan id="trsvg29">Negativity bias</tspan></text></switch>
+</g>
+<path d="M135.8 -249.4 C 170.2 -312.7, 193.3 -299.0, 232.4 -359.4"/>
+</a>
+<path d="M99.6 -101.2 C 149.5 -151.7, 101.8 -187.1, 135.8 -249.4"/>
+<circle cx="301.2" cy="-553.4" r="10.0"/>
+<switch style="font-size:15.0px;"><text style="font-size:15.0px;" transform="translate(325.2,-553.4)" id="trsvg272-pt" systemLanguage="pt"><tspan x="0" y="-41.4" id="trsvg30-pt">Coisas bizarras, engraçadas, visualmente</tspan><tspan x="0" dy="22.5" id="trsvg31-pt">cativantes ou antropormóficas destacam-se </tspan><tspan x="0" dy="22.5" id="trsvg32-pt">mais do que coisas não bizarras/sem graça</tspan></text><text style="font-size:15.0px;" transform="translate(325.2,-553.4)" id="trsvg272-eu" systemLanguage="eu"><tspan x="0" y="-41.4" id="trsvg30-eu">Arraro, barregarri, bisualki harrigarriak edo</tspan><tspan x="0" dy="22.5" id="trsvg31-eu">antropomorfikoak diren gauzak hobeto</tspan><tspan x="0" dy="22.5" id="trsvg32-eu">gogoratu barregarriak ez direnak baino</tspan></text><text style="font-size:15.0px;" transform="translate(325.2,-553.4)" id="trsvg272-ca" systemLanguage="ca"><tspan x="0" y="-41.4" id="trsvg30-ca">Estrany, divertit, visualment sorprenent o</tspan><tspan x="0" dy="22.5" id="trsvg31-ca">les coses antropomòrfiques sobresurten més</tspan><tspan x="0" dy="22.5" id="trsvg32-ca">que coses no estranyes/poc divertides</tspan></text><text style="font-size:15.0px;" transform="translate(325.2,-553.4)" id="trsvg272"><tspan x="0" y="-41.4" id="trsvg30">Bizarre, funny, visually striking, or </tspan><tspan x="0" dy="22.5" id="trsvg31">anthropomorphic things stick out more </tspan><tspan x="0" dy="22.5" id="trsvg32">than non-bizarre/unfunny things</tspan></text></switch>
+</g>
+<g>
+<a xlink:href="https://en.wikipedia.org/wiki/Anchoring_(cognitive_bias)">
+<g transform="rotate(-53.7) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" id="trsvg273-pt" systemLanguage="pt"><tspan id="trsvg33-pt">Efeito de ancoragem</tspan></text><text x="12" y="4" id="trsvg273-eu" systemLanguage="eu"><tspan id="trsvg33-eu">Ainguratze-efektua</tspan></text><text x="12" y="4" id="trsvg273-ca" systemLanguage="ca"><tspan id="trsvg33-ca">Ancoratge</tspan></text><text x="12" y="4" id="trsvg273"><tspan id="trsvg33">Anchoring</tspan></text></switch>
+</g>
+<path d="M191.5 -209.7 C 240.1 -262.9, 211.0 -286.7, 253.7 -344.7"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Conservatism_(belief_revision)">
+<g transform="rotate(-51.9) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" id="trsvg274-pt" systemLanguage="pt"><tspan id="trsvg34-pt">Conservatismo</tspan></text><text x="12" y="4" id="trsvg274-eu" systemLanguage="eu"><tspan id="trsvg34-eu">Kontserbadurismoa</tspan></text><text x="12" y="4" id="trsvg274-ca" systemLanguage="ca"><tspan id="trsvg34-ca">Conservadorisme</tspan></text><text x="12" y="4" id="trsvg274"><tspan id="trsvg34">Conservatism</tspan></text></switch>
+</g>
+<path d="M191.5 -209.7 C 240.1 -262.9, 219.6 -280.2, 264.0 -336.9"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Contrast_effect">
+<g transform="rotate(-50.2) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" id="trsvg275-pt" systemLanguage="pt"><tspan id="trsvg35-pt">Efeito de contraste</tspan></text><text x="12" y="4" id="trsvg275-eu" systemLanguage="eu"><tspan id="trsvg35-eu">Kontraste efektua</tspan></text><text x="12" y="4" id="trsvg275-ca" systemLanguage="ca"><tspan id="trsvg35-ca">Efecte de contrast</tspan></text><text x="12" y="4" id="trsvg275"><tspan id="trsvg35">Contrast effect</tspan></text></switch>
+</g>
+<path d="M191.5 -209.7 C 240.1 -262.9, 227.9 -273.5, 274.0 -328.8"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Distinction_bias">
+<g transform="rotate(-48.5) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" id="trsvg276-pt" systemLanguage="pt"><tspan id="trsvg36-pt">Viés de distinção</tspan></text><text x="12" y="4" id="trsvg276-eu" systemLanguage="eu"><tspan id="trsvg36-eu">Desberdintze isuria</tspan></text><text x="12" y="4" id="trsvg276-ca" systemLanguage="ca"><tspan id="trsvg36-ca">Biaix de distinció</tspan></text><text x="12" y="4" id="trsvg276"><tspan id="trsvg36">Distinction bias</tspan></text></switch>
+</g>
+<path d="M191.5 -209.7 C 240.1 -262.9, 236.1 -266.5, 283.8 -320.4"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Anchoring_(cognitive_bias)">
+<g transform="rotate(-46.7) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" id="trsvg277-pt" systemLanguage="pt"><tspan id="trsvg37-pt">Efeito de focagem</tspan></text><text x="12" y="4" id="trsvg277-eu" systemLanguage="eu"><tspan id="trsvg37-eu">Fokatze efektua</tspan></text><text x="12" y="4" id="trsvg277-ca" systemLanguage="ca"><tspan id="trsvg37-ca">Efecte d'enfocament</tspan></text><text x="12" y="4" id="trsvg277"><tspan id="trsvg37">Focusing effect</tspan></text></switch>
+</g>
+<path d="M191.5 -209.7 C 240.1 -262.9, 244.0 -259.2, 293.4 -311.6"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Framing_effect_(psychology)">
+<g transform="rotate(-45.0) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" id="trsvg278-pt" systemLanguage="pt"><tspan id="trsvg38-pt">Efeito de emolduramento</tspan></text><text x="12" y="4" id="trsvg278-eu" systemLanguage="eu"><tspan id="trsvg38-eu">Marko efektua</tspan></text><text x="12" y="4" id="trsvg278-ca" systemLanguage="ca"><tspan id="trsvg38-ca">Efecte d'enquadrament</tspan></text><text x="12" y="4" id="trsvg278"><tspan id="trsvg38">Framing effect</tspan></text></switch>
+</g>
+<path d="M191.5 -209.7 C 240.1 -262.9, 251.7 -251.7, 302.6 -302.6"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Money_illusion">
+<g transform="rotate(-43.3) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" id="trsvg279-pt" systemLanguage="pt"><tspan id="trsvg39-pt">Ilusão monetária</tspan></text><text x="12" y="4" id="trsvg279-eu" systemLanguage="eu"><tspan id="trsvg39-eu">Diruaren ilusioa</tspan></text><text x="12" y="4" id="trsvg279-ca" systemLanguage="ca"><tspan id="trsvg39-ca">Il·lusió de diners</tspan></text><text x="12" y="4" id="trsvg279"><tspan id="trsvg39">Money illusion</tspan></text></switch>
+</g>
+<path d="M191.5 -209.7 C 240.1 -262.9, 259.2 -244.0, 311.6 -293.4"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Weber–Fechner_law">
+<g transform="rotate(-41.5) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" id="trsvg280-pt" systemLanguage="pt"><tspan id="trsvg40-pt">Lei de Weber-Fechner</tspan></text><text x="12" y="4" id="trsvg280-eu" systemLanguage="eu"><tspan id="trsvg40-eu">Weber-Fechner legea</tspan></text><text x="12" y="4" id="trsvg280-ca" systemLanguage="ca"><tspan id="trsvg40-ca">Llei de Weber-Fechner</tspan></text><text x="12" y="4" id="trsvg280"><tspan id="trsvg40">Weber–Fechner law</tspan></text></switch>
+</g>
+<path d="M191.5 -209.7 C 240.1 -262.9, 266.5 -236.1, 320.4 -283.8"/>
+</a>
+<path d="M99.6 -101.2 C 149.5 -151.7, 143.6 -157.3, 191.5 -209.7"/>
+<circle cx="424.8" cy="-465.2" r="10.0"/>
+<switch style="font-size:15.0px;"><text style="font-size:15.0px;" transform="translate(448.8,-465.2)" id="trsvg281-pt" systemLanguage="pt"><tspan x="0" y="2.0" id="trsvg41-pt">Reparamos quando alguma coisa mudou</tspan></text><text style="font-size:15.0px;" transform="translate(448.8,-465.2)" id="trsvg281-eu" systemLanguage="eu"><tspan x="0" y="2.0" id="trsvg41-eu">Ohartzen gara zerbait aldatu denean</tspan></text><text style="font-size:15.0px;" transform="translate(448.8,-465.2)" id="trsvg281-ca" systemLanguage="ca"><tspan x="0" y="2.0" id="trsvg41-ca">Ens adonem quan alguna cosa ha canviat</tspan></text><text style="font-size:15.0px;" transform="translate(448.8,-465.2)" id="trsvg281"><tspan x="0" y="2.0" id="trsvg41">We notice when something has changed</tspan></text></switch>
+</g>
+<g>
+<a xlink:href="https://en.wikipedia.org/wiki/Confirmation_bias">
+<g transform="rotate(-38.1) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" id="trsvg282-pt" systemLanguage="pt"><tspan id="trsvg42-pt">Viés de confirmação</tspan></text><text x="12" y="4" id="trsvg282-eu" systemLanguage="eu"><tspan id="trsvg42-eu">Berreste aldeko isuria</tspan></text><text x="12" y="4" id="trsvg282-ca" systemLanguage="ca"><tspan id="trsvg42-ca">Biaix de confirmació</tspan></text><text x="12" y="4" id="trsvg282"><tspan id="trsvg42">Confirmation bias</tspan></text></switch>
+</g>
+<path d="M251.5 -132.0 C 315.2 -165.4, 280.2 -219.6, 336.9 -264.0"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Congruence_bias">
+<g transform="rotate(-36.3) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" id="trsvg283-pt" systemLanguage="pt"><tspan id="trsvg43-pt">Viés de congruência</tspan></text><text x="12" y="4" id="trsvg283-eu" systemLanguage="eu"><tspan id="trsvg43-eu">Kongruentzia isuria</tspan></text><text x="12" y="4" id="trsvg283-ca" systemLanguage="ca"><tspan id="trsvg43-ca">Biaix de congruència</tspan></text><text x="12" y="4" id="trsvg283"><tspan id="trsvg43">Congruence bias</tspan></text></switch>
+</g>
+<path d="M251.5 -132.0 C 315.2 -165.4, 286.7 -211.0, 344.7 -253.7"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Choice-supportive_bias">
+<g transform="rotate(-34.6) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" id="trsvg284-pt" systemLanguage="pt"><tspan id="trsvg44-pt">Racionalização pós-compra</tspan></text><text x="12" y="4" id="trsvg284-eu" systemLanguage="eu"><tspan id="trsvg44-eu">Erosketa ondorengo arrazionalizazio</tspan></text><text x="12" y="4" id="trsvg284-ca" systemLanguage="ca"><tspan id="trsvg44-ca">Racionalització posterior a la compra</tspan></text><text x="12" y="4" id="trsvg284"><tspan id="trsvg44">Post–purchase rationalization</tspan></text></switch>
+</g>
+<path d="M251.5 -132.0 C 315.2 -165.4, 293.0 -202.2, 352.2 -243.1"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Choice-supportive_bias">
+<g transform="rotate(-32.9) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" id="trsvg285-pt" systemLanguage="pt"><tspan id="trsvg45-pt">Viés de apoio à escolha</tspan></text><text x="12" y="4" id="trsvg285-eu" systemLanguage="eu"><tspan id="trsvg45-eu">Aukera babeste isuria</tspan></text><text x="12" y="4" id="trsvg285-ca" systemLanguage="ca"><tspan id="trsvg45-ca">Biaix de suport a l'elecció</tspan></text><text x="12" y="4" id="trsvg285"><tspan id="trsvg45">Choice–supportive bias</tspan></text></switch>
+</g>
+<path d="M251.5 -132.0 C 315.2 -165.4, 299.0 -193.3, 359.4 -232.4"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Selective_perception">
+<g transform="rotate(-31.2) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" id="trsvg286-pt" systemLanguage="pt"><tspan id="trsvg46-pt">Percepção seletiva</tspan></text><text x="12" y="4" id="trsvg286-eu" systemLanguage="eu"><tspan id="trsvg46-eu">Pertzepzio selektibo</tspan></text><text x="12" y="4" id="trsvg286-ca" systemLanguage="ca"><tspan id="trsvg46-ca">Percepció selectiva</tspan></text><text x="12" y="4" id="trsvg286"><tspan id="trsvg46">Selective perception</tspan></text></switch>
+</g>
+<path d="M251.5 -132.0 C 315.2 -165.4, 304.7 -184.2, 366.3 -221.4"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Observer-expectancy_effect">
+<g transform="rotate(-29.4) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" id="trsvg287-pt" systemLanguage="pt"><tspan id="trsvg47-pt">Efeito da expectativa do observador</tspan></text><text x="12" y="4" id="trsvg287-eu" systemLanguage="eu"><tspan id="trsvg47-eu">Behatzailearen-espektatiba efektua</tspan></text><text x="12" y="4" id="trsvg287-ca" systemLanguage="ca"><tspan id="trsvg47-ca">Efecte observador-expectativa</tspan></text><text x="12" y="4" id="trsvg287"><tspan id="trsvg47">Observer–expectancy effect</tspan></text></switch>
+</g>
+<path d="M251.5 -132.0 C 315.2 -165.4, 310.1 -174.9, 372.8 -210.3"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Observer-expectancy_effect">
+<g transform="rotate(-27.7) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" id="trsvg288-pt" systemLanguage="pt"><tspan id="trsvg48-pt">Viés do experimentador</tspan></text><text x="12" y="4" id="trsvg288-eu" systemLanguage="eu"><tspan id="trsvg48-eu">Esperimentatzailearen isuria</tspan></text><text x="12" y="4" id="trsvg288-ca" systemLanguage="ca"><tspan id="trsvg48-ca">Biaix de l'experimentador</tspan></text><text x="12" y="4" id="trsvg288"><tspan id="trsvg48">Experimenter's bias</tspan></text></switch>
+</g>
+<path d="M251.5 -132.0 C 315.2 -165.4, 315.2 -165.4, 379.0 -198.9"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Observer-expectancy_effect">
+<g transform="rotate(-26.0) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" id="trsvg289-pt" systemLanguage="pt"><tspan id="trsvg49-pt">Efeito do observador</tspan></text><text x="12" y="4" id="trsvg289-eu" systemLanguage="eu"><tspan id="trsvg49-eu">Behatzailearen efektua</tspan></text><text x="12" y="4" id="trsvg289-ca" systemLanguage="ca"><tspan id="trsvg49-ca">Efecte de l'observador</tspan></text><text x="12" y="4" id="trsvg289"><tspan id="trsvg49">Observer effect</tspan></text></switch>
+</g>
+<path d="M251.5 -132.0 C 315.2 -165.4, 320.1 -155.8, 384.8 -187.4"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Observer-expectancy_effect">
+<g transform="rotate(-24.2) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" id="trsvg290-pt" systemLanguage="pt"><tspan id="trsvg50-pt">Viés da expectativa</tspan></text><text x="12" y="4" id="trsvg290-eu" systemLanguage="eu"><tspan id="trsvg50-eu">Itxaropen isuria</tspan></text><text x="12" y="4" id="trsvg290-ca" systemLanguage="ca"><tspan id="trsvg50-ca">Biaix d'expectativa</tspan></text><text x="12" y="4" id="trsvg290"><tspan id="trsvg50">Expectation bias</tspan></text></switch>
+</g>
+<path d="M251.5 -132.0 C 315.2 -165.4, 324.6 -146.1, 390.3 -175.7"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Ostrich_effect">
+<g transform="rotate(-22.5) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" id="trsvg291-pt" systemLanguage="pt"><tspan id="trsvg51-pt">Efeito da avestruz</tspan></text><text x="12" y="4" id="trsvg291-eu" systemLanguage="eu"><tspan id="trsvg51-eu">Ostruka efektua</tspan></text><text x="12" y="4" id="trsvg291-ca" systemLanguage="ca"><tspan id="trsvg51-ca">Efecte estruç</tspan></text><text x="12" y="4" id="trsvg291"><tspan id="trsvg51">Ostrich effect</tspan></text></switch>
+</g>
+<path d="M251.5 -132.0 C 315.2 -165.4, 328.9 -136.2, 395.4 -163.8"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Subjective_validation">
+<g transform="rotate(-20.8) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" id="trsvg292-pt" systemLanguage="pt"><tspan id="trsvg52-pt">Validação subjectiva</tspan></text><text x="12" y="4" id="trsvg292-eu" systemLanguage="eu"><tspan id="trsvg52-eu">Balidazio subjektiboa</tspan></text><text x="12" y="4" id="trsvg292-ca" systemLanguage="ca"><tspan id="trsvg52-ca">Validació subjectiva</tspan></text><text x="12" y="4" id="trsvg292"><tspan id="trsvg52">Subjective validation</tspan></text></switch>
+</g>
+<path d="M251.5 -132.0 C 315.2 -165.4, 332.9 -126.2, 400.2 -151.8"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Confirmation_bias#continued_influence_effect">
+<g transform="rotate(-19.0) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" id="trsvg293-pt" systemLanguage="pt"><tspan id="trsvg53-pt">Efeito de influência continuada</tspan></text><text x="12" y="4" id="trsvg293-eu" systemLanguage="eu"><tspan id="trsvg53-eu">Influentzia jarraiaren efektua</tspan></text><text x="12" y="4" id="trsvg293-ca" systemLanguage="ca"><tspan id="trsvg53-ca">Efecte d'influència continuat</tspan></text><text x="12" y="4" id="trsvg293"><tspan id="trsvg53">Continued influence effect</tspan></text></switch>
+</g>
+<path d="M251.5 -132.0 C 315.2 -165.4, 336.5 -116.1, 404.6 -139.6"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Semmelweis_reflex">
+<g transform="rotate(-17.3) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" id="trsvg294-pt" systemLanguage="pt"><tspan id="trsvg54-pt">Reflexo de Semmelweis</tspan></text><text x="12" y="4" id="trsvg294-eu" systemLanguage="eu"><tspan id="trsvg54-eu">Semmelweis erreflexua</tspan></text><text x="12" y="4" id="trsvg294-ca" systemLanguage="ca"><tspan id="trsvg54-ca">Reflex de Semmelweis</tspan></text><text x="12" y="4" id="trsvg294"><tspan id="trsvg54">Semmelweis reflex</tspan></text></switch>
+</g>
+<path d="M251.5 -132.0 C 315.2 -165.4, 339.9 -105.9, 408.6 -127.3"/>
+</a>
+<path d="M99.6 -101.2 C 149.5 -151.7, 188.6 -99.0, 251.5 -132.0"/>
+<circle cx="557.8" cy="-292.8" r="10.0"/>
+<switch style="font-size:15.0px;"><text style="font-size:15.0px;" transform="translate(581.8,-292.8)" id="trsvg295-pt" systemLanguage="pt"><tspan x="0" y="-12.5" id="trsvg55-pt">Somos atraídos por pormenores</tspan><tspan x="0" dy="22.5" id="trsvg56-pt">que confirmam as nossas crenças anteriores</tspan></text><text style="font-size:15.0px;" transform="translate(581.8,-292.8)" id="trsvg295-eu" systemLanguage="eu"><tspan x="0" y="-12.5" id="trsvg55-eu">Jada baditugun sinismenak baieztatzen</tspan><tspan x="0" dy="22.5" id="trsvg56-eu">dituzten xehetasunei begiratzen diegu</tspan></text><text style="font-size:15.0px;" transform="translate(581.8,-292.8)" id="trsvg295-ca" systemLanguage="ca"><tspan x="0" y="-12.5" id="trsvg55-ca">Ens atreuen els detalls</tspan><tspan x="0" dy="22.5" id="trsvg56-ca">que confirmen les nostres pròpies creences existents</tspan></text><text style="font-size:15.0px;" transform="translate(581.8,-292.8)" id="trsvg295"><tspan x="0" y="-12.5" id="trsvg55">We are drawn to details </tspan><tspan x="0" dy="22.5" id="trsvg56">that confirm our own existing beliefs</tspan></text></switch>
+</g>
+<g>
+<a xlink:href="https://en.wikipedia.org/wiki/Bias_blind_spot">
+<g transform="rotate(-13.8) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" id="trsvg296-pt" systemLanguage="pt"><tspan id="trsvg57-pt">Viés do ponto cego</tspan></text><text x="12" y="4" id="trsvg296-eu" systemLanguage="eu"><tspan id="trsvg57-eu">Puntu itsuko isuria</tspan></text><text x="12" y="4" id="trsvg296-ca" systemLanguage="ca"><tspan id="trsvg57-ca">Punt cec de biaix</tspan></text><text x="12" y="4" id="trsvg296"><tspan id="trsvg57">Bias blind spot</tspan></text></switch>
+</g>
+<path d="M277.7 -59.6 C 348.1 -74.7, 345.7 -85.2, 415.6 -102.4"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Naïve_cynicism">
+<g transform="rotate(-12.1) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" id="trsvg297-pt" systemLanguage="pt"><tspan id="trsvg58-pt">Cinicismo ingénuo</tspan></text><text x="12" y="4" id="trsvg297-eu" systemLanguage="eu"><tspan id="trsvg58-eu">Zinismo naïve</tspan></text><text x="12" y="4" id="trsvg297-ca" systemLanguage="ca"><tspan id="trsvg58-ca">Cinisme ingenu</tspan></text><text x="12" y="4" id="trsvg297"><tspan id="trsvg58">Naïve cynicism</tspan></text></switch>
+</g>
+<path d="M277.7 -59.6 C 348.1 -74.7, 348.1 -74.7, 418.5 -89.8"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Naïve_realism_(psychology)">
+<g transform="rotate(-10.4) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" id="trsvg298-pt" systemLanguage="pt"><tspan id="trsvg59-pt">Realismo ingénuo</tspan></text><text x="12" y="4" id="trsvg298-eu" systemLanguage="eu"><tspan id="trsvg59-eu">Errealismo naïve</tspan></text><text x="12" y="4" id="trsvg298-ca" systemLanguage="ca"><tspan id="trsvg59-ca">Realisme naïf</tspan></text><text x="12" y="4" id="trsvg298"><tspan id="trsvg59">Naïve realism</tspan></text></switch>
+</g>
+<path d="M277.7 -59.6 C 348.1 -74.7, 350.2 -64.2, 421.0 -77.1"/>
+</a>
+<path d="M99.6 -101.2 C 149.5 -151.7, 208.3 -44.7, 277.7 -59.6"/>
+<circle cx="616.0" cy="-132.2" r="10.0"/>
+<switch style="font-size:15.0px;"><text style="font-size:15.0px;" transform="translate(640.0,-132.2)" id="trsvg299-pt" systemLanguage="pt"><tspan x="0" y="-21.3" id="trsvg60-pt">Reparamos em falhas nos outros</tspan><tspan x="0" dy="22.5" id="trsvg61-pt">mais facilmente do que </tspan><tspan x="0" dy="22.5" id="trsvg62-pt">em nós próprios</tspan></text><text style="font-size:15.0px;" transform="translate(640.0,-132.2)" id="trsvg299-eu" systemLanguage="eu"><tspan x="0" y="-21.3" id="trsvg60-eu">Errazago egiten zaigu</tspan><tspan x="0" dy="22.5" id="trsvg61-eu">besteengan akatsak aurkitzea</tspan><tspan x="0" dy="22.5" id="trsvg62-eu">gure buruarengan baino</tspan></text><text style="font-size:15.0px;" transform="translate(640.0,-132.2)" id="trsvg299-ca" systemLanguage="ca"><tspan x="0" y="-21.3" id="trsvg60-ca">Notem defectes en els altres</tspan><tspan x="0" dy="22.5" id="trsvg61-ca">amb més facilitat que nosaltres</tspan><tspan x="0" dy="22.5" id="trsvg62-ca">notem defectes en nosaltres mateixos</tspan></text><text style="font-size:15.0px;" transform="translate(640.0,-132.2)" id="trsvg299"><tspan x="0" y="-21.3" id="trsvg60">We notice flaws in others </tspan><tspan x="0" dy="22.5" id="trsvg61">more easily than we </tspan><tspan x="0" dy="22.5" id="trsvg62">notice flaws in ourselves</tspan></text></switch>
+</g>
+</g>
+<g style="fill:#07A; stroke:#07A;">
+<g>
+<a xlink:href="https://en.wikipedia.org/wiki/Confabulation">
+<g transform="rotate(-6.9) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" id="trsvg300-pt" systemLanguage="pt"><tspan id="trsvg63-pt">Confabulação</tspan></text><text x="12" y="4" id="trsvg300-eu" systemLanguage="eu"><tspan id="trsvg63-eu">Konfabulazio</tspan></text><text x="12" y="4" id="trsvg300-ca" systemLanguage="ca"><tspan id="trsvg63-ca">Confabulació</tspan></text><text x="12" y="4" id="trsvg300"><tspan id="trsvg63">Confabulation</tspan></text></switch>
+</g>
+<path d="M283.5 17.1 C 355.4 21.5, 353.4 -42.9, 424.9 -51.6"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Clustering_illusion">
+<g transform="rotate(-5.2) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" id="trsvg301-pt" systemLanguage="pt"><tspan id="trsvg64-pt">Ilusão de agrupamento</tspan></text><text x="12" y="4" id="trsvg301-eu" systemLanguage="eu"><tspan id="trsvg64-eu">Taldekatze ilusioa</tspan></text><text x="12" y="4" id="trsvg301-ca" systemLanguage="ca"><tspan id="trsvg64-ca">Il·lusió agrupada</tspan></text><text x="12" y="4" id="trsvg301"><tspan id="trsvg64">Clustering illusion</tspan></text></switch>
+</g>
+<path d="M283.5 17.1 C 355.4 21.5, 354.5 -32.2, 426.2 -38.7"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Insensitivity_to_sample_size">
+<g transform="rotate(-3.5) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" id="trsvg302-pt" systemLanguage="pt"><tspan id="trsvg65-pt">Insensibilidade ao tamanho da amostra</tspan></text><text x="12" y="4" id="trsvg302-eu" systemLanguage="eu"><tspan id="trsvg65-eu">Lagin-tamainaren sentsikortasun eza</tspan></text><text x="12" y="4" id="trsvg302-ca" systemLanguage="ca"><tspan id="trsvg65-ca">Insensibilitat a la mida de la mostra</tspan></text><text x="12" y="4" id="trsvg302"><tspan id="trsvg65">Insensitivity to sample size</tspan></text></switch>
+</g>
+<path d="M283.5 17.1 C 355.4 21.5, 355.4 -21.5, 427.2 -25.8"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Neglect_of_probability">
+<g transform="rotate(-1.7) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" id="trsvg303-pt" systemLanguage="pt"><tspan id="trsvg66-pt">Negligência de probabilidade</tspan></text><text x="12" y="4" id="trsvg303-eu" systemLanguage="eu"><tspan id="trsvg66-eu">Probabilitateari uko egitea</tspan></text><text x="12" y="4" id="trsvg303-ca" systemLanguage="ca"><tspan id="trsvg66-ca">Negligència de la probabilitat</tspan></text><text x="12" y="4" id="trsvg303"><tspan id="trsvg66">Neglect of probability</tspan></text></switch>
+</g>
+<path d="M283.5 17.1 C 355.4 21.5, 355.8 -10.8, 427.8 -12.9"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Anecdotal_evidence">
+<g transform="rotate(0.0) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" id="trsvg304-pt" systemLanguage="pt"><tspan id="trsvg67-pt">Falácia da evidência anedótica</tspan></text><text x="12" y="4" id="trsvg304-eu" systemLanguage="eu"><tspan id="trsvg67-eu">Anekdotaren falazia</tspan></text><text x="12" y="4" id="trsvg304-ca" systemLanguage="ca"><tspan id="trsvg67-ca">Fal·làcia anecdòtica</tspan></text><text x="12" y="4" id="trsvg304"><tspan id="trsvg67">Anecdotal fallacy</tspan></text></switch>
+</g>
+<path d="M283.5 17.1 C 355.4 21.5, 356.0 0.0, 428.0 0.0"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Illusion_of_validity">
+<g transform="rotate(1.7) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" id="trsvg305-pt" systemLanguage="pt"><tspan id="trsvg68-pt">Ilusão de validade</tspan></text><text x="12" y="4" id="trsvg305-eu" systemLanguage="eu"><tspan id="trsvg68-eu">Baliogarritasun ilusioa</tspan></text><text x="12" y="4" id="trsvg305-ca" systemLanguage="ca"><tspan id="trsvg68-ca">Il·lusió de validesa</tspan></text><text x="12" y="4" id="trsvg305"><tspan id="trsvg68">Illusion of validity</tspan></text></switch>
+</g>
+<path d="M283.5 17.1 C 355.4 21.5, 355.8 10.8, 427.8 12.9"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Masked-man_fallacy">
+<g transform="rotate(3.5) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" id="trsvg306-pt" systemLanguage="pt"><tspan id="trsvg69-pt">Falácia do mascarado</tspan></text><text x="12" y="4" id="trsvg306-eu" systemLanguage="eu"><tspan id="trsvg69-eu">Gizon maskaratuaren falazia</tspan></text><text x="12" y="4" id="trsvg306-ca" systemLanguage="ca"><tspan id="trsvg69-ca">Fal·làcia de l'home emmascarat</tspan></text><text x="12" y="4" id="trsvg306"><tspan id="trsvg69">Masked–man fallacy</tspan></text></switch>
+</g>
+<path d="M283.5 17.1 C 355.4 21.5, 355.4 21.5, 427.2 25.8"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Recency_illusion">
+<g transform="rotate(5.2) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" id="trsvg307-pt" systemLanguage="pt"><tspan id="trsvg70-pt">Ilusão recentista</tspan></text><text x="12" y="4" id="trsvg307-eu" systemLanguage="eu"><tspan id="trsvg70-eu">Arestiko ilusioa</tspan></text><text x="12" y="4" id="trsvg307-ca" systemLanguage="ca"><tspan id="trsvg70-ca">Il·lusió recent</tspan></text><text x="12" y="4" id="trsvg307"><tspan id="trsvg70">Recency illusion</tspan></text></switch>
+</g>
+<path d="M283.5 17.1 C 355.4 21.5, 354.5 32.2, 426.2 38.7"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Gambler's_fallacy">
+<g transform="rotate(6.9) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" id="trsvg308-pt" systemLanguage="pt"><tspan id="trsvg71-pt">Falácia do apostador</tspan></text><text x="12" y="4" id="trsvg308-eu" systemLanguage="eu"><tspan id="trsvg71-eu">Apostatzailearen falazia</tspan></text><text x="12" y="4" id="trsvg308-ca" systemLanguage="ca"><tspan id="trsvg71-ca">Fal·làcia del jugador</tspan></text><text x="12" y="4" id="trsvg308"><tspan id="trsvg71">Gambler's fallacy</tspan></text></switch>
+</g>
+<path d="M283.5 17.1 C 355.4 21.5, 353.4 42.9, 424.9 51.6"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Hot-hand_fallacy">
+<g transform="rotate(8.7) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" id="trsvg309-pt" systemLanguage="pt"><tspan id="trsvg72-pt">Falácia da mão quente</tspan></text><text x="12" y="4" id="trsvg309-eu" systemLanguage="eu"><tspan id="trsvg72-eu">Bolada onaren falazia</tspan></text><text x="12" y="4" id="trsvg309-ca" systemLanguage="ca"><tspan id="trsvg72-ca">Fal·làcia de mà calenta</tspan></text><text x="12" y="4" id="trsvg309"><tspan id="trsvg72">Hot–hand fallacy</tspan></text></switch>
+</g>
+<path d="M283.5 17.1 C 355.4 21.5, 351.9 53.6, 423.1 64.4"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Illusory_correlation">
+<g transform="rotate(10.4) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" id="trsvg310-pt" systemLanguage="pt"><tspan id="trsvg73-pt">Correlação ilusória</tspan></text><text x="12" y="4" id="trsvg310-eu" systemLanguage="eu"><tspan id="trsvg73-eu">Korrelazio ilusiorioa</tspan></text><text x="12" y="4" id="trsvg310-ca" systemLanguage="ca"><tspan id="trsvg73-ca">Correlació il·lusòria</tspan></text><text x="12" y="4" id="trsvg310"><tspan id="trsvg73">Illusory correlation</tspan></text></switch>
+</g>
+<path d="M283.5 17.1 C 355.4 21.5, 350.2 64.2, 421.0 77.1"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Pareidolia">
+<g transform="rotate(12.1) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" id="trsvg311-pt" systemLanguage="pt"><tspan id="trsvg74-pt">Pareidolia</tspan></text><text x="12" y="4" id="trsvg311-eu" systemLanguage="eu"><tspan id="trsvg74-eu">Pareidolia</tspan></text><text x="12" y="4" id="trsvg311-ca" systemLanguage="ca"><tspan id="trsvg74-ca">Pareidolia</tspan></text><text x="12" y="4" id="trsvg311"><tspan id="trsvg74">Pareidolia</tspan></text></switch>
+</g>
+<path d="M283.5 17.1 C 355.4 21.5, 348.1 74.7, 418.5 89.8"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Anthropomorphism#Psychology">
+<g transform="rotate(13.8) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" id="trsvg312-pt" systemLanguage="pt"><tspan id="trsvg75-pt">Antropomorfismo</tspan></text><text x="12" y="4" id="trsvg312-eu" systemLanguage="eu"><tspan id="trsvg75-eu">Antropomorfismoa</tspan></text><text x="12" y="4" id="trsvg312-ca" systemLanguage="ca"><tspan id="trsvg75-ca">Antropomorfisme</tspan></text><text x="12" y="4" id="trsvg312"><tspan id="trsvg75">Anthropomorphism</tspan></text></switch>
+</g>
+<path d="M283.5 17.1 C 355.4 21.5, 345.7 85.2, 415.6 102.4"/>
+</a>
+<path d="M90.1 109.8 C 135.1 164.7, 212.6 12.9, 283.5 17.1"/>
+<circle cx="628.9" cy="38.0" r="10.0"/>
+<switch style="font-size:15.0px;"><text style="font-size:15.0px;" transform="translate(652.9,38.0)" id="trsvg313-pt" systemLanguage="pt"><tspan x="0" y="-13.2" id="trsvg76-pt">Tendemos a encontrar histórias e </tspan><tspan x="0" dy="22.5" id="trsvg77-pt">padrões mesmo quando olhando </tspan><tspan x="0" dy="22.5" id="trsvg78-pt">para dados dispersos</tspan></text><text style="font-size:15.0px;" transform="translate(652.9,38.0)" id="trsvg313-eu" systemLanguage="eu"><tspan x="0" y="-13.2" id="trsvg76-eu">Istorioak eta patroiak</tspan><tspan x="0" dy="22.5" id="trsvg77-eu">aurkitzeko joera dugu</tspan><tspan x="0" dy="22.5" id="trsvg78-eu">datu isolatuak begiratuz</tspan></text><text style="font-size:15.0px;" transform="translate(652.9,38.0)" id="trsvg313-ca" systemLanguage="ca"><tspan x="0" y="-13.2" id="trsvg76-ca">Tenim tendència a trobar històries i</tspan><tspan x="0" dy="22.5" id="trsvg77-ca">patrons fins i tot mirant</tspan><tspan x="0" dy="22.5" id="trsvg78-ca">amb dades escasses</tspan></text><text style="font-size:15.0px;" transform="translate(652.9,38.0)" id="trsvg313"><tspan x="0" y="-13.2" id="trsvg76">We tend to find stories and </tspan><tspan x="0" dy="22.5" id="trsvg77">patterns even when looking </tspan><tspan x="0" dy="22.5" id="trsvg78">at sparse data</tspan></text></switch>
+</g>
+<g>
+<a xlink:href="https://en.wikipedia.org/wiki/Group_attribution_error">
+<g transform="rotate(17.3) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" id="trsvg314-pt" systemLanguage="pt"><tspan id="trsvg79-pt">Erro de atribuição de grupo</tspan></text><text x="12" y="4" id="trsvg314-ca" systemLanguage="ca"><tspan id="trsvg79-ca">Error d'atribució del grup</tspan></text><text x="12" y="4" id="trsvg314"><tspan id="trsvg79">Group attribution error</tspan></text></switch>
+</g>
+<path d="M253.4 128.2 C 317.7 160.7, 339.9 105.9, 408.6 127.3"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Ultimate_attribution_error">
+<g transform="rotate(19.0) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" id="trsvg315-pt" systemLanguage="pt"><tspan id="trsvg80-pt">Erro de atribuição último</tspan></text><text x="12" y="4" id="trsvg315-ca" systemLanguage="ca"><tspan id="trsvg80-ca">Error d'atribució final</tspan></text><text x="12" y="4" id="trsvg315"><tspan id="trsvg80">Ultimate attribution error</tspan></text></switch>
+</g>
+<path d="M253.4 128.2 C 317.7 160.7, 336.5 116.1, 404.6 139.6"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Stereotype">
+<g transform="rotate(20.8) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" id="trsvg316-pt" systemLanguage="pt"><tspan id="trsvg81-pt">Estereotipagem</tspan></text><text x="12" y="4" id="trsvg316-ca" systemLanguage="ca"><tspan id="trsvg81-ca">Estereotips</tspan></text><text x="12" y="4" id="trsvg316"><tspan id="trsvg81">Stereotyping</tspan></text></switch>
+</g>
+<path d="M253.4 128.2 C 317.7 160.7, 332.9 126.2, 400.2 151.8"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Essentialism">
+<g transform="rotate(22.5) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" id="trsvg317-pt" systemLanguage="pt"><tspan id="trsvg82-pt">Essencialismo</tspan></text><text x="12" y="4" id="trsvg317-ca" systemLanguage="ca"><tspan id="trsvg82-ca">Essencialisme</tspan></text><text x="12" y="4" id="trsvg317"><tspan id="trsvg82">Essentialism</tspan></text></switch>
+</g>
+<path d="M253.4 128.2 C 317.7 160.7, 328.9 136.2, 395.4 163.8"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Functional_fixedness">
+<g transform="rotate(24.2) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" id="trsvg318-pt" systemLanguage="pt"><tspan id="trsvg83-pt">Fixação funcional</tspan></text><text x="12" y="4" id="trsvg318-ca" systemLanguage="ca"><tspan id="trsvg83-ca">Fixació funcional</tspan></text><text x="12" y="4" id="trsvg318"><tspan id="trsvg83">Functional fixedness</tspan></text></switch>
+</g>
+<path d="M253.4 128.2 C 317.7 160.7, 324.6 146.1, 390.3 175.7"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Self-licensing">
+<g transform="rotate(26.0) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" id="trsvg319-pt" systemLanguage="pt"><tspan id="trsvg84-pt">Efeito credencial moral</tspan></text><text x="12" y="4" id="trsvg319-ca" systemLanguage="ca"><tspan id="trsvg84-ca">Efecte credencial moral</tspan></text><text x="12" y="4" id="trsvg319"><tspan id="trsvg84">Moral credential effect</tspan></text></switch>
+</g>
+<path d="M253.4 128.2 C 317.7 160.7, 320.1 155.8, 384.8 187.4"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Just-world_hypothesis">
+<g transform="rotate(27.7) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" id="trsvg320-pt" systemLanguage="pt"><tspan id="trsvg85-pt">Hipótese do mundo justo</tspan></text><text x="12" y="4" id="trsvg320-ca" systemLanguage="ca"><tspan id="trsvg85-ca">Hipòtesi del món just</tspan></text><text x="12" y="4" id="trsvg320"><tspan id="trsvg85">Just–world hypothesis</tspan></text></switch>
+</g>
+<path d="M253.4 128.2 C 317.7 160.7, 315.2 165.4, 379.0 198.9"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Argument_from_fallacy">
+<g transform="rotate(29.4) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" id="trsvg321-pt" systemLanguage="pt"><tspan id="trsvg86-pt">Argumentum ad logicam</tspan></text><text x="12" y="4" id="trsvg321-ca" systemLanguage="ca"><tspan id="trsvg86-ca">Argument des de la fal·làcia</tspan></text><text x="12" y="4" id="trsvg321"><tspan id="trsvg86">Argument from fallacy</tspan></text></switch>
+</g>
+<path d="M253.4 128.2 C 317.7 160.7, 310.1 174.9, 372.8 210.3"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Authority_bias">
+<g transform="rotate(31.2) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" id="trsvg322-pt" systemLanguage="pt"><tspan id="trsvg87-pt">Viés de autoridade</tspan></text><text x="12" y="4" id="trsvg322-ca" systemLanguage="ca"><tspan id="trsvg87-ca">Biaix d'autoritat</tspan></text><text x="12" y="4" id="trsvg322"><tspan id="trsvg87">Authority bias</tspan></text></switch>
+</g>
+<path d="M253.4 128.2 C 317.7 160.7, 304.7 184.2, 366.3 221.4"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Automation_bias">
+<g transform="rotate(32.9) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" id="trsvg323-pt" systemLanguage="pt"><tspan id="trsvg88-pt">Viés de automação</tspan></text><text x="12" y="4" id="trsvg323-ca" systemLanguage="ca"><tspan id="trsvg88-ca">Biaix d'automatització</tspan></text><text x="12" y="4" id="trsvg323"><tspan id="trsvg88">Automation bias</tspan></text></switch>
+</g>
+<path d="M253.4 128.2 C 317.7 160.7, 299.0 193.3, 359.4 232.4"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Bandwagon_effect">
+<g transform="rotate(34.6) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" id="trsvg324-pt" systemLanguage="pt"><tspan id="trsvg89-pt">Efeito adesão</tspan></text><text x="12" y="4" id="trsvg324-ca" systemLanguage="ca"><tspan id="trsvg89-ca">Efecte carro</tspan></text><text x="12" y="4" id="trsvg324"><tspan id="trsvg89">Bandwagon effect</tspan></text></switch>
+</g>
+<path d="M253.4 128.2 C 317.7 160.7, 293.0 202.2, 352.2 243.1"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Placebo">
+<g transform="rotate(36.3) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" id="trsvg325-pt" systemLanguage="pt"><tspan id="trsvg90-pt">Efeito placebo</tspan></text><text x="12" y="4" id="trsvg325-ca" systemLanguage="ca"><tspan id="trsvg90-ca">Efecte placebo</tspan></text><text x="12" y="4" id="trsvg325"><tspan id="trsvg90">Placebo effect</tspan></text></switch>
+</g>
+<path d="M253.4 128.2 C 317.7 160.7, 286.7 211.0, 344.7 253.7"/>
+</a>
+<path d="M90.1 109.8 C 135.1 164.7, 190.1 96.1, 253.4 128.2"/>
+<circle cx="562.2" cy="284.3" r="10.0"/>
+<switch style="font-size:15.0px;"><text style="font-size:15.0px;" transform="translate(586.2,284.3)" id="trsvg326-pt" systemLanguage="pt"><tspan x="0" y="-1.5" id="trsvg91-pt">Preenchemos características a</tspan><tspan x="0" dy="22.5" id="trsvg92-pt">partir de esteriótipos, generalizações,</tspan><tspan x="0" dy="22.5" id="trsvg93-pt">e histórias</tspan></text><text style="font-size:15.0px;" transform="translate(586.2,284.3)" id="trsvg326-ca" systemLanguage="ca"><tspan x="0" y="-1.5" id="trsvg91-ca">Omplim característiques a partir de</tspan><tspan x="0" dy="22.5" id="trsvg92-ca">estereotips, generalitats,</tspan><tspan x="0" dy="22.5" id="trsvg93-ca">i històries prèvies</tspan></text><text style="font-size:15.0px;" transform="translate(586.2,284.3)" id="trsvg326"><tspan x="0" y="-1.5" id="trsvg91">We fill in characteristics from </tspan><tspan x="0" dy="22.5" id="trsvg92">stereotypes, generalities, </tspan><tspan x="0" dy="22.5" id="trsvg93">and prior histories</tspan></text></switch>
+</g>
+<g>
+<a xlink:href="https://en.wikipedia.org/wiki/Out-group_homogeneity">
+<g transform="rotate(39.8) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" id="trsvg327-pt" systemLanguage="pt"><tspan id="trsvg94-pt">Efeito de homogeneidade de exogrupo</tspan></text><text x="12" y="4" id="trsvg327-ca" systemLanguage="ca"><tspan id="trsvg94-ca">Biaix d'homogeneïtat fora del grup</tspan></text><text x="12" y="4" id="trsvg327"><tspan id="trsvg94">Out–group homogeneity bias</tspan></text></switch>
+</g>
+<path d="M194.7 206.8 C 244.0 259.2, 273.5 227.9, 328.8 274.0"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Cross-race_effect">
+<g transform="rotate(41.5) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" id="trsvg328-pt" systemLanguage="pt"><tspan id="trsvg95-pt">Efeito de raça cruzada</tspan></text><text x="12" y="4" id="trsvg328-ca" systemLanguage="ca"><tspan id="trsvg95-ca">Efecte cross-race</tspan></text><text x="12" y="4" id="trsvg328"><tspan id="trsvg95">Cross–race effect</tspan></text></switch>
+</g>
+<path d="M194.7 206.8 C 244.0 259.2, 266.5 236.1, 320.4 283.8"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/In-group_favoritism">
+<g transform="rotate(43.3) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" id="trsvg329-pt" systemLanguage="pt"><tspan id="trsvg96-pt">Favoritismo intragrupal</tspan></text><text x="12" y="4" id="trsvg329-ca" systemLanguage="ca"><tspan id="trsvg96-ca">Favoritisme en grup</tspan></text><text x="12" y="4" id="trsvg329"><tspan id="trsvg96">In–group favoritism</tspan></text></switch>
+</g>
+<path d="M194.7 206.8 C 244.0 259.2, 259.2 244.0, 311.6 293.4"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Halo_effect">
+<g transform="rotate(45.0) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" id="trsvg330-pt" systemLanguage="pt"><tspan id="trsvg97-pt">Efeito halo</tspan></text><text x="12" y="4" id="trsvg330-ca" systemLanguage="ca"><tspan id="trsvg97-ca">Efecte halo</tspan></text><text x="12" y="4" id="trsvg330"><tspan id="trsvg97">Halo effect</tspan></text></switch>
+</g>
+<path d="M194.7 206.8 C 244.0 259.2, 251.7 251.7, 302.6 302.6"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Cheerleader_effect">
+<g transform="rotate(46.7) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" id="trsvg331-pt" systemLanguage="pt"><tspan id="trsvg98-pt">Efeito líder de claque</tspan></text><text x="12" y="4" id="trsvg331-ca" systemLanguage="ca"><tspan id="trsvg98-ca">Efecte animadora</tspan></text><text x="12" y="4" id="trsvg331"><tspan id="trsvg98">Cheerleader effect</tspan></text></switch>
+</g>
+<path d="M194.7 206.8 C 244.0 259.2, 244.0 259.2, 293.4 311.6"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Positivity_effect">
+<g transform="rotate(48.5) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" id="trsvg332-pt" systemLanguage="pt"><tspan id="trsvg99-pt">Efeito de positividade</tspan></text><text x="12" y="4" id="trsvg332-ca" systemLanguage="ca"><tspan id="trsvg99-ca">Efecte positiu</tspan></text><text x="12" y="4" id="trsvg332"><tspan id="trsvg99">Positivity effect</tspan></text></switch>
+</g>
+<path d="M194.7 206.8 C 244.0 259.2, 236.1 266.5, 283.8 320.4"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Not_invented_here">
+<g transform="rotate(50.2) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" id="trsvg333-pt" systemLanguage="pt"><tspan id="trsvg100-pt">Não Inventado Aqui</tspan></text><text x="12" y="4" id="trsvg333-ca" systemLanguage="ca"><tspan id="trsvg100-ca">No s'ha inventat aquí</tspan></text><text x="12" y="4" id="trsvg333"><tspan id="trsvg100">Not invented here</tspan></text></switch>
+</g>
+<path d="M194.7 206.8 C 244.0 259.2, 227.9 273.5, 274.0 328.8"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Reactive_devaluation">
+<g transform="rotate(51.9) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" id="trsvg334-pt" systemLanguage="pt"><tspan id="trsvg101-pt">Desvalorização reativa</tspan></text><text x="12" y="4" id="trsvg334-ca" systemLanguage="ca"><tspan id="trsvg101-ca">Devaluació reactiva</tspan></text><text x="12" y="4" id="trsvg334"><tspan id="trsvg101">Reactive devaluation</tspan></text></switch>
+</g>
+<path d="M194.7 206.8 C 244.0 259.2, 219.6 280.2, 264.0 336.9"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Well_travelled_road_effect">
+<g transform="rotate(53.7) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" id="trsvg335-pt" systemLanguage="pt"><tspan id="trsvg102-pt">Efeito da estrada bem conhecida</tspan></text><text x="12" y="4" id="trsvg335-ca" systemLanguage="ca"><tspan id="trsvg102-ca">Efecte carretera ben transitada</tspan></text><text x="12" y="4" id="trsvg335"><tspan id="trsvg102">Well–traveled road effect</tspan></text></switch>
+</g>
+<path d="M194.7 206.8 C 244.0 259.2, 211.0 286.7, 253.7 344.7"/>
+</a>
+<path d="M90.1 109.8 C 135.1 164.7, 146.0 155.1, 194.7 206.8"/>
+<circle cx="431.8" cy="458.7" r="10.0"/>
+<switch style="font-size:15.0px;"><text style="font-size:15.0px;" transform="translate(455.8,458.7)" id="trsvg336-pt" systemLanguage="pt"><tspan x="0" y="6.8" id="trsvg103-pt">Imaginamos coisas e pessoas</tspan><tspan x="0" dy="22.5" id="trsvg104-pt">que conhecemos ou estimamos</tspan><tspan x="0" dy="22.5" id="trsvg105-pt">como melhores</tspan></text><text style="font-size:15.0px;" transform="translate(455.8,458.7)" id="trsvg336-ca" systemLanguage="ca"><tspan x="0" y="6.8" id="trsvg103-ca">Ens imaginem coses i persones</tspan><tspan x="0" dy="22.5" id="trsvg104-ca">a les quals estem familiaritzats o estimats</tspan><tspan x="0" dy="22.5" id="trsvg105-ca">com a millor</tspan></text><text style="font-size:15.0px;" transform="translate(455.8,458.7)" id="trsvg336"><tspan x="0" y="6.8" id="trsvg103">We imagine things and people </tspan><tspan x="0" dy="22.5" id="trsvg104">we're familiar with or fond of </tspan><tspan x="0" dy="22.5" id="trsvg105">as better</tspan></text></switch>
+</g>
+<g>
+<a xlink:href="https://en.wikipedia.org/wiki/Mental_accounting">
+<g transform="rotate(57.1) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" id="trsvg337-pt" systemLanguage="pt"><tspan id="trsvg106-pt">Contabilidade mental</tspan></text><text x="12" y="4" id="trsvg337-ca" systemLanguage="ca"><tspan id="trsvg106-ca">Comptabilitat mental</tspan></text><text x="12" y="4" id="trsvg337"><tspan id="trsvg106">Mental accounting</tspan></text></switch>
+</g>
+<path d="M124.3 255.3 C 155.8 320.1, 193.3 299.0, 232.4 359.4"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Appeal_to_probability">
+<g transform="rotate(58.8) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" id="trsvg338-pt" systemLanguage="pt"><tspan id="trsvg107-pt">Falácia do apelo à probabilidade</tspan></text><text x="12" y="4" id="trsvg338-ca" systemLanguage="ca"><tspan id="trsvg107-ca">Apel·lació a la fal·làcia probabilística</tspan></text><text x="12" y="4" id="trsvg338"><tspan id="trsvg107">Appeal to probability fallacy</tspan></text></switch>
+</g>
+<path d="M124.3 255.3 C 155.8 320.1, 184.2 304.7, 221.4 366.3"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Normalcy_bias">
+<g transform="rotate(60.6) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" id="trsvg339-pt" systemLanguage="pt"><tspan id="trsvg108-pt">Viés da normalidade</tspan></text><text x="12" y="4" id="trsvg339-ca" systemLanguage="ca"><tspan id="trsvg108-ca">Biaix de normalitat</tspan></text><text x="12" y="4" id="trsvg339"><tspan id="trsvg108">Normalcy bias</tspan></text></switch>
+</g>
+<path d="M124.3 255.3 C 155.8 320.1, 174.9 310.1, 210.3 372.8"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Murphy's_law">
+<g transform="rotate(62.3) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" id="trsvg340-pt" systemLanguage="pt"><tspan id="trsvg109-pt">Lei de Murphy</tspan></text><text x="12" y="4" id="trsvg340-ca" systemLanguage="ca"><tspan id="trsvg109-ca">Llei de Murphy</tspan></text><text x="12" y="4" id="trsvg340"><tspan id="trsvg109">Murphy's Law</tspan></text></switch>
+</g>
+<path d="M124.3 255.3 C 155.8 320.1, 165.4 315.2, 198.9 379.0"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Zero-sum_thinking">
+<g transform="rotate(64.0) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" id="trsvg341-pt" systemLanguage="pt"><tspan id="trsvg110-pt">Viés da soma-zero</tspan></text><text x="12" y="4" id="trsvg341-ca" systemLanguage="ca"><tspan id="trsvg110-ca">Biaix de suma zero</tspan></text><text x="12" y="4" id="trsvg341"><tspan id="trsvg110">Zero sum bias</tspan></text></switch>
+</g>
+<path d="M124.3 255.3 C 155.8 320.1, 155.8 320.1, 187.4 384.8"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Survivorship_bias">
+<g transform="rotate(65.8) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" id="trsvg342-pt" systemLanguage="pt"><tspan id="trsvg111-pt">Viés de sobrevivência</tspan></text><text x="12" y="4" id="trsvg342-ca" systemLanguage="ca"><tspan id="trsvg111-ca">Biaix de supervivència</tspan></text><text x="12" y="4" id="trsvg342"><tspan id="trsvg111">Survivorship bias</tspan></text></switch>
+</g>
+<path d="M124.3 255.3 C 155.8 320.1, 146.1 324.6, 175.7 390.3"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Subadditivity_effect">
+<g transform="rotate(67.5) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" id="trsvg343-pt" systemLanguage="pt"><tspan id="trsvg112-pt">Efeito de subaditividade</tspan></text><text x="12" y="4" id="trsvg343-ca" systemLanguage="ca"><tspan id="trsvg112-ca">Efecte subadditivitat</tspan></text><text x="12" y="4" id="trsvg343"><tspan id="trsvg112">Subadditivity effect</tspan></text></switch>
+</g>
+<path d="M124.3 255.3 C 155.8 320.1, 136.2 328.9, 163.8 395.4"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Denomination_effect">
+<g transform="rotate(69.2) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" id="trsvg344-pt" systemLanguage="pt"><tspan id="trsvg113-pt">Efeito de denominação</tspan></text><text x="12" y="4" id="trsvg344-ca" systemLanguage="ca"><tspan id="trsvg113-ca">Efecte de denominació</tspan></text><text x="12" y="4" id="trsvg344"><tspan id="trsvg113">Denomination effect</tspan></text></switch>
+</g>
+<path d="M124.3 255.3 C 155.8 320.1, 126.2 332.9, 151.8 400.2"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/The_Magical_Number_Seven,_Plus_or_Minus_Two">
+<g transform="rotate(71.0) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" id="trsvg345-pt" systemLanguage="pt"><tspan id="trsvg114-pt">O número mágico 7 ± 2</tspan></text><text x="12" y="4" id="trsvg345-ca" systemLanguage="ca"><tspan id="trsvg114-ca">El nombre màgic 7 ± 2</tspan></text><text x="12" y="4" id="trsvg345"><tspan id="trsvg114">The magical number 7 ± 2</tspan></text></switch>
+</g>
+<path d="M124.3 255.3 C 155.8 320.1, 116.1 336.5, 139.6 404.6"/>
+</a>
+<path d="M90.1 109.8 C 135.1 164.7, 93.2 191.5, 124.3 255.3"/>
+<circle cx="275.8" cy="566.4" r="10.0"/>
+<switch style="font-size:15.0px;"><text style="font-size:15.0px;" transform="translate(299.8,566.4)" id="trsvg346-pt" systemLanguage="pt"><tspan x="0" y="13.1" id="trsvg115-pt">Simplificamos probabilidades de números</tspan><tspan x="0" dy="22.5" id="trsvg116-pt">para ser mais fácil pensar neles</tspan></text><text style="font-size:15.0px;" transform="translate(299.8,566.4)" id="trsvg346-ca" systemLanguage="ca"><tspan x="0" y="13.1" id="trsvg115-ca">Simplifiquem probabilitats i nombres</tspan><tspan x="0" dy="22.5" id="trsvg116-ca">per fer-los més fàcils de pensar</tspan></text><text style="font-size:15.0px;" transform="translate(299.8,566.4)" id="trsvg346"><tspan x="0" y="13.1" id="trsvg115">We simplify probabilities and numbers </tspan><tspan x="0" dy="22.5" id="trsvg116">to make them easier to think about</tspan></text></switch>
+</g>
+<g>
+<a xlink:href="https://en.wikipedia.org/wiki/Illusion_of_transparency">
+<g transform="rotate(74.4) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" id="trsvg347-pt" systemLanguage="pt"><tspan id="trsvg117-pt">Ilusão de transparência</tspan></text><text x="12" y="4" id="trsvg347-ca" systemLanguage="ca"><tspan id="trsvg117-ca">Il·lusió de transparència</tspan></text><text x="12" y="4" id="trsvg347"><tspan id="trsvg117">Illusion of transparency</tspan></text></switch>
+</g>
+<path d="M55.4 278.5 C 69.5 349.2, 95.6 342.9, 114.9 412.3"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Curse_of_knowledge">
+<g transform="rotate(76.2) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" id="trsvg348-pt" systemLanguage="pt"><tspan id="trsvg118-pt">Maldição do conhecimento</tspan></text><text x="12" y="4" id="trsvg348-ca" systemLanguage="ca"><tspan id="trsvg118-ca">Maledicció del coneixement</tspan></text><text x="12" y="4" id="trsvg348"><tspan id="trsvg118">Curse of knowledge</tspan></text></switch>
+</g>
+<path d="M55.4 278.5 C 69.5 349.2, 85.2 345.7, 102.4 415.6"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Spotlight_effect">
+<g transform="rotate(77.9) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" id="trsvg349-pt" systemLanguage="pt"><tspan id="trsvg119-pt">Efeito spotlight</tspan></text><text x="12" y="4" id="trsvg349-ca" systemLanguage="ca"><tspan id="trsvg119-ca">Efecte focus</tspan></text><text x="12" y="4" id="trsvg349"><tspan id="trsvg119">Spotlight effect</tspan></text></switch>
+</g>
+<path d="M55.4 278.5 C 69.5 349.2, 74.7 348.1, 89.8 418.5"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Extrinsic_incentives_bias">
+<g transform="rotate(79.6) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" id="trsvg350-pt" systemLanguage="pt"><tspan id="trsvg120-pt">Erro dos incentivos extrínsecos</tspan></text><text x="12" y="4" id="trsvg350-ca" systemLanguage="ca"><tspan id="trsvg120-ca">Error d'incentiu extrínsec</tspan></text><text x="12" y="4" id="trsvg350"><tspan id="trsvg120">Extrinsic incentive error</tspan></text></switch>
+</g>
+<path d="M55.4 278.5 C 69.5 349.2, 64.2 350.2, 77.1 421.0"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Illusion_of_external_agency">
+<g transform="rotate(81.3) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" id="trsvg351-pt" systemLanguage="pt"><tspan id="trsvg121-pt">Ilusão de agência externa</tspan></text><text x="12" y="4" id="trsvg351-ca" systemLanguage="ca"><tspan id="trsvg121-ca">Il·lusió d'agència externa</tspan></text><text x="12" y="4" id="trsvg351"><tspan id="trsvg121">Illusion of external agency</tspan></text></switch>
+</g>
+<path d="M55.4 278.5 C 69.5 349.2, 53.6 351.9, 64.4 423.1"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Illusion_of_asymmetric_insight">
+<g transform="rotate(83.1) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" id="trsvg352-pt" systemLanguage="pt"><tspan id="trsvg122-pt">Ilusão de insight assimétrico</tspan></text><text x="12" y="4" id="trsvg352-ca" systemLanguage="ca"><tspan id="trsvg122-ca">Il·lusió de visió asimètrica</tspan></text><text x="12" y="4" id="trsvg352"><tspan id="trsvg122">Illusion of asymmetric insight</tspan></text></switch>
+</g>
+<path d="M55.4 278.5 C 69.5 349.2, 42.9 353.4, 51.6 424.9"/>
+</a>
+<path d="M90.1 109.8 C 135.1 164.7, 41.6 208.9, 55.4 278.5"/>
+<circle cx="122.9" cy="617.9" r="10.0"/>
+<switch style="font-size:15.0px;"><text style="font-size:15.0px;" transform="translate(146.9,617.9)" id="trsvg353-pt" systemLanguage="pt"><tspan x="0" y="14.6" id="trsvg123-pt">Pensamos saber o que </tspan><tspan x="0" dy="22.5" id="trsvg124-pt">outras pessoas estão a pensar</tspan></text><text style="font-size:15.0px;" transform="translate(146.9,617.9)" id="trsvg353-ca" systemLanguage="ca"><tspan x="0" y="14.6" id="trsvg123-ca">Creiem que sabem el que</tspan><tspan x="0" dy="22.5" id="trsvg124-ca">altres persones estan pensant</tspan></text><text style="font-size:15.0px;" transform="translate(146.9,617.9)" id="trsvg353"><tspan x="0" y="14.6" id="trsvg123">We think we know what </tspan><tspan x="0" dy="22.5" id="trsvg124">other people are thinking</tspan></text></switch>
+</g>
+<g>
+<a xlink:href="https://en.wikipedia.org/wiki/Telescoping_effect">
+<g transform="rotate(86.5) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg354-pt" systemLanguage="pt"><tspan id="trsvg125-pt">Efeito telescopia</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg354-ca" systemLanguage="ca"><tspan id="trsvg125-ca">Efecte telescòpic</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg354"><tspan id="trsvg125">Telescoping effect</tspan></text></switch>
+</g>
+<path d="M-38.5 281.4 C -48.2 352.7, 21.5 355.4, 25.8 427.2"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Rosy_retrospection">
+<g transform="rotate(88.3) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg355-pt" systemLanguage="pt"><tspan id="trsvg126-pt">Retrospectiva idílica</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg355-ca" systemLanguage="ca"><tspan id="trsvg126-ca">Retrospecció rosada</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg355"><tspan id="trsvg126">Rosy retrospection</tspan></text></switch>
+</g>
+<path d="M-38.5 281.4 C -48.2 352.7, 10.8 355.8, 12.9 427.8"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Hindsight_bias">
+<g transform="rotate(90.0) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg356-pt" systemLanguage="pt"><tspan id="trsvg127-pt">Viés de retrospectiva</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg356-ca" systemLanguage="ca"><tspan id="trsvg127-ca">Biaix retrospectiva</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg356"><tspan id="trsvg127">Hindsight bias</tspan></text></switch>
+</g>
+<path d="M-38.5 281.4 C -48.2 352.7, -0.0 356.0, -0.0 428.0"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Outcome_bias">
+<g transform="rotate(91.7) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg357-pt" systemLanguage="pt"><tspan id="trsvg128-pt">Viés de resultado</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg357-ca" systemLanguage="ca"><tspan id="trsvg128-ca">Biaix de resultat</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg357"><tspan id="trsvg128">Outcome bias</tspan></text></switch>
+</g>
+<path d="M-38.5 281.4 C -48.2 352.7, -10.8 355.8, -12.9 427.8"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Moral_luck">
+<g transform="rotate(93.5) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg358-pt" systemLanguage="pt"><tspan id="trsvg129-pt">Sorte moral</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg358-ca" systemLanguage="ca"><tspan id="trsvg129-ca">Sort moral</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg358"><tspan id="trsvg129">Moral luck</tspan></text></switch>
+</g>
+<path d="M-38.5 281.4 C -48.2 352.7, -21.5 355.4, -25.8 427.2"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Declinism">
+<g transform="rotate(95.2) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg359-pt" systemLanguage="pt"><tspan id="trsvg130-pt">Declinismo</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg359-ca" systemLanguage="ca"><tspan id="trsvg130-ca">Declinisme</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg359"><tspan id="trsvg130">Declinism</tspan></text></switch>
+</g>
+<path d="M-38.5 281.4 C -48.2 352.7, -32.2 354.5, -38.7 426.2"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Impact_bias">
+<g transform="rotate(96.9) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg360-pt" systemLanguage="pt"><tspan id="trsvg131-pt">Viés de impacto</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg360-ca" systemLanguage="ca"><tspan id="trsvg131-ca">Biaix d'impacte</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg360"><tspan id="trsvg131">Impact bias</tspan></text></switch>
+</g>
+<path d="M-38.5 281.4 C -48.2 352.7, -42.9 353.4, -51.6 424.9"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Optimism_bias#Pessimism_bias">
+<g transform="rotate(98.7) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg361-pt" systemLanguage="pt"><tspan id="trsvg132-pt">Viés de pessimismo</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg361-ca" systemLanguage="ca"><tspan id="trsvg132-ca">Biaix del pessimisme</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg361"><tspan id="trsvg132">Pessimism bias</tspan></text></switch>
+</g>
+<path d="M-38.5 281.4 C -48.2 352.7, -53.6 351.9, -64.4 423.1"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Planning_fallacy">
+<g transform="rotate(100.4) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg362-pt" systemLanguage="pt"><tspan id="trsvg133-pt">Falácia do planeamento</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg362-ca" systemLanguage="ca"><tspan id="trsvg133-ca">Fal·làcia de planificació</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg362"><tspan id="trsvg133">Planning fallacy</tspan></text></switch>
+</g>
+<path d="M-38.5 281.4 C -48.2 352.7, -64.2 350.2, -77.1 421.0"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Time-saving_bias">
+<g transform="rotate(102.1) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg363-pt" systemLanguage="pt"><tspan id="trsvg134-pt">Viés da poupança de tempo</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg363-ca" systemLanguage="ca"><tspan id="trsvg134-ca">Biaix per estalviar temps</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg363"><tspan id="trsvg134">Time–saving bias</tspan></text></switch>
+</g>
+<path d="M-38.5 281.4 C -48.2 352.7, -74.7 348.1, -89.8 418.5"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Pro-innovation_bias">
+<g transform="rotate(103.8) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg364-pt" systemLanguage="pt"><tspan id="trsvg135-pt">Viés pró-inovação</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg364-ca" systemLanguage="ca"><tspan id="trsvg135-ca">Biaix pro-innovació</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg364"><tspan id="trsvg135">Pro–innovation bias</tspan></text></switch>
+</g>
+<path d="M-38.5 281.4 C -48.2 352.7, -85.2 345.7, -102.4 415.6"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Affective_forecasting#Projection_bias">
+<g transform="rotate(105.6) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg365-pt" systemLanguage="pt"><tspan id="trsvg136-pt">Viés da projeção</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg365-ca" systemLanguage="ca"><tspan id="trsvg136-ca">Biaix de projecció</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg365"><tspan id="trsvg136">Projection bias</tspan></text></switch>
+</g>
+<path d="M-38.5 281.4 C -48.2 352.7, -95.6 342.9, -114.9 412.3"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Restraint_bias">
+<g transform="rotate(107.3) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg366-pt" systemLanguage="pt"><tspan id="trsvg137-pt">Viés de autocontrolo</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg366-ca" systemLanguage="ca"><tspan id="trsvg137-ca">Biaix de contenció</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg366"><tspan id="trsvg137">Restraint bias</tspan></text></switch>
+</g>
+<path d="M-38.5 281.4 C -48.2 352.7, -105.9 339.9, -127.3 408.6"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/List_of_cognitive_biases#Consistency_bias">
+<g transform="rotate(109.0) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg367-pt" systemLanguage="pt"><tspan id="trsvg138-pt">Viés de auto-consistência</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg367-ca" systemLanguage="ca"><tspan id="trsvg138-ca">Biaix d'autoconsistència</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg367"><tspan id="trsvg138">Self–consistency bias</tspan></text></switch>
+</g>
+<path d="M-38.5 281.4 C -48.2 352.7, -116.1 336.5, -139.6 404.6"/>
+</a>
+<path d="M90.1 109.8 C 135.1 164.7, -28.9 211.0, -38.5 281.4"/>
+<circle cx="-85.4" cy="624.2" r="10.0"/>
+<switch style="font-size:15.0px;"><text style="font-size:15.0px;" transform="translate(-109.4,624.2)" text-anchor="end" id="trsvg368-pt" systemLanguage="pt"><tspan x="0" y="14.8" id="trsvg139-pt">Projetamos o nosso estado de espírito</tspan><tspan x="0" dy="22.5" id="trsvg140-pt">e pressupostos para o passado e futuro</tspan></text><text style="font-size:15.0px;" transform="translate(-109.4,624.2)" text-anchor="end" id="trsvg368-ca" systemLanguage="ca"><tspan x="0" y="14.8" id="trsvg139-ca">Projectem la nostra mentalitat actual i</tspan><tspan x="0" dy="22.5" id="trsvg140-ca">suposicions sobre el passat i el futur</tspan></text><text style="font-size:15.0px;" transform="translate(-109.4,624.2)" text-anchor="end" id="trsvg368"><tspan x="0" y="14.8" id="trsvg139">We project our current mindset and </tspan><tspan x="0" dy="22.5" id="trsvg140">assumptions onto the past and future</tspan></text></switch>
+</g>
+</g>
+<g style="fill:#490; stroke:#490;">
+<g>
+<a xlink:href="https://en.wikipedia.org/wiki/Overconfidence_effect">
+<g transform="rotate(112.5) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg369-pt" systemLanguage="pt"><tspan id="trsvg141-pt">Efeito de excesso de confiança</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg369-ca" systemLanguage="ca"><tspan id="trsvg141-ca">Efecte sobreconfiança</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg369"><tspan id="trsvg141">Overconfidence effect</tspan></text></switch>
+</g>
+<path d="M-181.8 218.2 C -227.9 273.5, -136.2 328.9, -163.8 395.4"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Social_desirability_bias">
+<g transform="rotate(114.2) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg370-pt" systemLanguage="pt"><tspan id="trsvg142-pt">Viés de desejabilidade social</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg370-ca" systemLanguage="ca"><tspan id="trsvg142-ca">Biaix de desitjabilitat social</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg370"><tspan id="trsvg142">Social desirability bias</tspan></text></switch>
+</g>
+<path d="M-181.8 218.2 C -227.9 273.5, -146.1 324.6, -175.7 390.3"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Third-person_effect">
+<g transform="rotate(116.0) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg371-pt" systemLanguage="pt"><tspan id="trsvg143-pt">Efeito da terceira pessoa</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg371-ca" systemLanguage="ca"><tspan id="trsvg143-ca">Efecte en tercera persona</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg371"><tspan id="trsvg143">Third–person effect</tspan></text></switch>
+</g>
+<path d="M-181.8 218.2 C -227.9 273.5, -155.8 320.1, -187.4 384.8"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/False_consensus_effect">
+<g transform="rotate(117.7) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg372-pt" systemLanguage="pt"><tspan id="trsvg144-pt">Efeito do falso consenso</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg372-ca" systemLanguage="ca"><tspan id="trsvg144-ca">Efecte de fals consens</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg372"><tspan id="trsvg144">False consensus effect</tspan></text></switch>
+</g>
+<path d="M-181.8 218.2 C -227.9 273.5, -165.4 315.2, -198.9 379.0"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Hard–easy_effect">
+<g transform="rotate(119.4) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg373-pt" systemLanguage="pt"><tspan id="trsvg145-pt">Efeito difícil-fácil</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg373-ca" systemLanguage="ca"><tspan id="trsvg145-ca">Efecte difícil-fàcil</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg373"><tspan id="trsvg145">Hard–easy effect</tspan></text></switch>
+</g>
+<path d="M-181.8 218.2 C -227.9 273.5, -174.9 310.1, -210.3 372.8"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Lake_Wobegon#The_Lake_Wobegon_effect">
+<g transform="rotate(121.2) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg374-pt" systemLanguage="pt"><tspan id="trsvg146-pt">Efeito Lago Wobegone</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg374-ca" systemLanguage="ca"><tspan id="trsvg146-ca">Efecte llac Wobegon</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg374"><tspan id="trsvg146">Lake Wobegone effect</tspan></text></switch>
+</g>
+<path d="M-181.8 218.2 C -227.9 273.5, -184.2 304.7, -221.4 366.3"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Dunning–Kruger_effect">
+<g transform="rotate(122.9) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg375-pt" systemLanguage="pt"><tspan id="trsvg147-pt">Efeito Dunning-Kruger</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg375-ca" systemLanguage="ca"><tspan id="trsvg147-ca">Efecte Dunning-Kruger</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg375"><tspan id="trsvg147">Dunning–Kruger effect</tspan></text></switch>
+</g>
+<path d="M-181.8 218.2 C -227.9 273.5, -193.3 299.0, -232.4 359.4"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Egocentric_bias">
+<g transform="rotate(124.6) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg376-pt" systemLanguage="pt"><tspan id="trsvg148-pt">Viés egocêntrico</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg376-ca" systemLanguage="ca"><tspan id="trsvg148-ca">Biaix egocèntric</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg376"><tspan id="trsvg148">Egocentric bias</tspan></text></switch>
+</g>
+<path d="M-181.8 218.2 C -227.9 273.5, -202.2 293.0, -243.1 352.2"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Optimism_bias">
+<g transform="rotate(126.3) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg377-pt" systemLanguage="pt"><tspan id="trsvg149-pt">Viés optimista</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg377-ca" systemLanguage="ca"><tspan id="trsvg149-ca">Biaix d'optimisme</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg377"><tspan id="trsvg149">Optimism bias</tspan></text></switch>
+</g>
+<path d="M-181.8 218.2 C -227.9 273.5, -211.0 286.7, -253.7 344.7"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Barnum_effect">
+<g transform="rotate(128.1) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg378-pt" systemLanguage="pt"><tspan id="trsvg150-pt">Efeito Forer</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg378-ca" systemLanguage="ca"><tspan id="trsvg150-ca">Efecte previ</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg378"><tspan id="trsvg150">Forer effect</tspan></text></switch>
+</g>
+<path d="M-181.8 218.2 C -227.9 273.5, -219.6 280.2, -264.0 336.9"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Barnum_effect">
+<g transform="rotate(129.8) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg379-pt" systemLanguage="pt"><tspan id="trsvg151-pt">Efeito Barnum</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg379-ca" systemLanguage="ca"><tspan id="trsvg151-ca">Efecte Barnum</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg379"><tspan id="trsvg151">Barnum effect</tspan></text></switch>
+</g>
+<path d="M-181.8 218.2 C -227.9 273.5, -227.9 273.5, -274.0 328.8"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Self-serving_bias">
+<g transform="rotate(131.5) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg380-pt" systemLanguage="pt"><tspan id="trsvg152-pt">Viés da autoconveniência</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg380-ca" systemLanguage="ca"><tspan id="trsvg152-ca">Biaix d'autoservei</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg380"><tspan id="trsvg152">Self–serving bias</tspan></text></switch>
+</g>
+<path d="M-181.8 218.2 C -227.9 273.5, -236.1 266.5, -283.8 320.4"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Actor–observer_asymmetry#bias">
+<g transform="rotate(133.3) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg381-pt" systemLanguage="pt"><tspan id="trsvg153-pt">Viés ator-observador</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg381-ca" systemLanguage="ca"><tspan id="trsvg153-ca">Biaix actor-observador</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg381"><tspan id="trsvg153">Actor–observer bias</tspan></text></switch>
+</g>
+<path d="M-181.8 218.2 C -227.9 273.5, -244.0 259.2, -293.4 311.6"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Illusion_of_control">
+<g transform="rotate(135.0) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg382-pt" systemLanguage="pt"><tspan id="trsvg154-pt">Ilusão de controlo</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg382-ca" systemLanguage="ca"><tspan id="trsvg154-ca">Il·lusió de control</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg382"><tspan id="trsvg154">Illusion of control</tspan></text></switch>
+</g>
+<path d="M-181.8 218.2 C -227.9 273.5, -251.7 251.7, -302.6 302.6"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Illusory_superiority">
+<g transform="rotate(136.7) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg383-pt" systemLanguage="pt"><tspan id="trsvg155-pt">Superioridade ilusória</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg383-ca" systemLanguage="ca"><tspan id="trsvg155-ca">Superioritat il·lusòria</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg383"><tspan id="trsvg155">Illusory superiority</tspan></text></switch>
+</g>
+<path d="M-181.8 218.2 C -227.9 273.5, -259.2 244.0, -311.6 293.4"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Fundamental_attribution_error">
+<g transform="rotate(138.5) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg384-pt" systemLanguage="pt"><tspan id="trsvg156-pt">Erro de atribuição fundamental</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg384-ca" systemLanguage="ca"><tspan id="trsvg156-ca">Error d'atribució fonamental</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg384"><tspan id="trsvg156">Fundamental attribution error</tspan></text></switch>
+</g>
+<path d="M-181.8 218.2 C -227.9 273.5, -266.5 236.1, -320.4 283.8"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Defensive_attribution_hypothesis">
+<g transform="rotate(140.2) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg385-pt" systemLanguage="pt"><tspan id="trsvg157-pt">Hipótese de atribuição defensiva</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg385-ca" systemLanguage="ca"><tspan id="trsvg157-ca">Hipòtesi d'atribució defensiva</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg385"><tspan id="trsvg157">Defensive attribution hypothesis</tspan></text></switch>
+</g>
+<path d="M-181.8 218.2 C -227.9 273.5, -273.5 227.9, -328.8 274.0"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Trait_ascription_bias">
+<g transform="rotate(141.9) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg386-pt" systemLanguage="pt"><tspan id="trsvg158-pt">Viés de atribuição de características</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg386-ca" systemLanguage="ca"><tspan id="trsvg158-ca">Biaix d'adscripció de trets</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg386"><tspan id="trsvg158">Trait ascription bias</tspan></text></switch>
+</g>
+<path d="M-181.8 218.2 C -227.9 273.5, -280.2 219.6, -336.9 264.0"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Effort_justification">
+<g transform="rotate(143.7) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg387-pt" systemLanguage="pt"><tspan id="trsvg159-pt">Justificação do esforço</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg387-ca" systemLanguage="ca"><tspan id="trsvg159-ca">Justificació de l'esforç</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg387"><tspan id="trsvg159">Effort justification</tspan></text></switch>
+</g>
+<path d="M-181.8 218.2 C -227.9 273.5, -286.7 211.0, -344.7 253.7"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Risk_compensation">
+<g transform="rotate(145.4) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg388-pt" systemLanguage="pt"><tspan id="trsvg160-pt">Compensação de risco</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg388-ca" systemLanguage="ca"><tspan id="trsvg160-ca">Compensació del risc</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg388"><tspan id="trsvg160">Risk compensation</tspan></text></switch>
+</g>
+<path d="M-181.8 218.2 C -227.9 273.5, -293.0 202.2, -352.2 243.1"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Risk_compensation#Peltzman_effect">
+<g transform="rotate(147.1) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg389-pt" systemLanguage="pt"><tspan id="trsvg161-pt">Efeito Peltzman</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg389-ca" systemLanguage="ca"><tspan id="trsvg161-ca">Efecte Peltzman</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg389"><tspan id="trsvg161">Peltzman effect</tspan></text></switch>
+</g>
+<path d="M-181.8 218.2 C -227.9 273.5, -299.0 193.3, -359.4 232.4"/>
+</a>
+<path d="M-137.3 36.1 C -206.0 54.1, -136.4 163.6, -181.8 218.2"/>
+<circle cx="-403.3" cy="484.0" r="10.0"/>
+<switch style="font-size:15.0px;"><text style="font-size:15.0px;" transform="translate(-427.3,484.0)" text-anchor="end" id="trsvg390-pt" systemLanguage="pt"><tspan x="0" y="8.0" id="trsvg162-pt">Para agir, devemos ter confiança </tspan><tspan x="0" dy="22.5" id="trsvg163-pt">que podemos ter um impacto e sentir</tspan><tspan x="0" dy="22.5" id="trsvg164-pt">que o que fazemos importa</tspan></text><text style="font-size:15.0px;" transform="translate(-427.3,484.0)" text-anchor="end" id="trsvg390-ca" systemLanguage="ca"><tspan x="0" y="8.0" id="trsvg162-ca">Per actuar, hem de tenir confiança en nosaltres</tspan><tspan x="0" dy="22.5" id="trsvg163-ca">per poder tenir un impacte i sentir què</tspan><tspan x="0" dy="22.5" id="trsvg164-ca">que el que fem és important</tspan></text><text style="font-size:15.0px;" transform="translate(-427.3,484.0)" text-anchor="end" id="trsvg390"><tspan x="0" y="8.0" id="trsvg162">To act, we must be confident we </tspan><tspan x="0" dy="22.5" id="trsvg163">can make an impact and feel what </tspan><tspan x="0" dy="22.5" id="trsvg164">we do is important</tspan></text></switch>
+</g>
+<g>
+<a xlink:href="https://en.wikipedia.org/wiki/Hyperbolic_discounting">
+<g transform="rotate(150.6) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg391-pt" systemLanguage="pt"><tspan id="trsvg165-pt">Preferência hiperbólica</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg391-ca" systemLanguage="ca"><tspan id="trsvg165-ca">Descompte hiperbòlic</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg391"><tspan id="trsvg165">Hyperbolic discounting</tspan></text></switch>
+</g>
+<path d="M-251.5 132.0 C -315.2 165.4, -310.1 174.9, -372.8 210.3"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Appeal_to_novelty">
+<g transform="rotate(152.3) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg392-pt" systemLanguage="pt"><tspan id="trsvg166-pt">Apelo à novidade</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg392-ca" systemLanguage="ca"><tspan id="trsvg166-ca">Apel·lació a la novetat</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg392"><tspan id="trsvg166">Appeal to novelty</tspan></text></switch>
+</g>
+<path d="M-251.5 132.0 C -315.2 165.4, -315.2 165.4, -379.0 198.9"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Identifiable_victim_effect">
+<g transform="rotate(154.0) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg393-pt" systemLanguage="pt"><tspan id="trsvg167-pt">Efeito de vítima identificável</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg393-ca" systemLanguage="ca"><tspan id="trsvg167-ca">Efecte víctima identificable</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg393"><tspan id="trsvg167">Identifiable victim effect</tspan></text></switch>
+</g>
+<path d="M-251.5 132.0 C -315.2 165.4, -320.1 155.8, -384.8 187.4"/>
+</a>
+<path d="M-137.3 36.1 C -206.0 54.1, -188.6 99.0, -251.5 132.0"/>
+<circle cx="-557.8" cy="292.8" r="10.0"/>
+<switch style="font-size:15.0px;"><text style="font-size:15.0px;" transform="translate(-581.8,292.8)" text-anchor="end" id="trsvg394-pt" systemLanguage="pt"><tspan x="0" y="-1.1" id="trsvg168-pt">Para manter-se focado, favorecemos</tspan><tspan x="0" dy="22.5" id="trsvg169-pt">a coisa imediata, relacionável</tspan><tspan x="0" dy="22.5" id="trsvg170-pt">à nossa frente</tspan></text><text style="font-size:15.0px;" transform="translate(-581.8,292.8)" text-anchor="end" id="trsvg394-ca" systemLanguage="ca"><tspan x="0" y="-1.1" id="trsvg168-ca">Per mantenir la concentració, afavorim</tspan><tspan x="0" dy="22.5" id="trsvg169-ca">allò immediat, relacionable</tspan><tspan x="0" dy="22.5" id="trsvg170-ca">davant nostre</tspan></text><text style="font-size:15.0px;" transform="translate(-581.8,292.8)" text-anchor="end" id="trsvg394"><tspan x="0" y="-1.1" id="trsvg168">To stay focused, we favor the </tspan><tspan x="0" dy="22.5" id="trsvg169">immediate, relatable thing </tspan><tspan x="0" dy="22.5" id="trsvg170">in front of us</tspan></text></switch>
+</g>
+<g>
+<a xlink:href="https://en.wikipedia.org/wiki/Sunk_cost#Loss_aversion_and_the_sunk_cost_fallacy">
+<g transform="rotate(157.5) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg395-pt" systemLanguage="pt"><tspan id="trsvg171-pt">Falácia do custo irrecuperável</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg395-ca" systemLanguage="ca"><tspan id="trsvg171-ca">Fal·làcia del cost enfonsat</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg395"><tspan id="trsvg171">Sunk cost fallacy</tspan></text></switch>
+</g>
+<path d="M-277.7 59.6 C -348.1 74.7, -328.9 136.2, -395.4 163.8"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Escalation_of_commitment">
+<g transform="rotate(159.2) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg396-pt" systemLanguage="pt"><tspan id="trsvg172-pt">Escalada irracional</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg396-ca" systemLanguage="ca"><tspan id="trsvg172-ca">Escalada irracional</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg396"><tspan id="trsvg172">Irrational escalation</tspan></text></switch>
+</g>
+<path d="M-277.7 59.6 C -348.1 74.7, -332.9 126.2, -400.2 151.8"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Escalation_of_commitment">
+<g transform="rotate(161.0) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg397-pt" systemLanguage="pt"><tspan id="trsvg173-pt">Escalada de comprometimento</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg397-ca" systemLanguage="ca"><tspan id="trsvg173-ca">Escalada de compromís</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg397"><tspan id="trsvg173">Escalation of commitment</tspan></text></switch>
+</g>
+<path d="M-277.7 59.6 C -348.1 74.7, -336.5 116.1, -404.6 139.6"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Generation_effect">
+<g transform="rotate(162.7) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg398-pt" systemLanguage="pt"><tspan id="trsvg174-pt">Efeito geracional</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg398-ca" systemLanguage="ca"><tspan id="trsvg174-ca">Efecte de generació</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg398"><tspan id="trsvg174">Generation effect</tspan></text></switch>
+</g>
+<path d="M-277.7 59.6 C -348.1 74.7, -339.9 105.9, -408.6 127.3"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Loss_aversion">
+<g transform="rotate(164.4) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg399-pt" systemLanguage="pt"><tspan id="trsvg175-pt">Aversão à perda</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg399-ca" systemLanguage="ca"><tspan id="trsvg175-ca">Aversió a la pèrdua</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg399"><tspan id="trsvg175">Loss aversion</tspan></text></switch>
+</g>
+<path d="M-277.7 59.6 C -348.1 74.7, -342.9 95.6, -412.3 114.9"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/IKEA_effect">
+<g transform="rotate(166.2) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg400-pt" systemLanguage="pt"><tspan id="trsvg176-pt">Efeito IKEA</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg400-ca" systemLanguage="ca"><tspan id="trsvg176-ca">Efecte IKEA</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg400"><tspan id="trsvg176">IKEA effect</tspan></text></switch>
+</g>
+<path d="M-277.7 59.6 C -348.1 74.7, -345.7 85.2, -415.6 102.4"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/List_of_cognitive_biases">
+<g transform="rotate(167.9) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg401-pt" systemLanguage="pt"><tspan id="trsvg177-pt">Viés de unidade</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg401-ca" systemLanguage="ca"><tspan id="trsvg177-ca">Biaix de la unitat</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg401"><tspan id="trsvg177">Unit bias</tspan></text></switch>
+</g>
+<path d="M-277.7 59.6 C -348.1 74.7, -348.1 74.7, -418.5 89.8"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Zero-risk_bias">
+<g transform="rotate(169.6) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg402-pt" systemLanguage="pt"><tspan id="trsvg178-pt">Viés do risco zero</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg402-ca" systemLanguage="ca"><tspan id="trsvg178-ca">Biaix de risc zero</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg402"><tspan id="trsvg178">Zero–risk bias</tspan></text></switch>
+</g>
+<path d="M-277.7 59.6 C -348.1 74.7, -350.2 64.2, -421.0 77.1"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Disposition_effect">
+<g transform="rotate(171.3) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg403-pt" systemLanguage="pt"><tspan id="trsvg179-pt">Efeito de disposição</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg403-ca" systemLanguage="ca"><tspan id="trsvg179-ca">Efecte de disposició</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg403"><tspan id="trsvg179">Disposition effect</tspan></text></switch>
+</g>
+<path d="M-277.7 59.6 C -348.1 74.7, -351.9 53.6, -423.1 64.4"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Pseudocertainty_effect">
+<g transform="rotate(173.1) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg404-pt" systemLanguage="pt"><tspan id="trsvg180-pt">Efeito de pseudocerteza</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg404-ca" systemLanguage="ca"><tspan id="trsvg180-ca">Efecte de pseudocertesa</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg404"><tspan id="trsvg180">Pseudocertainty effect</tspan></text></switch>
+</g>
+<path d="M-277.7 59.6 C -348.1 74.7, -353.4 42.9, -424.9 51.6"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/List_of_cognitive_biases#Processing_difficulty_effect">
+<g transform="rotate(174.8) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg405-pt" systemLanguage="pt"><tspan id="trsvg181-pt">Efeito de dificuldade de processamento</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg405-ca" systemLanguage="ca"><tspan id="trsvg181-ca">Efecte dificultat de processament</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg405"><tspan id="trsvg181">Processing difficulty effect</tspan></text></switch>
+</g>
+<path d="M-277.7 59.6 C -348.1 74.7, -354.5 32.2, -426.2 38.7"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Endowment_effect">
+<g transform="rotate(176.5) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg406-pt" systemLanguage="pt"><tspan id="trsvg182-pt">Efeito dotação</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg406-ca" systemLanguage="ca"><tspan id="trsvg182-ca">Efecte de dotació</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg406"><tspan id="trsvg182">Endowment effect</tspan></text></switch>
+</g>
+<path d="M-277.7 59.6 C -348.1 74.7, -355.4 21.5, -427.2 25.8"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Confirmation_bias#backfire_effect">
+<g transform="rotate(178.3) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg407-pt" systemLanguage="pt"><tspan id="trsvg183-pt">Efeito tiro-pela-culatra</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg407-ca" systemLanguage="ca"><tspan id="trsvg183-ca">Efecte contraproduent</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg407"><tspan id="trsvg183">Backfire effect</tspan></text></switch>
+</g>
+<path d="M-277.7 59.6 C -348.1 74.7, -355.8 10.8, -427.8 12.9"/>
+</a>
+<path d="M-137.3 36.1 C -206.0 54.1, -208.3 44.7, -277.7 59.6"/>
+<circle cx="-616.0" cy="132.2" r="10.0"/>
+<switch style="font-size:15.0px;"><text style="font-size:15.0px;" transform="translate(-640.0,132.2)" text-anchor="end" id="trsvg408-pt" systemLanguage="pt"><tspan x="0" y="-8.7" id="trsvg184-pt">Para terminar coisas, tendemos</tspan><tspan x="0" dy="22.5" id="trsvg185-pt">a completar coisas em que</tspan><tspan x="0" dy="22.5" id="trsvg186-pt">investimos tempo e energia</tspan></text><text style="font-size:15.0px;" transform="translate(-640.0,132.2)" text-anchor="end" id="trsvg408-ca" systemLanguage="ca"><tspan x="0" y="-8.7" id="trsvg184-ca">Per assolir coses, tendim</tspan><tspan x="0" dy="22.5" id="trsvg185-ca">a completar les coses en les que</tspan><tspan x="0" dy="22.5" id="trsvg186-ca">hem invertit temps i energia</tspan></text><text style="font-size:15.0px;" transform="translate(-640.0,132.2)" text-anchor="end" id="trsvg408"><tspan x="0" y="-8.7" id="trsvg184">To get things done, we tend </tspan><tspan x="0" dy="22.5" id="trsvg185">to complete things we've </tspan><tspan x="0" dy="22.5" id="trsvg186">invested time and energy in</tspan></text></switch>
+</g>
+<g>
+<a xlink:href="https://en.wikipedia.org/wiki/System_justification">
+<g transform="rotate(181.7) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg409-pt" systemLanguage="pt"><tspan id="trsvg187-pt">Justificação do sistema</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg409-ca" systemLanguage="ca"><tspan id="trsvg187-ca">Justificació del sistema</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg409"><tspan id="trsvg187">System justification</tspan></text></switch>
+</g>
+<path d="M-282.4 -30.0 C -354.0 -37.6, -355.8 -10.8, -427.8 -12.9"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Reverse_psychology">
+<g transform="rotate(183.5) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg410-pt" systemLanguage="pt"><tspan id="trsvg188-pt">Psicologia reversa</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg410-ca" systemLanguage="ca"><tspan id="trsvg188-ca">Psicologia inversa</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg410"><tspan id="trsvg188">Reverse psychology</tspan></text></switch>
+</g>
+<path d="M-282.4 -30.0 C -354.0 -37.6, -355.4 -21.5, -427.2 -25.8"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Reactance_(psychology)">
+<g transform="rotate(185.2) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg411-pt" systemLanguage="pt"><tspan id="trsvg189-pt">Reatância psicológica</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg411-ca" systemLanguage="ca"><tspan id="trsvg189-ca">Reacció</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg411"><tspan id="trsvg189">Reactance</tspan></text></switch>
+</g>
+<path d="M-282.4 -30.0 C -354.0 -37.6, -354.5 -32.2, -426.2 -38.7"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Decoy_effect">
+<g transform="rotate(186.9) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg412-pt" systemLanguage="pt"><tspan id="trsvg190-pt">Efeito chamariz</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg412-ca" systemLanguage="ca"><tspan id="trsvg190-ca">Efecte esquer</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg412"><tspan id="trsvg190">Decoy effect</tspan></text></switch>
+</g>
+<path d="M-282.4 -30.0 C -354.0 -37.6, -353.4 -42.9, -424.9 -51.6"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Social_comparison_bias">
+<g transform="rotate(188.7) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg413-pt" systemLanguage="pt"><tspan id="trsvg191-pt">Efeito comparação social</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg413-ca" systemLanguage="ca"><tspan id="trsvg191-ca">Efecte comparació social</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg413"><tspan id="trsvg191">Social comparison effect</tspan></text></switch>
+</g>
+<path d="M-282.4 -30.0 C -354.0 -37.6, -351.9 -53.6, -423.1 -64.4"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Status_quo_bias">
+<g transform="rotate(190.4) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg414-pt" systemLanguage="pt"><tspan id="trsvg192-pt">Viés do status quo</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg414-ca" systemLanguage="ca"><tspan id="trsvg192-ca">Biaix de l'statu quo</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg414"><tspan id="trsvg192">Status quo bias</tspan></text></switch>
+</g>
+<path d="M-282.4 -30.0 C -354.0 -37.6, -350.2 -64.2, -421.0 -77.1"/>
+</a>
+<path d="M-137.3 36.1 C -206.0 54.1, -211.8 -22.5, -282.4 -30.0"/>
+<circle cx="-626.5" cy="-66.5" r="10.0"/>
+<switch style="font-size:15.0px;"><text style="font-size:15.0px;" transform="translate(-650.5,-66.5)" text-anchor="end" id="trsvg415-pt" systemLanguage="pt"><tspan x="0" y="-30.6" id="trsvg193-pt">Para evitar enganos,</tspan><tspan x="0" dy="22.5" id="trsvg194-pt">tentamos preservar autonomia</tspan><tspan x="0" dy="22.5" id="trsvg195-pt">e status de grupo, e evitar </tspan><tspan x="0" dy="22.5" id="trsvg196-pt">decisões irreversíveis</tspan></text><text style="font-size:15.0px;" transform="translate(-650.5,-66.5)" text-anchor="end" id="trsvg415-ca" systemLanguage="ca"><tspan x="0" y="-30.6" id="trsvg193-ca">Per evitar errors,</tspan><tspan x="0" dy="22.5" id="trsvg194-ca">pretenem preservar l'autonomia</tspan><tspan x="0" dy="22.5" id="trsvg195-ca">i l'estat del grup, i evitar</tspan><tspan x="0" dy="22.5" id="trsvg196-ca">decisions irreversibles</tspan></text><text style="font-size:15.0px;" transform="translate(-650.5,-66.5)" text-anchor="end" id="trsvg415"><tspan x="0" y="-30.6" id="trsvg193">To avoid mistakes, </tspan><tspan x="0" dy="22.5" id="trsvg194">we aim to preserve autonomy </tspan><tspan x="0" dy="22.5" id="trsvg195">and group status, and avoid </tspan><tspan x="0" dy="22.5" id="trsvg196">irreversible decisions</tspan></text></switch>
+</g>
+<g>
+<a xlink:href="https://en.wikipedia.org/wiki/Ambiguity_effect">
+<g transform="rotate(193.8) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg416-pt" systemLanguage="pt"><tspan id="trsvg197-pt">Viés da ambiguidade</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg416-ca" systemLanguage="ca"><tspan id="trsvg197-ca">Biaix d'ambigüitat</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg416"><tspan id="trsvg197">Ambiguity bias</tspan></text></switch>
+</g>
+<path d="M-265.5 -100.7 C -332.9 -126.2, -345.7 -85.2, -415.6 -102.4"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Information_bias_(psychology)">
+<g transform="rotate(195.6) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg417-pt" systemLanguage="pt"><tspan id="trsvg198-pt">Viés de informação</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg417-ca" systemLanguage="ca"><tspan id="trsvg198-ca">Biaix informatiu</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg417"><tspan id="trsvg198">Information bias</tspan></text></switch>
+</g>
+<path d="M-265.5 -100.7 C -332.9 -126.2, -342.9 -95.6, -412.3 -114.9"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Belief_bias">
+<g transform="rotate(197.3) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg418-pt" systemLanguage="pt"><tspan id="trsvg199-pt">Viés de crença</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg418-ca" systemLanguage="ca"><tspan id="trsvg199-ca">Biaix de creença</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg418"><tspan id="trsvg199">Belief bias</tspan></text></switch>
+</g>
+<path d="M-265.5 -100.7 C -332.9 -126.2, -339.9 -105.9, -408.6 -127.3"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Rhyme-as-reason_effect">
+<g transform="rotate(199.0) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg419-pt" systemLanguage="pt"><tspan id="trsvg200-pt">Efeito rima como razão</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg419-ca" systemLanguage="ca"><tspan id="trsvg200-ca">Efecte rima com a raó</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg419"><tspan id="trsvg200">Rhyme–as–reason effect</tspan></text></switch>
+</g>
+<path d="M-265.5 -100.7 C -332.9 -126.2, -336.5 -116.1, -404.6 -139.6"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Law_of_triviality">
+<g transform="rotate(200.8) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg420-pt" systemLanguage="pt"><tspan id="trsvg201-pt">Efeito alpendre das bicicletas</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg420-ca" systemLanguage="ca"><tspan id="trsvg201-ca">Efecte vessament de bicicletes</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg420"><tspan id="trsvg201">Bike–shedding effect</tspan></text></switch>
+</g>
+<path d="M-265.5 -100.7 C -332.9 -126.2, -332.9 -126.2, -400.2 -151.8"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Law_of_triviality">
+<g transform="rotate(202.5) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg421-pt" systemLanguage="pt"><tspan id="trsvg202-pt">Lei da trivialidade</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg421-ca" systemLanguage="ca"><tspan id="trsvg202-ca">Llei de la trivialitat</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg421"><tspan id="trsvg202">Law of Triviality</tspan></text></switch>
+</g>
+<path d="M-265.5 -100.7 C -332.9 -126.2, -328.9 -136.2, -395.4 -163.8"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Conjunction_fallacy">
+<g transform="rotate(204.2) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg422-pt" systemLanguage="pt"><tspan id="trsvg203-pt">Falácia da conjunção</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg422-ca" systemLanguage="ca"><tspan id="trsvg203-ca">Fal·làcia de conjunció</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg422"><tspan id="trsvg203">Conjunction fallacy</tspan></text></switch>
+</g>
+<path d="M-265.5 -100.7 C -332.9 -126.2, -324.6 -146.1, -390.3 -175.7"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Occam's_razor">
+<g transform="rotate(206.0) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg423-pt" systemLanguage="pt"><tspan id="trsvg204-pt">Navalha de Occam</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg423-ca" systemLanguage="ca"><tspan id="trsvg204-ca">Navalla d'Occam</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg423"><tspan id="trsvg204">Occam's razor</tspan></text></switch>
+</g>
+<path d="M-265.5 -100.7 C -332.9 -126.2, -320.1 -155.8, -384.8 -187.4"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Less-is-better_effect">
+<g transform="rotate(207.7) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg424-pt" systemLanguage="pt"><tspan id="trsvg205-pt">Efeito menos é melhor</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg424-ca" systemLanguage="ca"><tspan id="trsvg205-ca">Efecte de menys-és-millor</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg424"><tspan id="trsvg205">Less–is–better effect</tspan></text></switch>
+</g>
+<path d="M-265.5 -100.7 C -332.9 -126.2, -315.2 -165.4, -379.0 -198.9"/>
+</a>
+<path d="M-137.3 36.1 C -206.0 54.1, -199.2 -75.5, -265.5 -100.7"/>
+<circle cx="-589.1" cy="-223.4" r="10.0"/>
+<switch style="font-size:15.0px;"><text style="font-size:15.0px;" transform="translate(-613.1,-223.4)" text-anchor="end" id="trsvg425-pt" systemLanguage="pt"><tspan x="0" y="-25.6" id="trsvg206-pt">Favorecemos opções que parecem simples</tspan><tspan x="0" dy="22.5" id="trsvg207-pt">e informação completa sobre</tspan><tspan x="0" dy="22.5" id="trsvg208-pt">opções complexas e ambíguas</tspan></text><text style="font-size:15.0px;" transform="translate(-613.1,-223.4)" text-anchor="end" id="trsvg425-ca" systemLanguage="ca"><tspan x="0" y="-25.6" id="trsvg206-ca">Afavorim opcions senzilles</tspan><tspan x="0" dy="22.5" id="trsvg207-ca">i informació completa per sobre</tspan><tspan x="0" dy="22.5" id="trsvg208-ca">d'opcions complexes i ambigües</tspan></text><text style="font-size:15.0px;" transform="translate(-613.1,-223.4)" text-anchor="end" id="trsvg425"><tspan x="0" y="-25.6" id="trsvg206">We favor simple–looking options </tspan><tspan x="0" dy="22.5" id="trsvg207">and complete information over </tspan><tspan x="0" dy="22.5" id="trsvg208">complex, ambiguous options</tspan></text></switch>
+</g>
+</g>
+<g style="fill:#888; stroke:#888;">
+<g>
+<a xlink:href="https://en.wikipedia.org/wiki/Misattribution_of_memory">
+<g transform="rotate(211.2) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg426-pt" systemLanguage="pt"><tspan id="trsvg209-pt">Falsa atribuição de memória</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg426-ca" systemLanguage="ca"><tspan id="trsvg209-ca">Mala atribució de la memòria</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg426"><tspan id="trsvg209">Misattribution of memory</tspan></text></switch>
+</g>
+<path d="M-231.3 -164.8 C -289.9 -206.6, -304.7 -184.2, -366.3 -221.4"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Misattribution_of_memory#Source_confusion">
+<g transform="rotate(212.9) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg427-pt" systemLanguage="pt"><tspan id="trsvg210-pt">Confusão da fonte</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg427-ca" systemLanguage="ca"><tspan id="trsvg210-ca">Confusió de fonts</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg427"><tspan id="trsvg210">Source confusion</tspan></text></switch>
+</g>
+<path d="M-231.3 -164.8 C -289.9 -206.6, -299.0 -193.3, -359.4 -232.4"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Cryptomnesia">
+<g transform="rotate(214.6) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg428-pt" systemLanguage="pt"><tspan id="trsvg211-pt">Criptomnésia</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg428-ca" systemLanguage="ca"><tspan id="trsvg211-ca">Criptomnèsia</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg428"><tspan id="trsvg211">Cryptomnesia</tspan></text></switch>
+</g>
+<path d="M-231.3 -164.8 C -289.9 -206.6, -293.0 -202.2, -352.2 -243.1"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/False_memory">
+<g transform="rotate(216.3) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg429-pt" systemLanguage="pt"><tspan id="trsvg212-pt">Memória falsa</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg429-ca" systemLanguage="ca"><tspan id="trsvg212-ca">Falsa memòria</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg429"><tspan id="trsvg212">False memory</tspan></text></switch>
+</g>
+<path d="M-231.3 -164.8 C -289.9 -206.6, -286.7 -211.0, -344.7 -253.7"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Suggestibility">
+<g transform="rotate(218.1) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg430-pt" systemLanguage="pt"><tspan id="trsvg213-pt">Sugestionabilidade</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg430-ca" systemLanguage="ca"><tspan id="trsvg213-ca">Sugestibilitat</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg430"><tspan id="trsvg213">Suggestibility</tspan></text></switch>
+</g>
+<path d="M-231.3 -164.8 C -289.9 -206.6, -280.2 -219.6, -336.9 -264.0"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Spacing_effect">
+<g transform="rotate(219.8) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg431-pt" systemLanguage="pt"><tspan id="trsvg214-pt">Efeito do espaçamento</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg431-ca" systemLanguage="ca"><tspan id="trsvg214-ca">Efecte d'espaiat</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg431"><tspan id="trsvg214">Spacing effect</tspan></text></switch>
+</g>
+<path d="M-231.3 -164.8 C -289.9 -206.6, -273.5 -227.9, -328.8 -274.0"/>
+</a>
+<path d="M-71.6 -122.6 C -107.4 -183.9, -173.4 -123.6, -231.3 -164.8"/>
+<circle cx="-513.0" cy="-365.7" r="10.0"/>
+<switch style="font-size:15.0px;"><text style="font-size:15.0px;" transform="translate(-537.0,-365.7)" text-anchor="end" id="trsvg432-pt" systemLanguage="pt"><tspan x="0" y="-14.6" id="trsvg215-pt">Editamos e reforçamos</tspan><tspan x="0" dy="22.5" id="trsvg216-pt">algumas memórias após o facto</tspan></text><text style="font-size:15.0px;" transform="translate(-537.0,-365.7)" text-anchor="end" id="trsvg432-ca" systemLanguage="ca"><tspan x="0" y="-14.6" id="trsvg215-ca">Editem i reforcem</tspan><tspan x="0" dy="22.5" id="trsvg216-ca">alguns records després dels fets</tspan></text><text style="font-size:15.0px;" transform="translate(-537.0,-365.7)" text-anchor="end" id="trsvg432"><tspan x="0" y="-14.6" id="trsvg215">We edit and reinforce </tspan><tspan x="0" dy="22.5" id="trsvg216">some memories after the fact</tspan></text></switch>
+</g>
+<g>
+<a xlink:href="https://en.wikipedia.org/wiki/Implicit_stereotype">
+<g transform="rotate(223.3) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg433-pt" systemLanguage="pt"><tspan id="trsvg217-pt">Associação implícita</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg433-ca" systemLanguage="ca"><tspan id="trsvg217-ca">Associació implícita</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg433"><tspan id="trsvg217">Implicit association</tspan></text></switch>
+</g>
+<path d="M-191.5 -209.7 C -240.1 -262.9, -259.2 -244.0, -311.6 -293.4"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Implicit_stereotype">
+<g transform="rotate(225.0) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg434-pt" systemLanguage="pt"><tspan id="trsvg218-pt">Estereótipos implícitos</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg434-ca" systemLanguage="ca"><tspan id="trsvg218-ca">Estereotips implícits</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg434"><tspan id="trsvg218">Implicit stereotypes</tspan></text></switch>
+</g>
+<path d="M-191.5 -209.7 C -240.1 -262.9, -251.7 -251.7, -302.6 -302.6"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Implicit_stereotype">
+<g transform="rotate(226.7) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg435-pt" systemLanguage="pt"><tspan id="trsvg219-pt">Viés esteriotípico</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg435-ca" systemLanguage="ca"><tspan id="trsvg219-ca">Biaix estereotípic</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg435"><tspan id="trsvg219">Stereotypical bias</tspan></text></switch>
+</g>
+<path d="M-191.5 -209.7 C -240.1 -262.9, -244.0 -259.2, -293.4 -311.6"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Prejudice">
+<g transform="rotate(228.5) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg436-pt" systemLanguage="pt"><tspan id="trsvg220-pt">Preconceito</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg436-ca" systemLanguage="ca"><tspan id="trsvg220-ca">Prejudici</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg436"><tspan id="trsvg220">Prejudice</tspan></text></switch>
+</g>
+<path d="M-191.5 -209.7 C -240.1 -262.9, -236.1 -266.5, -283.8 -320.4"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Negativity_bias">
+<g transform="rotate(230.2) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg437-pt" systemLanguage="pt"><tspan id="trsvg221-pt">Viés de negatividade</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg437-ca" systemLanguage="ca"><tspan id="trsvg221-ca">Biaix de negativitat</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg437"><tspan id="trsvg221">Negativity bias</tspan></text></switch>
+</g>
+<path d="M-191.5 -209.7 C -240.1 -262.9, -227.9 -273.5, -274.0 -328.8"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Fading_affect_bias">
+<g transform="rotate(231.9) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg438-pt" systemLanguage="pt"><tspan id="trsvg222-pt">Viés de apagamento de afeto</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg438-ca" systemLanguage="ca"><tspan id="trsvg222-ca">Esvaeix el biaix d'afecte</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg438"><tspan id="trsvg222">Fading affect bias</tspan></text></switch>
+</g>
+<path d="M-191.5 -209.7 C -240.1 -262.9, -219.6 -280.2, -264.0 -336.9"/>
+</a>
+<path d="M-71.6 -122.6 C -107.4 -183.9, -143.6 -157.3, -191.5 -209.7"/>
+<circle cx="-424.8" cy="-465.2" r="10.0"/>
+<switch style="font-size:15.0px;"><text style="font-size:15.0px;" transform="translate(-448.8,-465.2)" text-anchor="end" id="trsvg439-pt" systemLanguage="pt"><tspan x="0" y="-17.6" id="trsvg223-pt">Descartamos detalhes</tspan><tspan x="0" dy="22.5" id="trsvg224-pt">para generalizar</tspan></text><text style="font-size:15.0px;" transform="translate(-448.8,-465.2)" text-anchor="end" id="trsvg439-ca" systemLanguage="ca"><tspan x="0" y="-17.6" id="trsvg223-ca">Descartem particularitats</tspan><tspan x="0" dy="22.5" id="trsvg224-ca">per formar generalitats</tspan></text><text style="font-size:15.0px;" transform="translate(-448.8,-465.2)" text-anchor="end" id="trsvg439"><tspan x="0" y="-17.6" id="trsvg223">We discard specifics </tspan><tspan x="0" dy="22.5" id="trsvg224">to form generalities</tspan></text></switch>
+</g>
+<g>
+<a xlink:href="https://en.wikipedia.org/wiki/Peak–end_rule">
+<g transform="rotate(235.4) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg440-pt" systemLanguage="pt"><tspan id="trsvg225-pt">Regra de fim-do-pico</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg440-ca" systemLanguage="ca"><tspan id="trsvg225-ca">Regla del pic-final</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg440"><tspan id="trsvg225">Peak–end rule</tspan></text></switch>
+</g>
+<path d="M-116.6 -259.0 C -146.1 -324.6, -202.2 -293.0, -243.1 -352.2"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Leveling_and_sharpening">
+<g transform="rotate(237.1) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg441-pt" systemLanguage="pt"><tspan id="trsvg226-pt">Nivelar e afiar</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg441-ca" systemLanguage="ca"><tspan id="trsvg226-ca">Anivellació i afilat</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg441"><tspan id="trsvg226">Leveling and sharpening</tspan></text></switch>
+</g>
+<path d="M-116.6 -259.0 C -146.1 -324.6, -193.3 -299.0, -232.4 -359.4"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Misinformation_effect">
+<g transform="rotate(238.8) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg442-pt" systemLanguage="pt"><tspan id="trsvg227-pt">Efeito da desinformação</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg442-ca" systemLanguage="ca"><tspan id="trsvg227-ca">Efecte de desinformació</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg442"><tspan id="trsvg227">Misinformation effect</tspan></text></switch>
+</g>
+<path d="M-116.6 -259.0 C -146.1 -324.6, -184.2 -304.7, -221.4 -366.3"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Recall_(memory)#Serial_recall">
+<g transform="rotate(240.6) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg443-pt" systemLanguage="pt"><tspan id="trsvg228-pt">Efeito de recuperação em série</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg443-ca" systemLanguage="ca"><tspan id="trsvg228-ca">Efecte de recuperació en sèrie</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg443"><tspan id="trsvg228">Serial recall effect</tspan></text></switch>
+</g>
+<path d="M-116.6 -259.0 C -146.1 -324.6, -174.9 -310.1, -210.3 -372.8"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Recall_(memory)#Serial_recall">
+<g transform="rotate(242.3) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg444-pt" systemLanguage="pt"><tspan id="trsvg229-pt">Efeito do comprimento da lista</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg444-ca" systemLanguage="ca"><tspan id="trsvg229-ca">Efecte llista-longitud</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg444"><tspan id="trsvg229">List–length effect</tspan></text></switch>
+</g>
+<path d="M-116.6 -259.0 C -146.1 -324.6, -165.4 -315.2, -198.9 -379.0"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Duration_neglect">
+<g transform="rotate(244.0) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg445-pt" systemLanguage="pt"><tspan id="trsvg230-pt">Negligência da duração</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg445-ca" systemLanguage="ca"><tspan id="trsvg230-ca">Negligència de durada</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg445"><tspan id="trsvg230">Duration neglect</tspan></text></switch>
+</g>
+<path d="M-116.6 -259.0 C -146.1 -324.6, -155.8 -320.1, -187.4 -384.8"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Modality_effect">
+<g transform="rotate(245.8) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg446-pt" systemLanguage="pt"><tspan id="trsvg231-pt">Efeito da modalidade</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg446-ca" systemLanguage="ca"><tspan id="trsvg231-ca">Efecte de modalitat</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg446"><tspan id="trsvg231">Modality effect</tspan></text></switch>
+</g>
+<path d="M-116.6 -259.0 C -146.1 -324.6, -146.1 -324.6, -175.7 -390.3"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Memory_inhibition">
+<g transform="rotate(247.5) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg447-pt" systemLanguage="pt"><tspan id="trsvg232-pt">Inibição de memória</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg447-ca" systemLanguage="ca"><tspan id="trsvg232-ca">Inhibició de la memòria</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg447"><tspan id="trsvg232">Memory inhibition</tspan></text></switch>
+</g>
+<path d="M-116.6 -259.0 C -146.1 -324.6, -136.2 -328.9, -163.8 -395.4"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Serial-position_effect#Primacy_effect">
+<g transform="rotate(249.2) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg448-pt" systemLanguage="pt"><tspan id="trsvg233-pt">Efeito de primazia</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg448-ca" systemLanguage="ca"><tspan id="trsvg233-ca">Efecte primacia</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg448"><tspan id="trsvg233">Primacy effect</tspan></text></switch>
+</g>
+<path d="M-116.6 -259.0 C -146.1 -324.6, -126.2 -332.9, -151.8 -400.2"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Serial-position_effect#Recency_effect">
+<g transform="rotate(251.0) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg449-pt" systemLanguage="pt"><tspan id="trsvg234-pt">Efeito do mais recente</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg449-ca" systemLanguage="ca"><tspan id="trsvg234-ca">Efecte recent</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg449"><tspan id="trsvg234">Recency effect</tspan></text></switch>
+</g>
+<path d="M-116.6 -259.0 C -146.1 -324.6, -116.1 -336.5, -139.6 -404.6"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Memory_inhibition#Part-set_cuing_effect">
+<g transform="rotate(252.7) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg450-pt" systemLanguage="pt"><tspan id="trsvg235-pt">Efeito da pista parcial</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg450-ca" systemLanguage="ca"><tspan id="trsvg235-ca">Efecte d'indicació parcial</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg450"><tspan id="trsvg235">Part–set cueing effect</tspan></text></switch>
+</g>
+<path d="M-116.6 -259.0 C -146.1 -324.6, -105.9 -339.9, -127.3 -408.6"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Serial-position_effect">
+<g transform="rotate(254.4) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg451-pt" systemLanguage="pt"><tspan id="trsvg236-pt">Efeito da posição em série</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg451-ca" systemLanguage="ca"><tspan id="trsvg236-ca">Efecte de posició en sèrie</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg451"><tspan id="trsvg236">Serial–position effect</tspan></text></switch>
+</g>
+<path d="M-116.6 -259.0 C -146.1 -324.6, -95.6 -342.9, -114.9 -412.3"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/List_of_cognitive_biases#Suffix_effect">
+<g transform="rotate(256.2) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg452-pt" systemLanguage="pt"><tspan id="trsvg237-pt">Efeito sufixo</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg452-ca" systemLanguage="ca"><tspan id="trsvg237-ca">Efecte sufix</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg452"><tspan id="trsvg237">Suffix effect</tspan></text></switch>
+</g>
+<path d="M-116.6 -259.0 C -146.1 -324.6, -85.2 -345.7, -102.4 -415.6"/>
+</a>
+<path d="M-71.6 -122.6 C -107.4 -183.9, -87.4 -194.2, -116.6 -259.0"/>
+<circle cx="-258.6" cy="-574.5" r="10.0"/>
+<switch style="font-size:15.0px;"><text style="font-size:15.0px;" transform="translate(-282.6,-574.5)" text-anchor="end" id="trsvg453-pt" systemLanguage="pt"><tspan x="0" y="-20.8" id="trsvg238-pt">Reduzimos eventos e listas </tspan><tspan x="0" dy="22.5" id="trsvg239-pt">aos seus elementos-chave</tspan></text><text style="font-size:15.0px;" transform="translate(-282.6,-574.5)" text-anchor="end" id="trsvg453-ca" systemLanguage="ca"><tspan x="0" y="-20.8" id="trsvg238-ca">Reduïm esdeveniments i llistes</tspan><tspan x="0" dy="22.5" id="trsvg239-ca">als seus elements clau</tspan></text><text style="font-size:15.0px;" transform="translate(-282.6,-574.5)" text-anchor="end" id="trsvg453"><tspan x="0" y="-20.8" id="trsvg238">We reduce events and lists </tspan><tspan x="0" dy="22.5" id="trsvg239">to their key elements</tspan></text></switch>
+</g>
+<g>
+<a xlink:href="https://en.wikipedia.org/wiki/Levels-of-processing_effect">
+<g transform="rotate(259.6) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg454-pt" systemLanguage="pt"><tspan id="trsvg240-pt">Efeito de níveis de processamento</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg454-ca" systemLanguage="ca"><tspan id="trsvg240-ca">Efecte dels nivells de processament</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg454"><tspan id="trsvg240">Levels–of–processing effect</tspan></text></switch>
+</g>
+<path d="M-30.0 -282.4 C -37.6 -354.0, -64.2 -350.2, -77.1 -421.0"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Absent-mindedness">
+<g transform="rotate(261.3) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg455-pt" systemLanguage="pt"><tspan id="trsvg241-pt">Distração</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg455-ca" systemLanguage="ca"><tspan id="trsvg241-ca">Ment distreta i absent</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg455"><tspan id="trsvg241">Absent–mindedness</tspan></text></switch>
+</g>
+<path d="M-30.0 -282.4 C -37.6 -354.0, -53.6 -351.9, -64.4 -423.1"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Testing_effect">
+<g transform="rotate(263.1) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg456-pt" systemLanguage="pt"><tspan id="trsvg242-pt">Efeito de testagem</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg456-ca" systemLanguage="ca"><tspan id="trsvg242-ca">Efecte de prova</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg456"><tspan id="trsvg242">Testing effect</tspan></text></switch>
+</g>
+<path d="M-30.0 -282.4 C -37.6 -354.0, -42.9 -353.4, -51.6 -424.9"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Next-in-line_effect">
+<g transform="rotate(264.8) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg457-pt" systemLanguage="pt"><tspan id="trsvg243-pt">Efeito do seguinte na fila</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg457-ca" systemLanguage="ca"><tspan id="trsvg243-ca">Efecte següent en línia</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg457"><tspan id="trsvg243">Next–in–line effect</tspan></text></switch>
+</g>
+<path d="M-30.0 -282.4 C -37.6 -354.0, -32.2 -354.5, -38.7 -426.2"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Google_effect">
+<g transform="rotate(266.5) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg458-pt" systemLanguage="pt"><tspan id="trsvg244-pt">Efeito Google</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg458-ca" systemLanguage="ca"><tspan id="trsvg244-ca">efecte Google</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg458"><tspan id="trsvg244">Google effect</tspan></text></switch>
+</g>
+<path d="M-30.0 -282.4 C -37.6 -354.0, -21.5 -355.4, -25.8 -427.2"/>
+</a>
+<a xlink:href="https://en.wikipedia.org/wiki/Tip_of_the_tongue">
+<g transform="rotate(268.3) translate(428.0)">
+<circle cx="3" r="3.0"/>
+<switch><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg459-pt" systemLanguage="pt"><tspan id="trsvg245-pt">Fenómeno ponta da língua</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg459-ca" systemLanguage="ca"><tspan id="trsvg245-ca">Fenòmen de la punta de la llengua</tspan></text><text x="12" y="4" text-anchor="end" transform="rotate(180 12,0)" id="trsvg459"><tspan id="trsvg245">Tip of the tongue phenomenon</tspan></text></switch>
+</g>
+<path d="M-30.0 -282.4 C -37.6 -354.0, -10.8 -355.8, -12.9 -427.8"/>
+</a>
+<path d="M-71.6 -122.6 C -107.4 -183.9, -22.5 -211.8, -30.0 -282.4"/>
+<circle cx="-66.5" cy="-626.5" r="10.0"/>
+<switch style="font-size:15.0px;"><text style="font-size:15.0px;" transform="translate(-90.5,-626.5)" text-anchor="end" id="trsvg460-pt" systemLanguage="pt"><tspan x="0" y="-22.4" id="trsvg246-pt">Guardamos memórias de modo diferente</tspan><tspan x="0" dy="22.5" id="trsvg247-pt">baseados no modo como foram experiençadas</tspan></text><text style="font-size:15.0px;" transform="translate(-90.5,-626.5)" text-anchor="end" id="trsvg460-ca" systemLanguage="ca"><tspan x="0" y="-22.4" id="trsvg246-ca">Emmagatzemem els records de manera diferent</tspan><tspan x="0" dy="22.5" id="trsvg247-ca">sobre com els vam viure</tspan></text><text style="font-size:15.0px;" transform="translate(-90.5,-626.5)" text-anchor="end" id="trsvg460"><tspan x="0" y="-22.4" id="trsvg246">We store memories differently based </tspan><tspan x="0" dy="22.5" id="trsvg247">on how they were experienced</tspan></text></switch>
+</g>
+</g>
+</g>
+
+</g>
+
+<g id="brain" transform="translate(950,775) scale(0.09)">
+<path style="fill:#979797;" d="m921,1085-83-125-399,0,281,227,141-21"/>
+<path style="fill:#646464;" d="m554,991c47,24,135,119,151,143,7-20-51-113-120-151-33-18-65-62-65-62l-26,18s13,27,60,51m79-83-34,7c25,29,158,186,200,206-27-46-165-213-165-213zm152,110c-35-53-43-123-43-123l-36,11s34,96,51,120c16,23,68,68,68,68s-7-27-40-76zm127,27c-26-38-90-112-91-164h-28s-13,13,6,54c20,40,80,120,94,137,14,16,1,64-68,87-70,22-106,22-130-10-23-33-101-92-159-125-57-33-67-74-67-74l-41,7s14,39,37,64c23,24,93,39,147,92,45,43,71,63,87,76,15,12,90,27,171-20,80-47,69-84,42-122m-286-70c26,46,104,143,146,173-16-24-146-173-146-173z"/>
+<path style="fill:#afafaf;" d="m-1329-313c-4,7-44,30-75,82-42,69-51,156-27,263-37,66-70,197-29,302,24,63,71,104,146,132,8,121,130,198,200,211,24,28,46,57,186,85,48,89,135,135,214,170,10,0,21-1,41-1,33,21,84,53,158,53,71,0,146-30,231-93,21,2,36,4,52,4,82,0,178-52,212-69,38,4,69,7,100,7,120,0,233-41,354-125,115-1,183-27,290-101,114-1,246-33,295-70,96-10,253-71,292-207,64-28,130-121,154-218,12-49,25-141-35-215-4-142-24-282-151-379-32-115-149-156-156-164-5-53-30-89-87-123-34-68-120-141-274-160-29-62-124-171-328-177-89-45-166-65-252-65-19,0-39,0-67,2-37-11-81-17-128-17-77,0-152,17-208,48-76,5-138,18-192,38-14,5-26,22-35,32-26,8-61,17-70,25-32,27-58,60-83,102-152,47-323,118-367,190-94,35-237,124-266,222-81,47-87,205-92,214z"/>
+<path style="fill:#959595;" d="m710,601-634,225,194,142,224-9,386-1,247-132,158-266-19-72,12-90-110,91z"/>
+<path style="fill:#e9e9e9;" d="m-1277,0s50-10,77-62l-38-7,3-34s81-33,76,42c-0,0-0,0-0,1-0,9-2,20-7,32-17,40-101,116-111,29zm152,355c-58-33-83-120-83-120-72,69-37,157-5,198-21-71,3-124,3-124s40,48,85,46zm-204-305c-68,71-42,151-17,178,9-66,40-73,62-108-29-19-44-69-44-69zm280,363c-56,3-126,46-126,46,33,56,93,58,93,58s-5-66,29-87c68,64,124,33,124,33l-7,38s52-29,79-54c-39,1-142-15-193-34zm-243-483c-48-31-68-112-68-112-56,91-15,182-15,182s42-60,83-69zm349,454c-5-29-50-97-87-112-11-46-40-85-79-101,47-14,87-33,105-87,0,0-140-33-144,71-3,104,144,198,206,229zm-48-456s33,44,40,75c9-42-11-106-35-132,0,0-92,29-83,130,46,13,76,40,76,40s-9-58-27-81c15-21,29-33,29-33zm62-50c29,3,125-56,29-124-1-34,69-25,106-9,9-29-6-98-31-108,33-11,68,7,95,34,15-19-11-54-60-71,0,0-165,2-140,279zm103,330c-66-44-87-120-87-120-103,81-1,180,40,198-37-48-48-118-48-118s60,44,95,40zm352-281s-52-38-107-46c-325-21-267,262-267,262,99,0,46-116,46-116s76,29,83,13c7-15-29-54-44-77,78-3,142,11,142,11s11-31,13-58c56,50,132,11,132,11zm-659-206c3-17,9-45,49-86,21-1,127-9,167-77-29-31-37-40-37-40l-63,53c-57,22-220,99-129,231,59-41,93-106,13-80zm-61-216c-115,71-83,270-83,270s39-93,70-130c-17-52,13-139,13-139zm46,62c66-42,120-31,120-31s-7-62,0-99c-103,38-120,130-120,130zm220-66c80,25,103-21,115-60-40-32-118,3-118,3s-5,38,3,56zm156,11c27-3,64-1,101,11,9-29,25-73,66-116-105,17-167,104-167,104zm179,139c26-36,72-77,72-77s-25-10-67,15c2-49,10-142,10-142s-80,103-15,204zm252,170s-5-44-59-101c-153-108-247,95-247,95,93,64,65-44,65-44l72,20s-7-86,18-72c65,103,150,101,150,101zm-561-445s80-31,119-7c14-43,12-88,33-121-65,33-153,129-153,129zm-88-15s-10-28-15-56c-88,41-163,129-163,129,83-28,132-28,132-28l46-44zm468-38c18,38,31,116,31,116,28-36,7-132,7-158,33,2,117,31,117,31s12-69,49-80c52,46,93,7,93,7s-43-40-104-41c-148,18-213,85-195,124zm81,44s-3,93-46,172c46-11,118-79,118-79l-62,7s9-58-9-101zm-27,849c7-44,5-145,72-248,0,0-88,59-124,152,31-20,41-28,41-28s-13,44,10,124zm-200,90c-93,22-49,150-49,150,41-170,150-82,150-82s-26-85-101-67zm-184,373c-5,93,106,137,106,137s36-106-70-168c41-19,88-23,119-69,0,0-147-52-156,101zm629-243s-15-106-85-124c-110-28-221,119-221,119,78-5,158-44,208-82,36,64,98,88,98,88zm169,80c-148-80-257-5-257-5,109,62,174,38,257,5zm-353-339c49-56,104-90,104-90s-12,59-12,121c70-67,46-139,46-139s88-24,119-51c-241-28-257,160-257,160zm-153-989s36-31,88-62c-127-31-283,38-283,38,112-21,197-23,197-23l-2,46zm265,238s93-5,145,0c-13-82,36-186,36-186-57,62-67,101-72,145-49,7-109,41-109,41zm-488-235c-104,10-158,75-150,134,0,0,65-88,150-134zm234,1572s-44,54,28,44c72-10,106-90,88-150-20,51-117,106-117,106zm171-1145s47-48,117-72c91-31,239,46,239,46s-46-62-122-95c-187-62-234,121-234,121zm161,20c-111,12-93,72-44,132-18-98,44-132,44-132zm106,176s5,72,57,113c52,41,135,15,88-69-44-88-117-111-117-111s106-12,119-56c-267-10-210,194-210,194,36-72,62-69,62-69zm106,430c-133-3-153,139-153,139l57-54s-2,85,51,124c-7-77-13-127,2-166,83-28,156,93,156,93s-10-134-114-137zm413,85c28-41-7-212-109-176-101,36-93,186-93,186,29-4,44-44,52-108,26,18,122,139,150,98zm-418-178c107,28,145-25,156-106-72,101-213,44-213,44s-2,46,57,62zm-329,506c18,26,26,69,0,121,49-16,72-64,72-64s57,28,93,23c-54-85-166-80-166-80zm264-1190c46-31,39-88,28-111,117-33,106-90,200-119-14-35-36-56-36-56s109-7,111-44c-101-36-187,49-187,49s64,13,67,36c-252,36-184,246-184,246zm-88-266c12-65,42-103,72-132-148,33-72,132-72,132zm499,699c-45-66-15-121-15-121s23,32,72,49c-150-240-267-15-267-15,54,46,86,81,126,158l3-19c-19-85-23-178-23-178s49,129,104,126zm107,214c-15-141-150-159-150-159,31,143,99,153,150,159zm-944,425c-78-2-140-80-140-80s-85-22-31,38,123,81,171,41zm507-1100s-28,51,5,101c33,49,87,71,127,49-13-106-132-150-132-150zm41-341s104-51,176-62c-96-62-262,20-262,20,62,12,85,41,85,41zm67,266s41,67,72,101c-15-116,52-173,52-173s33,56,62,88c10-77,106-111,171-139-231-51-358,124-358,124zm98,261c41,25,150,23,226,12-46-28-104-23-104-23s62-27,88-41c-109-41-210,51-210,51zm314,178c-31,15-80,7-80,7,5,33,2,62-12,106,57,23,96-69,93-113zm-46-318c2-41,28-90,67-111-33-15-88-33-143,38,0,0,54,46,75,72zm-371,1194,75-25s-18,31-15,82c39-31,111-124,98-173-145,49-158,116-158,116zm-114-56c-23,20-130,67-130,67,52,56,135-38,135-38l49,20s-20-38-54-49zm-1396-551c-104,150-7,266,52,259-132-56-52-259-52-259zm145,430c28,88,145,124,249,85-162,16-249-85-249-85zm1827-295s36,95-2,160c-39,64-231,80-231,80,91,23,249-31,249-31s26,49,62,75c5-28-15-121-15-121s36,44,57,59c2-95-57-158-57-158s39,15,67,33c-28-101-130-98-130-98zm-83-1025c-65-49-132-77-197-72,0,0,15,38,7,62,46-7,143-5,189,10zm135,502-75-49s-5-46,44-134c0,0-122,56-65,155,57,98,127,126,83,253,49-23,104-163,12-225zm62,212c-33,36-62,67-158,103,0,0,15,69,15,101,61-27,140-137,143-204zm-91-619s39,67,44,121c54,15,143,51,195,111,26-54,80-150-174-165-10-59,44-77,145-59-5-44-83-165-210-7zm228,466c-44-132-192-119-192-119s54,54,80,101c26,46,119,106,111,18zm275-137s-109-23-132,44c-23,67-62,77-62,77s10,72,93,36c83-36,101-158,101-158zm-213,284c-18,36-101,95-101,95,117-12,132,23,187,5,54-18-10-85-10-85s-32-14-75-15zm-163,261c44,36,65,90,83,160,41-95,15-173,15-173s135-5,161-41c-180-78-260,54-260,54zm452-401s-54,113-124,129c23,36,57,49,98,18s26-147,26-147zm-2,238s7,77,0,113c49-20,184-150,75-313,5,54,5,158-75,199zm-166-461c41,0,72,5,104,20-13-57-33-119-124-145,0,0,25,62,20,124zm-455,937s-30,61-54,75c-10,33-12,80-12,80l49-62s39,20,80,10c-40-32-46-62-62-103zm449-25c54-59,91-121,91-173,0,0-45,30-62,36-0,34-15,116-28,137zm163-235c26,18,49,38,67,62,25-28,33-75,33-75l33,20s25-36,44-108c-49,62-179,101-179,101zm-780-1139c31,7,78,20,78,20s-7-72-130-69c0,0,44,33,52,49zm140,59,57,59s101-41,169-46c-44-23-137-49-226-12zm-972-5c41-23,15-82-26-93-26,2-67,28-67,28s65,18,93,64zm101-108c22,19,39,77,39,77s85-31-5-80c10-54-12-72-46-80,0,0,28,56,13,82zm332-38s-143-36-239,28l104,18,135-46zm23-15c44-2,75-5,75-5s-49-113-202-90c0,0,106,28,127,95zm330-5s-41-69-150-80c0,0,36,46,36,82,26,0,114-2,114-2zm98-15-31,23s162,36,228,82c-46-67-140-98-197-106zm514,417c44-7,80-44,80-44l-65,10s-10-88-135-90c0,0,96,79,119,124zm348,243s5,98-10,126c20,28,49,77,54,95,20-59,18-168-44-222zm117,347-33,46s23,126,23,160c18-59,10-207,10-207z"/>
+<path style="fill:#5e5e5e;" d="M1296,346s-20,29-35,60c8,12,9,31,5,50-3,6-7,13-11,19-46,40-146,117-398,180-99,19-156,12-208,9l-61,34s137,19,269-26c231-50,352-149,393-190-96,149-321,203-477,227,167-2,370-42,483-182,1-1,3-3,6-6,7,13,7,27,3,40-48,73-135,119-211,153-198,88-418,107-631,91,264,51,559,8,784-147,0,5-0,13-6,24-52,119-179,103-278,135-140,45-307,84-458,67-42-4-83-20-118-45,60,17,125,25,186,9-79-1-154-14-227-45-15-16-23-29-23-29s-12,4-40,5c37,94,113,140,199,158-46,12-100,18-155,6,13-14,28-34,30-55-21,20-45,36-63,46-16-5-32-13-48-22,25-14,57-39,65-69-33,27-68,42-94,50-24-18-47-41-70-70l-63,5s154,271,435,149c53,4,202,8,370-0,6-0,13-1,20-2,121-19,252-84,307-201,54-41,99-100,109-171,27-33,36-88,3-121,28-39,25-92,10-136zm-31,206c-180,130-319,195-838,229,0,0,570,54,838-229zm-865,167c-15,5-23,8-39,14,150,20,304,13,453-6-137,8-280,15-414-7zm703,99c-67,71-158,103-251,118-41,4-170,5-251,5,42-5,84-15,121-26,71-17,142-35,214-51,56-9,113-23,166-46z"/>
+<path style="fill:#515151;" d="m24-328c-268-11-236,183-222,236,36,8,76,32,120,85,54,8,114-11,146-27-38,48-88,57-116,58,48,38,115,46,164,16-67,65-160,40-209-17-44-52-102-117-198-79-17,10-40,27-60,51,25-7,54-5,86,10-160,1-167,181-167,181-11-58-0-113,25-150,10-39,36-71,65-92-14-2-39,2-85,27-14,7-27,16-40,25-30,49-106,158-175,160-89,2-126-70-126-70s147,86,195-13c-23-47-142-78-142-78s67-14,180,37c7-12,15-24,24-36,20-20,45-40,75-56-16-20-78-96-114-126,39,5,81,49,81,49l-23-107s39,42,50,115c8,24,26,44,37,54,34-12,74-17,118-9,12-4,25-8,39-10-1-17-2-57,12-121,17-74,63-110,111-124-45-66-153-64-153-64,94-36,168,27,196,57,47-3,89,8,104,19zm1299,668c-36,144-209,203-296,211-50,39-195,74-304,70-97,76-172,106-292,101-191,152-373,131-444,118-37,21-171,92-264,63-203,160-345,77-393,38-1,0-2,0-4,0-27,5-63,5-100-8-30-10-56-27-76-48-28-26-56-64-81-115-131-23-160-52-184-84-68-9-200-90-203-215-221-63-187-336-121-444-63-255,105-349,105-349s5-168,92-215c26-100,178-192,267-223,44-78,231-150,366-189,21-42,50-75,82-102,17-14,72-25,72-25s15-26,38-35c68-25,138-34,193-38,101-58,255-60,342-31,92-7,189-5,321,63,211,5,308,120,332,181,145,13,240,84,276,160,55,31,87,70,87,126,0,0,126,42,158,162,131,97,150,247,153,381,121,141-11,405-122,448zm-898-1420-45,49c116,6,218,61,257,85,24-3,53-6,88-7-52-53-138-147-301-128zm21,84c-47-20-112-9-161,5,42,17,73,44,89,61,46,12,82,27,97,35,29-25,80-36,111-41-32-14-92-40-138-60zm-1417,366c21-17,52-29,95-32-57,23-90,59-110,93,77-63,186-47,227-20,65-44,134-70,134-70s7-26,42-68c-14-26-40-39-71-44-32,6-78,29-86,99-16-22-4-72,21-101-35,2-70,10-94,14,76-84,234-28,271-15,30-38,129-94,174-107,23-55-36-84-84-102,134-18,137,102,137,102s52-36,87-57c-7-21-42-44-42-44s65,14,135,13c130-59,212-68,256-65,2-0,3-0,3-0s-15-26-44-47c72,11,127,42,146,53,29-4,74-9,120-6,14-7,32-24,47-39,16-18,16-18,16-18s-71-65-245-55c24,30,15,60,15,60s-116-155-364-52c87,9,145,52,168,92,0,0-150-43-257,19,47-49,95-64,132-66-81-18-184-22-286,18,26,3,57,18,74,64-50-43-109-36-149-22-66,59-75,103-75,103s58,3,87,42c-34-15-94-23-184,0-89,23-250,94-276,165-18,49-20,82-19,98zm-228,75c17,4,33,18,43,29,23-24,60-43,114-46,0,0-123,37-127,178,22-21,60-41,126-36-204,84-150,213-98,265,20-8,41-13,59-17,27-20,72-61,99-126,0-0,0-0,0-0,0-0,0-1,0-2-40-25-82-8-130,11,21-43,70-56,110-59,21-13,63-41,119-83-8-4-32-20-39-40,93,31,113-34,129-73-42-58-152-15-203,10-16,36-17,66-17,66-7-31-10-104,41-147-6-17-19-60-15-89-42,5-145,73-211,162zm-89,380c11-32,32-82,60-115,2-23,15-42,30-58-3-35-9-113,33-168-25-3-72,1-105,71-37,78-40,208-18,270zm-88,214c11-30,39-66,68-80,5,41,16,79,22,87,13,22,31,38,52,36,15-1,38-15,62-42,9-9,28-34,36-62,6-36,7-76,7-99-22-3-55-6-84,1,10-11,22-21,35-29-44-44-53-83-50-112-20,46-39,122-31,212-18-18-84-89-90-144,22,18,50,49,50,49s0-2,1-6c-38-63-36-132-36-132s-175,173-43,321zm75,207c10-33,24-58,37-77,6-24,3-46-1-63-38-24-57-68-55-105-57,56-70,136-70,136-2-19,0-51,10-83-23-4-41-10-41-10s-63,162-26,249c33,77,64,111,113,122,0-26,1-67,5-93-73-2-97-100-68-141,10,86,79,97,97,68zm244,211c42,95,128,107,173,106,23-28,56-50,101-51-8-27-22-88-11-143-54-0-175-15-203-132-37-157,70-196,105-204,3-59,29-127,116-175-27-98-111-102-111-102,106-5,126,59,144,94,15-84-25-159-63-203,74,25,89,113,91,166,14-30,51-88,87-123-6-18-17-52-32-69-14-25-38-59-72-83,0,0,43,10,72,38,2-32,12-64,35-91,0,0-45,129,28,187,38-23,85-37,144-33,13-43,43-130,114-175-20-115-126-149-126-149,48,0,83,22,107,49,7-25,24-77,32-106,8,37-4,108-10,136,13,21,21,42,25,56,44-18,103-20,180,7-5-47-10-169,74-261,20-21,40-39,61-55-45-62-119-38-119-38,49-51,128-5,156,13,37-23,75-38,111-47,28-6,88,11,88,11s50-21,76-18c1,0,3,0,4,0-56-40-89-34-89-34-76-81-255-7-321,28-15-2-31-3-45-1-82,18-89,70-84,105,32,27,42,54,43,76,25-28,59-53,100-67-129,115-139,178-139,178-6-25,1-56,20-86-3-9-9-22-17-42-44-92-215-19-255-2-40,16-118,63-76,139,42,76,36,144,36,144s-15-31-47-81c-31-50-105-28-195,34-89,63-39,134-39,134s-50-18-121,47c-71,65-34,289-34,289s-21-30-42-65c-102,21-102,94-105,157,63,18,81,60,81,60s-116-34-150,28c-28,52-0,116,48,191,37,39,111,99,238,136-34,9-179-31-179-31s-72,10-126,39c26-30,100-65,100-65s-104-71-120-180c-0-1-0-2-1-3-25,18-45,41-60,66-23,65-32,167,78,262-33,1-79-21-107-55,7,38,23,77,54,110,63,60,118,63,182,42-21,23-50,44-50,44s92,49,168,26c0-20,6-52,21-83-28-0-61-9-88-27-44,7-108,5-144-23,53,10,92-0,110-8-16-22-27-51-26-87zm1034-1089s41-33,94-23c44-64,106-109,173-136,12-31,26-92-28-104-100-20-239,107-239,107s76-15,118,2c-218,8-199,199-187,264,68,51,100,104,100,104s-112-102-207-120c-95-17-207,55-205,195,63,21,118,128,118,128s-118-118-205-116c-87,1-166,76-185,165,45-1,112,39,112,39s-132-45-235,47c-82,74-77,177-71,215,2,9,5,18,8,24-20-18-39-81-44-98-51,24-92,100-50,181,39,75,143,80,183,79,13-21,34-39,66-49-10-42-15-81-15-81s87,88,214,98c-23-26-46-74-23-106,13,87,101,92,148,89,182-63,259-176,259-176s-2,73-110,170c29,31,42,49,42,49s65-141,182-141c28,0,55,4,78,13,35-1,80-9,116-34,35-59,47-154-65-289-65-70-126-94-126-94s36,5,83,33c-4-25-3-82,83-125,37-267-179-312-179-312zm1379,694c-38,68-132,117-224,127-5,9-11,19-18,29,77-1,99,64,76,124,0-93-62-101-103-96-19,17-44,33-75,46,2,20,1,46-4,76-18,89-84,157-134,186,92-20,174-70,232-197-15,76-55,144-55,144s194-26,242-191c0-26-3-58-18-95,15-3,34,46,44,78,9-6,19-15,30-25,15-44,31-119,9-208zm33,160c58-76,104-192,35-307-0-2-0-5-0-8-7,19-20,38-39,52,15-33,32-84,34-138-1-13-2-28-5-42-21,52-44,91-88,127,17-43-37-153-134-177,100,1,150,93,152,122,35-47,56-74,54-138-17-54-48-111-105-164,0,35-2,103-23,147-13-60-55-104-77-123,3,72-19,158-73,234-31,43-69,63-106,69,16,18,42,48,52,69,60,44,137-21,168-118-9,197-158,162-158,162s-1,31-13,73c-10-79-75-156-102-185-36-3-67-15-81-22-21,49-62,91-112,107-1,31-6,58-14,75,163-65,237,45,237,45s-118-55-185-27c-33,13-72,30-101,93,32,47,84,118,89,219,18-0,53-11,90-75-10,57-16,112-125,152,4-24,6-51,4-81-4-55-25-114-75-167-40-43-112-24-170,3,22,40,22,117,12,169-10,52-154,58-201,57-18,55-31,140-192,165-44,31-49,90-49,90-18-28-58-78-94-76-35,31-119,60-156,67,18,25,26,50,24,61-34-63-147-113-211-89,39,131-51,191-110,199,158-119,67-206,24-208-39,70-175,134-214,158-5-84-76-131-76-131,79-5,94,68,94,68s65-18,137-89c48-48,38-102,27-131-88,0-143-49-143-49,153,33,234,10,298-2-39,26-75,40-109,47,5,17,6,36,5,52l47,35c82-15,141,12,179,48,81-17,305-87,174-326,118,120,50,236,50,236s325,48,245-276c30,22,50,97,50,97s154,23,168-25c31-114-76-218-76-218,8,3,60,28,67,33,3-22,3-57-3-109-16-119-195-120-195-120s21-22,90-8c-44-48-36-100-36-100,23,54,52,89,75,111,4,1,9,3,15,5,16,3,29,9,41,16,27-1,60-16,81-69,40-102-21-195-114-216-43-7-69-7-69-7s56-17,108-2c-13-27-26-66-13-103-21-34-90-123-209-74,13-36,102-34,102-34s-116-39-142-94c42,23,94,60,131,60,8-31,26-102,126-94-52,23-100,52-94,105,25,17,82,56,104,100,12-12,29-24,53-33,46-11,52-7,52-7s-76,18-89,82c-13,64,11,92,51,143,39,51,68,116,39,186-22,54-76,81-101,90,33,38,35,131,31,162,29-10,84-23,125-5,120-124,87-313,43-404,51,45,73,117,77,181,36-16,143-80,59-221-100-168-237-94-237-94s23-49,123-31c-26-39-68-63-68-63s105,3,209,155c55-18,113-117,96-179-39-165-276-178-276-178,142-28,232,63,232,63s-17-51-68-115c140,116,164,221,146,301,29-14,82-25,136,34-55-10-102-28-149,6-24,55-65,96-87,115,14,31,16,66,10,98,33,15,138,55,200-23,110-138,67-259,55-345,21,21,35,52,41,90,45,24,69,52,79,82-3-53-17-140-76-195-79-68-168-42-168-42s36-39,73-36c-4-34-7-83-99-66-4,1-10,2-16,3-60-115-228-125-228-125,134-29,235,54,270,89,0-0,0-0,0-0s-51-132-279-157c-71-5-122-4-156-0-51,9-93,24-93,24s15,11,52,52c-119-52-249-115-278-55,9,11,22,29,13,87,61-18,123-22,175-10,34,7,65,31,91,62,24-31,101-78,177-80-108,34-147,89-157,107,31,47,50,102,54,142,89,14,173,76,206,150-137-134-308-144-308-144,25-7,51-10,77-8-8-61-50-141-109-186-218-65-361,84-398,141,56,63,83,134,95,193,29-16,108-53,168-11-96-3-141,38-160,64,2,22,2,40,1,52,102-24,172,67,203,88,34,23,116,28,116,28s-54,15-98,1c7,14,15,37,8,55-10-33-29-59-45-76-45-35-112-97-197-61-80,34-81,98-78,125,97,74,149,208,151,278,58-12,91,13,91,13,3,1-79,9-132,75-20,32-50,38-74,46,17,31,36,95,31,141-18-78-81-191-211-160-129,31-137,181-137,181l89,86s-58-36-110-28c-10-57-32-154-123-165-91-11-179,65-216,113-2-44-39-124-121-118-78,5-135,81-51,236,0,0,0,0,1,0,74,32,94,97,94,97s-134-157-242-21c-108,136,110,365,290,244-18,41-29,70-29,70s229,44,364-144c2,43,2,84,2,84s174-28,226-176c1,64-5,102-5,102s84-7,147-76c-5,49-76,94-76,94s104,4,189-51c24-23,55-66,50-127,19,33,25,74,27,98,16-8,77-46,110-146-0-20-2-33-3-42-26-3-53-16-76-31,0,0,121,31,176-52-13,49-35,72-61,81-4,60-28,131-28,131s121,7,204-46c13-12,29-29,45-49-67,8-106-44-126-90,36,43,108,86,235,28,6-2,13-4,18-7-19,17-38,30-55,41-3,10-7,20-10,31,20-7,169-67,203-204,36-147-97-176-97-176s101-16,135,63c39-17,127-69,149-203,6,24,8,60-2,99,45-3,167-44,217-157,18,31,33,153,23,230z"/>
+</g>
+
+</svg>
