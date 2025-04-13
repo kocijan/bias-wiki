@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>The Cognitive Bias Codex</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <!-- Tippy.js for tooltips -->
+    <script src="https://unpkg.com/@popperjs/core@2"></script>
+    <script src="https://unpkg.com/tippy.js@6"></script>
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/tippy.js@6/themes/light.css"
+    />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <!-- Primary Meta Tags -->
+    <meta name="title" content="The Cognitive Bias Codex" />
+    <meta
+      name="description"
+      content="An interactive visualization of cognitive biases that affect human thinking and decision-making"
+    />
+    <meta
+      name="keywords"
+      content="cognitive bias, psychology, decision making, critical thinking, logical fallacies"
+    />
+    <meta name="author" content="Bias Wiki Contributors" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://bias.wiki/" />
+    <meta property="og:title" content="The Cognitive Bias Codex" />
+    <meta
+      property="og:description"
+      content="Explore the interactive visualization of cognitive biases that affect human thinking and decision-making"
+    />
+    <meta property="og:image" content="/assets/images/og.png" />
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://bias.wiki/" />
+    <meta property="twitter:title" content="The Cognitive Bias Codex" />
+    <meta
+      property="twitter:description"
+      content="Explore the interactive visualization of cognitive biases"
+    />
+    <meta property="twitter:image" content="/assets/images/og.png" />
+
+    <!-- Language alternates -->
+    <link rel="alternate" hreflang="en" href="?lang=en" />
+    <link rel="alternate" hreflang="ca" href="?lang=ca" />
+    <link rel="alternate" hreflang="eu" href="?lang=eu" />
+    <link rel="alternate" hreflang="fr" href="?lang=fr" />
+    <link rel="alternate" hreflang="pt" href="?lang=pt" />
+    <link rel="alternate" hreflang="uk" href="?lang=uk" />
+
+    <!-- Additional meta tags -->
+    <meta name="robots" content="index, follow" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#ffffff" />
+  </head>
+  <body>
+    <div class="language-selector-container">
+      <select id="language-selector">
+        <option value="ca">Català</option>
+        <option value="en" selected>English</option>
+        <option value="eu">Euskara</option>
+        <option value="fr">Français</option>
+        <option value="pt">Português</option>
+        <option value="uk">Українська</option>
+      </select>
+    </div>
+
+    <div id="container">
+      <div id="svg-container">
+        <!-- SVG will be loaded here -->
+      </div>
+    </div>
+
+    <div class="info-button">i</div>
+    <div class="info-panel">
+      <div class="info-panel-content">
+        <span class="close-info">&times;</span>
+        <h2>The Cognitive Bias Codex</h2>
+        <p>
+          A visual representation of cognitive biases that affect human thinking
+          and decision-making.
+        </p>
+        <p>Click or tap on individual biases to learn more about them.</p>
+      </div>
+    </div>
+
+    <footer>
+      <div class="credits">
+        <p>
+          The Cognitive Bias Codex is licensed under
+          <a
+            href="https://creativecommons.org/licenses/by-sa/4.0/"
+            target="_blank"
+            >CC BY-SA 4.0</a
+          >
+        </p>
+        <p>
+          Original work by
+          <a
+            href="https://betterhumans.pub/cognitive-bias-cheat-sheet-55a472476b18"
+            target="_blank"
+            >Buster Benson</a
+          >
+          and
+          <a
+            href="https://www.visualcapitalist.com/wp-content/uploads/2017/09/cognitive-bias-infographic.html"
+            target="_blank"
+            >John Manoogian III</a
+          >
+        </p>
+      </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
