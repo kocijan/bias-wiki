@@ -1,515 +1,545 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body, html {
-    width: 100%;
-    height: 100%;
-    overflow: hidden;
-    font-family: Arial, sans-serif;
+body,
+html {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  font-family: Arial, sans-serif;
+  user-select: none;
 }
 
 #container {
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
 }
 
 #svg-container {
-    width: 100%;
-    height: 100%;
-    max-width: 100%;
-    max-height: 100%;
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 svg {
-    width: 100%;
-    height: 100%;
-    max-width: 100%;
-    max-height: 100%;
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    padding: 10px;
-    background-color: rgba(255, 255, 255, 0.9);
-    text-align: center;
-    font-size: 6px;
-    z-index: 10;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 10px;
+  background-color: rgba(255, 255, 255, 0.9);
+  text-align: center;
+  font-size: 6px;
+  z-index: 10;
 }
 
 footer a {
-    color: #0066cc;
-    text-decoration: none;
+  color: #0066cc;
+  text-decoration: none;
 }
 
 footer a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .language-selector-container {
-    position: fixed;
-    top: 20px;
-    right: 20px;
-    z-index: 100;
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 100;
 }
 
 #language-selector {
-    padding: 5px 10px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-    background-color: white;
-    font-size: 14px;
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: white;
+  font-size: 14px;
 }
 
 /* Info button and panel */
 .info-button {
-    position: fixed;
-    bottom: 60px;
-    right: 20px;
-    width: 30px;
-    height: 30px;
-    background-color: #0066cc;
-    color: white;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    cursor: pointer;
-    z-index: 100;
-    font-size: 18px;
-    font-weight: bold;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  position: fixed;
+  bottom: 60px;
+  right: 20px;
+  width: 30px;
+  height: 30px;
+  background-color: #0066cc;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  z-index: 100;
+  font-size: 18px;
+  font-weight: bold;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
 }
 
 .info-panel {
-    position: fixed;
-    bottom: 60px;
-    right: 20px;
-    width: 300px;
-    max-width: 80%;
-    background-color: white;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    z-index: 99;
-    transform: translateY(20px);
-    opacity: 0;
-    visibility: hidden;
-    transition: all 0.3s ease;
+  position: fixed;
+  bottom: 60px;
+  right: 20px;
+  width: 300px;
+  max-width: 80%;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  z-index: 99;
+  transform: translateY(20px);
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
 }
 
 .info-panel.show {
-    transform: translateY(0);
-    opacity: 1;
-    visibility: visible;
+  transform: translateY(0);
+  opacity: 1;
+  visibility: visible;
 }
 
 .info-panel-content {
-    padding: 20px;
-    position: relative;
+  padding: 20px;
+  position: relative;
 }
 
 .close-info {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    font-size: 20px;
-    cursor: pointer;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 20px;
+  cursor: pointer;
 }
 
 /* Loading indicator */
 .loading-indicator {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
 }
 
 .spinner {
-    width: 40px;
-    height: 40px;
-    border: 4px solid rgba(0, 0, 0, 0.1);
-    border-radius: 50%;
-    border-top-color: #0066cc;
-    animation: spin 1s ease-in-out infinite;
-    margin-bottom: 20px;
+  width: 40px;
+  height: 40px;
+  border: 4px solid rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  border-top-color: #0066cc;
+  animation: spin 1s ease-in-out infinite;
+  margin-bottom: 20px;
 }
 
 @keyframes spin {
-    to { transform: rotate(360deg); }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 .error {
-    color: red;
-    font-weight: bold;
-    margin-bottom: 10px;
+  color: red;
+  font-weight: bold;
+  margin-bottom: 10px;
 }
 
 /* Highlighted bias */
-.highlighted path, .highlighted circle {
-    stroke: #0066cc !important;
-    stroke-width: 3px !important;
+.highlighted path,
+.highlighted circle {
+  stroke: #0066cc !important;
+  stroke-width: 3px !important;
 }
 
 .highlighted text {
-    fill: #0066cc !important;
-    font-weight: bold !important;
+  fill: #0066cc !important;
+  font-weight: bold !important;
 }
 
 /* Modal styles for mobile */
 .modal {
-    display: flex;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.3);
-    justify-content: center;
-    align-items: center;
-    z-index: 1000;
-    opacity: 0;
-    transition: opacity 0.3s ease;
-    pointer-events: none;
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3);
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  pointer-events: none;
 }
 
 .modal.show {
-    opacity: 1;
-    pointer-events: auto;
+  opacity: 1;
+  pointer-events: auto;
 }
 
 .modal-content {
-    background-color: white;
-    padding: 20px;
-    border-radius: 10px;
-    max-width: 90%;
-    max-height: 80%;
-    overflow-y: auto;
-    position: relative;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 90%;
+  max-height: 80%;
+  overflow-y: auto;
+  position: relative;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .close-button {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    font-size: 24px;
-    cursor: pointer;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 24px;
+  cursor: pointer;
 }
 
 .modal-footer {
-    margin-top: 20px;
-    text-align: center;
+  margin-top: 20px;
+  text-align: center;
 }
 
 .wiki-button {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #0066cc;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #0066cc;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
 }
 
 /* Tooltip custom styles */
 .tippy-box {
-    border-radius: 6px;
-    background-color: white;
-    color: #333;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  background-color: white;
+  color: #333;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
 .tooltip-content {
-    padding: 12px;
+  padding: 12px;
 }
 
 .tooltip-content h3 {
-    margin-bottom: 8px;
-    color: #0066cc;
+  margin-bottom: 8px;
+  color: #0066cc;
 }
 
 .tooltip-content p {
-    margin-bottom: 8px;
-    line-height: 1.4;
+  margin-bottom: 8px;
+  line-height: 1.4;
 }
 
 .tooltip-content a {
-    color: #0066cc;
-    text-decoration: none;
-    font-weight: bold;
+  color: #0066cc;
+  text-decoration: none;
+  font-weight: bold;
 }
 
 .tooltip-content a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 /* Media queries for responsive design */
 @media (max-width: 768px) {
-    footer {
-        font-size: 10px;
-        padding: 5px;
-    }
-    
-    .language-selector-container {
-        top: 10px;
-        right: 10px;
-    }
-    
-    #language-selector {
-        font-size: 12px;
-        padding: 3px 6px;
-    }
-    
-    .modal-content {
-        padding: 15px;
-    }
-    
-    .info-button {
-        bottom: 40px;
-        right: 10px;
-    }
-    
-    .info-panel {
-        bottom: 40px;
-        right: 10px;
-    }
+  footer {
+    font-size: 10px;
+    padding: 5px;
+  }
+
+  .language-selector-container {
+    top: 10px;
+    right: 10px;
+  }
+
+  #language-selector {
+    font-size: 12px;
+    padding: 3px 6px;
+  }
+
+  .modal-content {
+    padding: 15px;
+  }
+
+  .info-button {
+    bottom: 40px;
+    right: 10px;
+  }
+
+  .info-panel {
+    bottom: 40px;
+    right: 10px;
+  }
 }
 
 .zoom-controls {
-    position: fixed;
-    bottom: 100px;
-    right: 20px;
-    display: flex;
-    flex-direction: column;
-    z-index: 100;
+  position: fixed;
+  bottom: 100px;
+  right: 20px;
+  display: flex;
+  flex-direction: column;
+  z-index: 100;
 }
 
 .zoom-controls button {
-    width: 40px;
-    height: 40px;
-    margin: 5px 0;
-    background-color: white;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    font-size: 20px;
-    cursor: pointer;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  width: 40px;
+  height: 40px;
+  margin: 5px 0;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 30px;
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.zoom-controls button.zoom-reset {
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
 }
 
 #svg-container {
-    cursor: grab;
+  cursor: grab;
 }
 
 #svg-container:active {
-    cursor: grabbing;
+  cursor: grabbing;
 }
 
 .orientation-help {
-    position: fixed;
-    bottom: 20px;
-    left: 50%;
-    transform: translateX(-50%) translateY(100px);
-    background-color: rgba(0, 0, 0, 0.8);
-    color: white;
-    padding: 15px;
-    border-radius: 10px;
-    text-align: center;
-    z-index: 1000;
-    transition: transform 0.3s ease;
-    width: 90%;
-    max-width: 400px;
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%) translateY(100px);
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  z-index: 1000;
+  transition: transform 0.3s ease;
+  width: 90%;
+  max-width: 400px;
 }
 
 .orientation-help.show {
-    transform: translateX(-50%) translateY(0);
+  transform: translateX(-50%) translateY(0);
 }
 
 /* Custom tooltip styles for Popper.js */
 .custom-tooltip {
-    background-color: white;
-    color: #333;
-    border-radius: 6px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-    padding: 15px;
-    max-width: 400px;
-    z-index: 1000;
-    display: none;
-    font-size: 14px;
+  background-color: white;
+  color: #333;
+  border-radius: 6px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  padding: 15px;
+  max-width: 400px;
+  z-index: 1000;
+  display: none;
+  font-size: 14px;
 }
 
 .tooltip-arrow,
 .tooltip-arrow::before {
-    position: absolute;
-    width: 10px;
-    height: 10px;
-    background: inherit;
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background: inherit;
 }
 
 .tooltip-arrow {
-    visibility: hidden;
+  visibility: hidden;
 }
 
 .tooltip-arrow::before {
-    visibility: visible;
-    content: '';
-    transform: rotate(45deg);
-    background: white;
+  visibility: visible;
+  content: "";
+  transform: rotate(45deg);
+  background: white;
 }
 
-.custom-tooltip[data-popper-placement^='top'] .tooltip-arrow {
-    bottom: -5px;
+.custom-tooltip[data-popper-placement^="top"] .tooltip-arrow {
+  bottom: -5px;
 }
 
-.custom-tooltip[data-popper-placement^='bottom'] .tooltip-arrow {
-    top: -5px;
+.custom-tooltip[data-popper-placement^="bottom"] .tooltip-arrow {
+  top: -5px;
 }
 
-.custom-tooltip[data-popper-placement^='left'] .tooltip-arrow {
-    right: -5px;
+.custom-tooltip[data-popper-placement^="left"] .tooltip-arrow {
+  right: -5px;
 }
 
-.custom-tooltip[data-popper-placement^='right'] .tooltip-arrow {
-    left: -5px;
+.custom-tooltip[data-popper-placement^="right"] .tooltip-arrow {
+  left: -5px;
 }
 
 .custom-tooltip .tooltip-content h3 {
-    margin-bottom: 8px;
-    color: #0066cc;
-    font-size: 16px;
+  margin-bottom: 8px;
+  color: #0066cc;
+  font-size: 16px;
 }
 
 .custom-tooltip .tooltip-content p {
-    margin-bottom: 8px;
-    line-height: 1.4;
+  margin-bottom: 8px;
+  line-height: 1.4;
 }
 
 .custom-tooltip .tooltip-content a {
-    color: #0066cc;
-    text-decoration: none;
-    font-weight: bold;
-    display: inline-block;
-    margin-top: 5px;
+  color: #0066cc;
+  text-decoration: none;
+  font-weight: bold;
+  display: inline-block;
+  margin-top: 5px;
 }
 
 .custom-tooltip .tooltip-content a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 /* Enhanced tooltip styles */
 .custom-tooltip {
-    background-color: white;
-    color: #333;
-    border-radius: 6px;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-    padding: 0;
-    max-width: 450px;
-    font-size: 14px;
-    z-index: 1000;
-    display: none;
-  }
-  
-  .tooltip-content {
-    padding: 15px;
-    max-height: 700px;
-    overflow-y: auto;
-  }
-  
-  .tooltip-content h3 {
-    margin-top: 0;
-    margin-bottom: 10px;
-    color: #0066cc;
-    font-size: 16px;
-  }
-  
-  .tooltip-content p {
-    margin-bottom: 10px;
-    line-height: 1.5;
-  }
-  
-  .tooltip-content strong {
-    font-weight: bold;
-  }
-  
-  .wiki-link, .wiki-button {
-    display: inline-block;
-    margin-top: 10px;
-    color: #0066cc;
-    text-decoration: none;
-    font-weight: bold;
-  }
-  
-  .wiki-link:hover, .wiki-button:hover {
-    text-decoration: underline;
-  }
-  
-  /* Enhanced modal styles */
-  .modal-content {
-    width: 90%;
-    max-width: 600px;
-    max-height: 80vh;
-    overflow-y: auto;
-    background: white;
-    border-radius: 8px;
-    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
-  }
-  
-  .modal-content h2 {
-    margin: 0;
-    padding: 15px 20px;
-    background-color: #f5f5f5;
-    border-bottom: 1px solid #ddd;
-    color: #333;
-    font-size: 18px;
-  }
-  
-  .modal-body {
-    padding: 20px;
-    line-height: 1.5;
-  }
-  
-  .modal-footer {
-    padding: 15px 20px;
-    text-align: right;
-    border-top: 1px solid #ddd;
-  }
-  
-  .wiki-button {
-    display: inline-block;
-    padding: 8px 16px;
-    background-color: #0066cc;
-    color: white;
-    text-decoration: none;
-    border-radius: 4px;
-    font-weight: normal;
-  }
-  
-  .wiki-button:hover {
-    background-color: #0055aa;
-    text-decoration: none;
-  }
+  background-color: white;
+  color: #333;
+  border-radius: 6px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  padding: 0;
+  max-width: 450px;
+  font-size: 14px;
+  z-index: 1000;
+  display: none;
+}
 
-  /* Prevent text selection when rapidly moving mouse */
-.custom-tooltip, svg text {
-    user-select: none;
-    -webkit-user-select: none;
-  }
-  
-  /* Ensure smooth transitions */
-  .custom-tooltip {
-    transition: opacity 0.15s ease;
-    pointer-events: auto;
-  }
-  
-  /* Add a slight delay to highlighting to reduce flicker */
-  svg a.highlighted {
-    transition: all 0.05s ease;
-  }
+.tooltip-content {
+  padding: 15px;
+  max-height: 700px;
+  overflow-y: auto;
+}
+
+.tooltip-content h3 {
+  margin-top: 0;
+  margin-bottom: 10px;
+  color: #0066cc;
+  font-size: 16px;
+}
+
+.tooltip-content p {
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+
+.tooltip-content strong {
+  font-weight: bold;
+}
+
+.wiki-link,
+.wiki-button {
+  display: inline-block;
+  margin-top: 10px;
+  color: #0066cc;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.wiki-link:hover,
+.wiki-button:hover {
+  text-decoration: underline;
+}
+
+/* Enhanced modal styles */
+.modal-content {
+  width: 90%;
+  max-width: 600px;
+  max-height: 80vh;
+  overflow-y: auto;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+}
+
+.modal-content h2 {
+  margin: 0;
+  padding: 15px 20px;
+  background-color: #f5f5f5;
+  border-bottom: 1px solid #ddd;
+  color: #333;
+  font-size: 18px;
+}
+
+.modal-body {
+  padding: 20px;
+  line-height: 1.5;
+}
+
+.modal-footer {
+  padding: 15px 20px;
+  text-align: right;
+  border-top: 1px solid #ddd;
+}
+
+.wiki-button {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #0066cc;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: normal;
+}
+
+.wiki-button:hover {
+  background-color: #0055aa;
+  text-decoration: none;
+}
+
+/* Prevent text selection when rapidly moving mouse */
+.custom-tooltip,
+svg text {
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Ensure smooth transitions */
+.custom-tooltip {
+  transition: opacity 0.15s ease;
+  pointer-events: auto;
+}
+
+/* Add a slight delay to highlighting to reduce flicker */
+svg a.highlighted {
+  transition: all 0.05s ease;
+}
+
+#svg-container {
+  touch-action: manipulation;
+  /* Prevents browser double-tap zoom but allows pinch zoom */
+}
+
+/* If you want to completely disable browser touch actions */
+/* #svg-container svg {
+  touch-action: none;
+} */
+
+.zoom-controls button {
+  touch-action: none;
+}

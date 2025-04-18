@@ -1,3 +1,10 @@
+let currentZoomState = {
+  x: 0,
+  y: 0,
+  width: 1900,
+  height: 1500,
+};
+
 document.addEventListener("DOMContentLoaded", function () {
   // Show loading indicator
   const loadingIndicator = document.createElement("div");
@@ -33,6 +40,17 @@ document.addEventListener("DOMContentLoaded", function () {
 
       // Insert SVG content
       document.getElementById("svg-container").innerHTML = svgContent;
+
+      const svg = document.querySelector("#svg-container svg");
+      if (svg) {
+        svg.setAttribute("viewBox", "0 0 1900 1500");
+        currentZoomState = {
+          x: 0,
+          y: 0,
+          width: 1900,
+          height: 1500,
+        };
+      }
 
       // Initialize all components with the biases content
       initializeTooltips(biasesContent);
@@ -453,6 +471,12 @@ function initializePanZoom() {
     return;
   }
 
+  // Apply direct touch-action control to the SVG element
+  svg.style.touchAction = "none";
+
+  // Set default viewBox (same as reset)
+  svg.setAttribute("viewBox", "0 0 1900 1500");
+
   // Variables for pan functionality
   let isPanning = false;
   let startPoint = { x: 0, y: 0 };
@@ -468,21 +492,32 @@ function initializePanZoom() {
       width: parseFloat(parts[2]),
       height: parseFloat(parts[3]),
     };
+    currentZoomState = { ...viewBox }; // Store initial state
   }
 
   // Pan functions
   function startPan(e) {
-    // Skip if this is a link element
     if (e.target.closest("a")) return;
-
+    // For touch events, explicitly prevent default
+    if (e.type.startsWith("touch")) {
+      e.preventDefault();
+    }
     const event = e.type.startsWith("touch") ? e.touches[0] : e;
     isPanning = true;
     startPoint = { x: event.clientX, y: event.clientY };
+
+    // Start from current zoom state instead of default
+    viewBox = { ...currentZoomState };
   }
 
   function movePan(e) {
     if (!isPanning) return;
-    e.preventDefault();
+    // e.preventDefault();
+
+    // For touch events, explicitly prevent default
+    if (e.type.startsWith("touch")) {
+      e.preventDefault();
+    }
 
     const event = e.type.startsWith("touch") ? e.touches[0] : e;
     const dx =
@@ -508,6 +543,7 @@ function initializePanZoom() {
       "viewBox",
       `${viewBox.x} ${viewBox.y} ${viewBox.width} ${viewBox.height}`
     );
+    currentZoomState = { ...viewBox }; // Store current state
   }
 
   // Zoom function
@@ -545,14 +581,20 @@ function initializePanZoom() {
     svg.addEventListener("wheel", handleZoom);
   } else {
     // Mobile events with pinch zoom support
-    svg.addEventListener("touchstart", startPan);
-    window.addEventListener("touchmove", movePan);
+    svg.addEventListener("touchstart", startPan, { passive: false });
+    window.addEventListener("touchmove", movePan, { passive: false });
     window.addEventListener("touchend", endPan);
 
     // Initial mobile view adjustment
     if (window.innerHeight > window.innerWidth) {
       // Portrait mode - zoom to center
       svg.setAttribute("viewBox", "600 300 700 900");
+      currentZoomState = {
+        x: 600,
+        y: 300,
+        width: 700,
+        height: 900,
+      };
     }
   }
 
@@ -573,7 +615,7 @@ function addZoomControls() {
   zoomControls.className = "zoom-controls";
   zoomControls.innerHTML = `
         <button class="zoom-in">+</button>
-        <button class="zoom-reset">Reset</button>
+        <button class="zoom-reset">⟳</button>
         <button class="zoom-out">-</button>
     `;
 
@@ -581,27 +623,39 @@ function addZoomControls() {
 
   document.querySelector(".zoom-in").addEventListener("click", () => {
     const svg = document.querySelector("#svg-container svg");
-    const viewBox = svg.getAttribute("viewBox").split(" ").map(Number);
-    const newWidth = viewBox[2] * 0.8;
-    const newHeight = viewBox[3] * 0.8;
-    const newX = viewBox[0] + (viewBox[2] - newWidth) / 2;
-    const newY = viewBox[1] + (viewBox[3] - newHeight) / 2;
+    // Use our tracked state instead of parsing from attribute:
+    const newWidth = currentZoomState.width * 0.8;
+    const newHeight = currentZoomState.height * 0.8;
+    const newX = currentZoomState.x + (currentZoomState.width - newWidth) / 2;
+    const newY = currentZoomState.y + (currentZoomState.height - newHeight) / 2;
+
+    // Update both DOM and state
     svg.setAttribute("viewBox", `${newX} ${newY} ${newWidth} ${newHeight}`);
+    currentZoomState = { x: newX, y: newY, width: newWidth, height: newHeight };
   });
 
   document.querySelector(".zoom-out").addEventListener("click", () => {
     const svg = document.querySelector("#svg-container svg");
-    const viewBox = svg.getAttribute("viewBox").split(" ").map(Number);
-    const newWidth = viewBox[2] * 1.2;
-    const newHeight = viewBox[3] * 1.2;
-    const newX = viewBox[0] - (newWidth - viewBox[2]) / 2;
-    const newY = viewBox[1] - (newHeight - viewBox[3]) / 2;
+    // Use the global currentZoomState instead of parsing from attribute
+    const newWidth = currentZoomState.width * 1.2;
+    const newHeight = currentZoomState.height * 1.2;
+    const newX = currentZoomState.x - (newWidth - currentZoomState.width) / 2;
+    const newY = currentZoomState.y - (newHeight - currentZoomState.height) / 2;
+
+    // Update both DOM and state
     svg.setAttribute("viewBox", `${newX} ${newY} ${newWidth} ${newHeight}`);
+    currentZoomState = { x: newX, y: newY, width: newWidth, height: newHeight };
   });
 
   document.querySelector(".zoom-reset").addEventListener("click", () => {
     const svg = document.querySelector("#svg-container svg");
     svg.setAttribute("viewBox", "0 0 1900 1500");
+    currentZoomState = {
+      x: 0,
+      y: 0,
+      width: 1900,
+      height: 1500,
+    };
   });
 }
 
