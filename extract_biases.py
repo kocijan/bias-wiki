@@ -51,7 +51,7 @@ def fetch_wikipedia_content(article_title):
     article_title = article_title.split("/wiki/")[-1]
 
     # API endpoint - without explaintext=true to preserve HTML
-    url = f"https://en.wikipedia.org/w/api.php?action=query&format=json&prop=extracts&titles={article_title}&exintro=true"
+    url = f"https://en.wikipedia.org/w/api.php?action=query&format=json&prop=extracts&titles={article_title}&exintro=true&redirects=true"
 
     response = requests.get(url)
     data = response.json()
