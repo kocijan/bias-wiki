@@ -482,6 +482,11 @@ function initializePanZoom() {
   let startPoint = { x: 0, y: 0 };
   let viewBox = { x: 0, y: 0, width: 1900, height: 1500 };
 
+  // Variables for pinch zoom
+  let initialDistance = 0;
+  let initialScale = 1;
+  let isPinching = false;
+
   // Initialize viewBox from SVG
   const initialViewBox = svg.getAttribute("viewBox");
   if (initialViewBox) {
@@ -498,12 +503,35 @@ function initializePanZoom() {
   // Pan functions
   function startPan(e) {
     if (!isMobileDevice() && e.target.closest("a")) return;
+
     // For touch events, explicitly prevent default
     if (e.type.startsWith("touch")) {
       e.preventDefault();
     }
-    const event = e.type.startsWith("touch") ? e.touches[0] : e;
+
+    if (e.touches && e.touches.length === 2) {
+      // This is a pinch gesture
+      isPinching = true;
+      isPanning = false;
+
+      // Calculate initial distance between two fingers
+      initialDistance = getDistance(
+        e.touches[0].clientX,
+        e.touches[0].clientY,
+        e.touches[1].clientX,
+        e.touches[1].clientY
+      );
+
+      // Store the current scale
+      initialScale = currentZoomState.width / 1900; // 1900 is base width
+
+      return;
+    }
+
+    // Single touch = pan
     isPanning = true;
+    isPinching = false;
+    const event = e.type.startsWith("touch") ? e.touches[0] : e;
     startPoint = { x: event.clientX, y: event.clientY };
 
     // Start from current zoom state instead of default
@@ -511,13 +539,60 @@ function initializePanZoom() {
   }
 
   function movePan(e) {
-    if (!isPanning) return;
-    // e.preventDefault();
-
-    // For touch events, explicitly prevent default
     if (e.type.startsWith("touch")) {
       e.preventDefault();
     }
+
+    if (isPinching && e.touches && e.touches.length === 2) {
+      // Handle pinch zoom
+      const currentDistance = getDistance(
+        e.touches[0].clientX,
+        e.touches[0].clientY,
+        e.touches[1].clientX,
+        e.touches[1].clientY
+      );
+
+      // Calculate new scale factor
+      // const scaleFactor = currentDistance / initialDistance;
+      const scaleFactor = initialDistance / currentDistance;
+
+      // Calculate pinch center point
+      const centerX = (e.touches[0].clientX + e.touches[1].clientX) / 2;
+      const centerY = (e.touches[0].clientY + e.touches[1].clientY) / 2;
+
+      // Get the center point in SVG coordinates
+      const rect = svgContainer.getBoundingClientRect();
+      const svgCenterX =
+        ((centerX - rect.left) / rect.width) * viewBox.width + viewBox.x;
+      const svgCenterY =
+        ((centerY - rect.top) / rect.height) * viewBox.height + viewBox.y;
+
+      // Calculate new dimensions based on scale
+      const newScale = initialScale * scaleFactor;
+
+      // Limit scale to prevent extreme zoom
+      const limitedScale = Math.min(Math.max(newScale, 0.2), 10);
+
+      const newWidth = 1900 * limitedScale;
+      const newHeight = 1500 * limitedScale;
+
+      // Calculate new x,y coordinates to keep pinch center point fixed
+      const newX = svgCenterX - ((centerX - rect.left) / rect.width) * newWidth;
+      const newY =
+        svgCenterY - ((centerY - rect.top) / rect.height) * newHeight;
+
+      // Update viewBox
+      viewBox = {
+        x: newX,
+        y: newY,
+        width: newWidth,
+        height: newHeight,
+      };
+      updateViewBox();
+      return;
+    }
+
+    if (!isPanning) return;
 
     const event = e.type.startsWith("touch") ? e.touches[0] : e;
     const dx =
@@ -526,16 +601,20 @@ function initializePanZoom() {
     const dy =
       ((event.clientY - startPoint.y) * viewBox.height) /
       svgContainer.clientHeight;
-
     viewBox.x -= dx;
     viewBox.y -= dy;
-
     startPoint = { x: event.clientX, y: event.clientY };
     updateViewBox();
   }
 
   function endPan() {
     isPanning = false;
+    isPinching = false;
+  }
+
+  // Helper function to calculate distance between two points
+  function getDistance(x1, y1, x2, y2) {
+    return Math.sqrt(Math.pow(x2 - x1, 2) + Math.pow(y2 - y1, 2));
   }
 
   function updateViewBox() {

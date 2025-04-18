@@ -537,9 +537,9 @@ svg a.highlighted {
 }
 
 /* If you want to completely disable browser touch actions */
-/* #svg-container svg {
+#svg-container svg {
   touch-action: none;
-} */
+}
 
 .zoom-controls button {
   touch-action: none;
