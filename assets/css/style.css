@@ -36,6 +36,11 @@ svg {
   max-height: 100%;
 }
 
+.credits {
+    font-size: .7em;
+    margin-top: 20px;
+}
+
 footer {
   position: fixed;
   bottom: 0;
@@ -47,12 +52,12 @@ footer {
   z-index: 10;
 }
 
-footer a {
+.credits a {
   color: #0066cc;
   text-decoration: none;
 }
 
-footer a:hover {
+.credits a:hover {
   text-decoration: underline;
 }
 
@@ -206,8 +211,9 @@ footer a:hover {
 
 .close-button {
   position: absolute;
-  top: 10px;
-  right: 10px;
+  right: 15px;
+  transform: translateY(-50%);
+  top: 50%;
   font-size: 24px;
   cursor: pointer;
 }
@@ -286,7 +292,7 @@ footer a:hover {
 
   .info-panel {
     bottom: 40px;
-    right: 10px;
+    left: 10px;
   }
 }
 
@@ -485,6 +491,7 @@ footer a:hover {
   border-bottom: 1px solid #ddd;
   color: #333;
   font-size: 18px;
+  position:relative;
 }
 
 .modal-body {
@@ -532,15 +539,57 @@ svg a.highlighted {
 }
 
 #svg-container {
-  touch-action: manipulation;
-  /* Prevents browser double-tap zoom but allows pinch zoom */
-}
-
-/* If you want to completely disable browser touch actions */
-#svg-container svg {
-  touch-action: none;
-}
-
-.zoom-controls button {
-  touch-action: none;
+    touch-action: manipulation;
+    /* Prevents browser double-tap zoom but allows pinch zoom */
+  }
+  
+  /* If you want to completely disable browser touch actions */
+  #svg-container svg {
+    touch-action: none;
+  }
+  
+  .zoom-controls button {
+    touch-action: none;
+  }
+  
+  /* Allow scrolling of modal content */
+  .modal-content {
+    touch-action: pan-y;
+    /* Allow vertical scrolling */
+  }
+  
+  /* Allow scrolling of tooltip content */
+  .custom-tooltip {
+    touch-action: pan-y;
+    /* Allow vertical scrolling */
+  }
+  
+  /* Allow scrolling of info panel content */
+  .info-panel-content {
+    touch-action: pan-y;
+    /* Allow vertical scrolling */
+  }
+  
+  .modal-content {
+    max-height: 80vh;
+    overflow-y: auto;
+    touch-action: auto;
+    -webkit-overflow-scrolling: touch; /* For iOS momentum scrolling */
+  }
+  
+  /* Prevent the backdrop from receiving touch events that should go to the modal */
+  .modal {
+    touch-action: none;
+  }
+  
+  /* But allow touch actions on the content itself */
+  .tooltip-content, 
+  .modal-body {
+    touch-action: pan-y;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+  
+tspan#trsvg1 {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
 }

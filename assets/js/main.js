@@ -4,6 +4,8 @@ let currentZoomState = {
   width: 1900,
   height: 1500,
 };
+let initialPinchMidpoint = { x: 0, y: 0 };
+let lastPinchMidpoint = { x: 0, y: 0 };
 
 document.addEventListener("DOMContentLoaded", function () {
   // Show loading indicator
@@ -299,8 +301,7 @@ function showModal(title, content, wikipediaUrl) {
 
   modal.innerHTML = `
       <div class="modal-content">
-        <span class="close-button">&times;</span>
-        <h2>${title}</h2>
+        <h2>${title}<span class="close-button">&times;</span></h2>
         <div class="modal-body">${content}</div>
         <div class="modal-footer">
           <a href="${wikipediaUrl}" target="_blank" class="wiki-button">Read more on Wikipedia</a>
@@ -335,6 +336,8 @@ function showModal(title, content, wikipediaUrl) {
       closeModal();
     }
   });
+
+  initializeModalTouchHandling();
 }
 
 // Completely rewritten language selector function
@@ -502,7 +505,19 @@ function initializePanZoom() {
 
   // Pan functions
   function startPan(e) {
-    if (!isMobileDevice() && e.target.closest("a")) return;
+    // if (!isMobileDevice() && e.target.closest("a")) return;
+    if (e.target.closest("a") && !(e.touches && e.touches.length === 2)) return; // Prevent default for links
+    // Prevent default for modals
+    if (e.target.closest(".modal")) return;
+    // Prevent default for tooltips
+    if (e.target.closest(".custom-tooltip")) return;
+    // Prevent default for highlighted elements
+    if (e.target.closest(".highlighted")) return;
+    // Prevent default for contents inside modals
+    if (e.target.closest(".modal-content")) return;
+    // Prevent default for contents inside tooltips
+    if (e.target.closest(".tooltip-content")) return;
+    if (e.target.closest(".modal-content")) return;
 
     // For touch events, explicitly prevent default
     if (e.type.startsWith("touch")) {
@@ -525,6 +540,18 @@ function initializePanZoom() {
       // Store the current scale
       initialScale = currentZoomState.width / 1900; // 1900 is base width
 
+      // Store initial midpoint for pan tracking
+      initialPinchMidpoint = {
+        x: (e.touches[0].clientX + e.touches[1].clientX) / 2,
+        y: (e.touches[0].clientY + e.touches[1].clientY) / 2,
+      };
+
+      // Store previous midpoint (will update during move)
+      lastPinchMidpoint = { ...initialPinchMidpoint };
+
+      // Start from current zoom state
+      viewBox = { ...currentZoomState };
+
       return;
     }
 
@@ -543,8 +570,23 @@ function initializePanZoom() {
       e.preventDefault();
     }
 
+    // Prevent default for modals
+    if (e.target.closest(".modal")) return;
+    // Prevent default for tooltips
+    if (e.target.closest(".custom-tooltip")) return;
+    // Prevent default for highlighted elements
+    if (e.target.closest(".highlighted")) return;
+    // Prevent default for contents inside modals
+    if (e.target.closest(".modal-content")) return;
+    // Prevent default for contents inside tooltips
+    if (e.target.closest(".tooltip-content")) return;
+    if (e.target.closest(".modal-content")) return;
+
     if (isPinching && e.touches && e.touches.length === 2) {
-      // Handle pinch zoom
+      // COMBINED PINCH-ZOOM AND PAN
+      const rect = svgContainer.getBoundingClientRect();
+
+      // 1. CALCULATE ZOOM COMPONENT
       const currentDistance = getDistance(
         e.touches[0].clientX,
         e.touches[0].clientY,
@@ -552,55 +594,81 @@ function initializePanZoom() {
         e.touches[1].clientY
       );
 
-      // Calculate new scale factor
-      // const scaleFactor = currentDistance / initialDistance;
+      // Scale factor calculation - we're using initialDistance/currentDistance
+      // for pinch-to-zoom-out behavior
       const scaleFactor = initialDistance / currentDistance;
 
-      // Calculate pinch center point
-      const centerX = (e.touches[0].clientX + e.touches[1].clientX) / 2;
-      const centerY = (e.touches[0].clientY + e.touches[1].clientY) / 2;
+      // 2. CALCULATE PAN COMPONENT
+      // Current midpoint between fingers
+      const currentMidpoint = {
+        x: (e.touches[0].clientX + e.touches[1].clientX) / 2,
+        y: (e.touches[0].clientY + e.touches[1].clientY) / 2,
+      };
 
-      // Get the center point in SVG coordinates
-      const rect = svgContainer.getBoundingClientRect();
-      const svgCenterX =
-        ((centerX - rect.left) / rect.width) * viewBox.width + viewBox.x;
-      const svgCenterY =
-        ((centerY - rect.top) / rect.height) * viewBox.height + viewBox.y;
+      // Calculate how much the midpoint moved since last event
+      const midpointDeltaX = currentMidpoint.x - lastPinchMidpoint.x;
+      const midpointDeltaY = currentMidpoint.y - lastPinchMidpoint.y;
 
-      // Calculate new dimensions based on scale
+      // 3. APPLY BOTH TRANSFORMATIONS
+
+      // Calculate new scale with limits
       const newScale = initialScale * scaleFactor;
+      const limitedScale = Math.min(Math.max(newScale, 0.04), 1);
 
-      // Limit scale to prevent extreme zoom
-      const limitedScale = Math.min(Math.max(newScale, 0.2), 10);
-
+      // New dimensions based on scale
       const newWidth = 1900 * limitedScale;
       const newHeight = 1500 * limitedScale;
 
-      // Calculate new x,y coordinates to keep pinch center point fixed
-      const newX = svgCenterX - ((centerX - rect.left) / rect.width) * newWidth;
-      const newY =
-        svgCenterY - ((centerY - rect.top) / rect.height) * newHeight;
+      // First calculate new position based on the zoom alone
+      // (keeping the initial pinch midpoint stationary)
+      const svgCenterX =
+        ((initialPinchMidpoint.x - rect.left) / rect.width) * viewBox.width +
+        viewBox.x;
+      const svgCenterY =
+        ((initialPinchMidpoint.y - rect.top) / rect.height) * viewBox.height +
+        viewBox.y;
 
-      // Update viewBox
+      const verticalMultiplier = 2.5; // Adjust this value to change vertical panning speed
+
+      let newX =
+        svgCenterX -
+        ((initialPinchMidpoint.x - rect.left) / rect.width) * newWidth;
+      let newY =
+        svgCenterY -
+        ((initialPinchMidpoint.y - rect.top) / rect.height) * newHeight;
+
+      // Then add the pan offset
+      // Scale the pan by the current zoom level for consistent feel
+      newX -= (midpointDeltaX * newWidth) / rect.width;
+      newY -= ((midpointDeltaY * newHeight) / rect.height) * verticalMultiplier;
+
+      // Update viewBox with combined zoom and pan
       viewBox = {
         x: newX,
         y: newY,
         width: newWidth,
         height: newHeight,
       };
+
+      // Store current midpoint for next incremental pan calculation
+      lastPinchMidpoint = currentMidpoint;
+
       updateViewBox();
       return;
     }
 
     if (!isPanning) return;
 
+    const verticalMultiplier = 1.5; // Adjust this value to change vertical panning speed
+
     const event = e.type.startsWith("touch") ? e.touches[0] : e;
     const dx =
       ((event.clientX - startPoint.x) * viewBox.width) /
       svgContainer.clientWidth;
     const dy =
-      ((event.clientY - startPoint.y) * viewBox.height) /
-      svgContainer.clientHeight;
+      (((event.clientY - startPoint.y) * viewBox.height) /
+        svgContainer.clientHeight) *
+      verticalMultiplier;
     viewBox.x -= dx;
     viewBox.y -= dy;
     startPoint = { x: event.clientX, y: event.clientY };
@@ -825,4 +893,35 @@ function loadBiasesContent() {
 
       return biasesContent;
     });
+}
+
+function initializeModalTouchHandling() {
+  const modalContent = document.querySelector(".modal-content");
+
+  if (modalContent) {
+    // Prevent touch events from being captured by SVG pan/zoom handlers
+    modalContent.addEventListener(
+      "touchstart",
+      function (e) {
+        e.stopPropagation();
+      },
+      { passive: true }
+    );
+
+    modalContent.addEventListener(
+      "touchmove",
+      function (e) {
+        e.stopPropagation();
+      },
+      { passive: true }
+    );
+
+    modalContent.addEventListener(
+      "touchend",
+      function (e) {
+        e.stopPropagation();
+      },
+      { passive: true }
+    );
+  }
 }
