@@ -129,6 +129,7 @@ footer a:hover {
 /* Loading indicator */
 .loading-indicator {
   display: flex;
+  position: fixed;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -260,7 +261,7 @@ footer a:hover {
 /* Media queries for responsive design */
 @media (max-width: 768px) {
   footer {
-    font-size: 10px;
+    font-size: 6px;
     padding: 5px;
   }
 
