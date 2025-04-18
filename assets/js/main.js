@@ -497,7 +497,7 @@ function initializePanZoom() {
 
   // Pan functions
   function startPan(e) {
-    if (e.target.closest("a")) return;
+    if (!isMobileDevice() && e.target.closest("a")) return;
     // For touch events, explicitly prevent default
     if (e.type.startsWith("touch")) {
       e.preventDefault();
