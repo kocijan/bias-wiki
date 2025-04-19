@@ -50,6 +50,10 @@ def fetch_wikipedia_content(article_title):
     # Clean the article title from the URL
     article_title = article_title.split("/wiki/")[-1]
 
+    # Early return if article title contains "List of cognitive biases"
+    if "List_of_cognitive_biases" in article_title:
+        return "List of cognitive biases"
+
     # API endpoint - without explaintext=true to preserve HTML
     url = f"https://en.wikipedia.org/w/api.php?action=query&format=json&prop=extracts&titles={article_title}&exintro=true&redirects=true"
 

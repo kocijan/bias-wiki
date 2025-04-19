@@ -123,6 +123,10 @@ footer {
   position: relative;
 }
 
+.info-panel a{
+  color: #0066cc !important;
+}
+
 .close-info {
   position: absolute;
   top: 10px;

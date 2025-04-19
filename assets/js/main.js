@@ -6,6 +6,7 @@ let currentZoomState = {
 };
 let initialPinchMidpoint = { x: 0, y: 0 };
 let lastPinchMidpoint = { x: 0, y: 0 };
+let biasesContent = null;
 
 document.addEventListener("DOMContentLoaded", function () {
   // Show loading indicator
@@ -22,6 +23,20 @@ document.addEventListener("DOMContentLoaded", function () {
   // Set document language
   document.documentElement.lang = langParam;
 
+  // Add this to your main.js file
+  if ("serviceWorker" in navigator) {
+    window.addEventListener("load", function () {
+      navigator.serviceWorker
+        .register("/service-worker.js")
+        .then(function (registration) {
+          // console.log("ServiceWorker registration successful");
+        })
+        .catch(function (error) {
+          console.error("ServiceWorker registration failed: ", error);
+        });
+    });
+  }
+
   // Load both the SVG and biases content in parallel
   Promise.all([
     fetch(`assets/images/cognitive_bias_codex_${langParam}.svg`)
@@ -36,7 +51,8 @@ document.addEventListener("DOMContentLoaded", function () {
       .then((response) => response.text()),
     loadBiasesContent(),
   ])
-    .then(([svgContent, biasesContent]) => {
+    .then(([svgContent, loadedBiasesContent]) => {
+      biasesContent = loadedBiasesContent;
       // Remove loading indicator
       document.getElementById("container").removeChild(loadingIndicator);
 
@@ -55,7 +71,7 @@ document.addEventListener("DOMContentLoaded", function () {
       }
 
       // Initialize all components with the biases content
-      initializeTooltips(biasesContent);
+      initializeTooltips(loadedBiasesContent);
       initializeLanguageSelector();
       initializeInfoPanel();
       initializePanZoom();
@@ -167,13 +183,18 @@ function initializeTooltips(biasesContent) {
 
     if (mobile) {
       // For mobile: Use modal
-      element.addEventListener("click", function (event) {
+      const gElement = element.querySelector("g");
+      gElement.addEventListener("click", function (event) {
         event.preventDefault();
         showModal(biasName, biasContent, wikipediaUrl);
       });
+      element.addEventListener("click", function (event) {
+        event.preventDefault();
+      });
     } else {
       // For desktop: Use tooltip
-      element.addEventListener("mouseenter", function () {
+      const gElement = element.querySelector("g");
+      (gElement || element).addEventListener("mouseenter", function () {
         // Clean up any previous tooltip state
         cleanupPreviousTooltip();
 
@@ -490,6 +511,13 @@ function initializePanZoom() {
   let initialScale = 1;
   let isPinching = false;
 
+  // Add these variables inside your initializePanZoom function
+  let touchStartTime = 0;
+  let touchStartPos = { x: 0, y: 0 };
+  let isDragging = false;
+  const TAP_THRESHOLD = 10; // pixels
+  const TAP_TIME_THRESHOLD = 300; // milliseconds
+
   // Initialize viewBox from SVG
   const initialViewBox = svg.getAttribute("viewBox");
   if (initialViewBox) {
@@ -506,22 +534,14 @@ function initializePanZoom() {
   // Pan functions
   function startPan(e) {
     // if (!isMobileDevice() && e.target.closest("a")) return;
-    if (e.target.closest("a") && !(e.touches && e.touches.length === 2)) return; // Prevent default for links
-    // Prevent default for modals
-    if (e.target.closest(".modal")) return;
-    // Prevent default for tooltips
-    if (e.target.closest(".custom-tooltip")) return;
-    // Prevent default for highlighted elements
-    if (e.target.closest(".highlighted")) return;
-    // Prevent default for contents inside modals
-    if (e.target.closest(".modal-content")) return;
-    // Prevent default for contents inside tooltips
-    if (e.target.closest(".tooltip-content")) return;
-    if (e.target.closest(".modal-content")) return;
-
-    // For touch events, explicitly prevent default
-    if (e.type.startsWith("touch")) {
-      e.preventDefault();
+    if (
+      e.target.closest(".modal") ||
+      e.target.closest(".custom-tooltip") ||
+      e.target.closest(".highlighted") ||
+      e.target.closest(".modal-content") ||
+      e.target.closest(".tooltip-content")
+    ) {
+      return;
     }
 
     if (e.touches && e.touches.length === 2) {
@@ -555,10 +575,15 @@ function initializePanZoom() {
       return;
     }
 
+    // Record the starting time and position
+    touchStartTime = Date.now();
+    const event = e.type.startsWith("touch") ? e.touches[0] : e;
+    touchStartPos = { x: event.clientX, y: event.clientY };
+    isDragging = false;
+
     // Single touch = pan
     isPanning = true;
     isPinching = false;
-    const event = e.type.startsWith("touch") ? e.touches[0] : e;
     startPoint = { x: event.clientX, y: event.clientY };
 
     // Start from current zoom state instead of default
@@ -566,21 +591,15 @@ function initializePanZoom() {
   }
 
   function movePan(e) {
-    if (e.type.startsWith("touch")) {
-      e.preventDefault();
+    if (
+      e.target.closest(".modal") ||
+      e.target.closest(".custom-tooltip") ||
+      e.target.closest(".highlighted") ||
+      e.target.closest(".modal-content") ||
+      e.target.closest(".tooltip-content")
+    ) {
+      return;
     }
-
-    // Prevent default for modals
-    if (e.target.closest(".modal")) return;
-    // Prevent default for tooltips
-    if (e.target.closest(".custom-tooltip")) return;
-    // Prevent default for highlighted elements
-    if (e.target.closest(".highlighted")) return;
-    // Prevent default for contents inside modals
-    if (e.target.closest(".modal-content")) return;
-    // Prevent default for contents inside tooltips
-    if (e.target.closest(".tooltip-content")) return;
-    if (e.target.closest(".modal-content")) return;
 
     if (isPinching && e.touches && e.touches.length === 2) {
       // COMBINED PINCH-ZOOM AND PAN
@@ -659,25 +678,41 @@ function initializePanZoom() {
 
     if (!isPanning) return;
 
-    const verticalMultiplier = 1.5; // Adjust this value to change vertical panning speed
-
     const event = e.type.startsWith("touch") ? e.touches[0] : e;
-    const dx =
-      ((event.clientX - startPoint.x) * viewBox.width) /
-      svgContainer.clientWidth;
-    const dy =
-      (((event.clientY - startPoint.y) * viewBox.height) /
-        svgContainer.clientHeight) *
-      verticalMultiplier;
-    viewBox.x -= dx;
-    viewBox.y -= dy;
-    startPoint = { x: event.clientX, y: event.clientY };
-    updateViewBox();
+    const dx = event.clientX - touchStartPos.x;
+    const dy = event.clientY - touchStartPos.y;
+    const distance = Math.sqrt(dx * dx + dy * dy);
+
+    // If moved enough, consider it a drag
+    if (distance > TAP_THRESHOLD) {
+      isDragging = true;
+
+      // Now we can safely prevent default to enable panning
+      if (e.type.startsWith("touch")) {
+        e.preventDefault();
+      }
+
+      const verticalMultiplier = 1.5; // Adjust this value to change vertical panning speed
+
+      const dx =
+        ((event.clientX - startPoint.x) * viewBox.width) /
+        svgContainer.clientWidth;
+      const dy =
+        (((event.clientY - startPoint.y) * viewBox.height) /
+          svgContainer.clientHeight) *
+        verticalMultiplier;
+      viewBox.x -= dx;
+      viewBox.y -= dy;
+      startPoint = { x: event.clientX, y: event.clientY };
+      updateViewBox();
+    }
   }
 
-  function endPan() {
+  function endPan(e) {
+    // Reset state
     isPanning = false;
     isPinching = false;
+    isDragging = false;
   }
 
   // Helper function to calculate distance between two points
@@ -728,7 +763,7 @@ function initializePanZoom() {
     svg.addEventListener("wheel", handleZoom);
   } else {
     // Mobile events with pinch zoom support
-    svg.addEventListener("touchstart", startPan, { passive: false });
+    svg.addEventListener("touchstart", startPan, { passive: true });
     window.addEventListener("touchmove", movePan, { passive: false });
     window.addEventListener("touchend", endPan);
 
